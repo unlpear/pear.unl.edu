@@ -19,6 +19,8 @@ if (isset($matches['package'])) {
     }
 }
 
+$channel = new \pear2\Pyrus\ChannelFile(__DIR__ . '/channel.xml');
+
 $frontend = new pear2\SimpleChannelFrontend\Main($channel, $options);
 
 $savant = new pear2\Templates\Savant\Main();
