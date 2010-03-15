@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.3" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Common_Building_Info</name>
+ <channel>pear.unl.edu</channel>
+ <summary>This package contains descriptions and information for buildings on the UNL Campus.</summary>
+ <description>Information on the Buildings on the UNL Campus</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-07-17</date>
+ <time>15:47:46</time>
+ <version>
+  <release>0.2.1</release>
+  <api>0.2.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>PIND is now ENTO, replace &amp;amp; with &amp;</notes>
+ <contents>
+  <dir baseinstalldir="UNL/Common/Building" name="/">
+   <file baseinstalldir="UNL/Common/Building" md5sum="a8bd33b07cd5d3524f59326d5332e1df" name="data/building_info.csv" role="data" />
+   <file baseinstalldir="UNL/Common/Building" md5sum="6929352552575a410393de93c488ab7b" name="data/building_info.sqlite" role="data" />
+   <file baseinstalldir="UNL/Common/Building" md5sum="8c8442fac63317b9df033294aa0e447b" name="examples/info_example.php" role="doc" />
+   <file baseinstalldir="UNL/Common/Building" md5sum="cfc3739ad7b186b40ca61a704a7bd01a" name="Info.php" role="php">
+    <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>UNL_Common</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.2.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-04-25</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First release, not all buildings have info</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2008-07-02</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Move to sqlite databases.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2008-07-17</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>PIND is now ENTO, replace &amp;amp; with &amp;</notes>
+  </release>
+ </changelog>
+</package>

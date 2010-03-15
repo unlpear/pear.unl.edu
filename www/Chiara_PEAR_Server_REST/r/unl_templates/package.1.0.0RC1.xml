@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Templates</name>
+ <channel>pear.unl.edu</channel>
+ <summary>The UNL HTML Templates as a PEAR Package.</summary>
+ <description>This package allows you to render UNL Template styled pages using PHP Objects.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Ned Hummel</name>
+  <user>nhummel2</user>
+  <email>nhummel2@math.unl.edu</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-03-26</date>
+ <time>15:38:45</time>
+ <version>
+  <release>1.0.0RC1</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD License</license>
+ <notes>Feature Release!
+New methods:
+* addHeadLink($href, $relation, $relType = &apos;rel&apos;, array $attributes = array())
+* addScript($url, $type = &apos;text/javascript&apos;)
+* addScriptDeclaration($content, $type = &apos;text/javascript&apos;)
+* addStyleDeclaration($content, $type = &apos;text/css&apos;)
+* addStyleSheet($url, $type = &apos;text/css&apos;, $media = null)
+* __toString()  Now you can just use echo $page;
+
+Auto loading of files - now supporting:
+* optionalfooter=&gt;optionalFooter.html
+* collegenavigationlist=&gt;unitNavigation.html
+
+Other fixes:
+* Use static vars instead of PEAR::getStaticProperty() - fixes E_STRICT warnings
+
+Add example of a custom class with auto-breadcrumb generation and body content loading.
+
+Thanks to Ned Hummel for picking up this baby.</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="7e35aab85f95ad61fe43e50fbf1719a2" name="docs/examples/customization/CustomClass.php" role="doc">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="26c8d867af8ffd4d8d60e348573f9c3d" name="docs/examples/customization/customization_example.html" role="doc">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="e9769bdf0cf9ec36430b3f70ec687037" name="docs/examples/customization/customization_example.php" role="doc">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="9bcd4231ebec4ebe15c15fa9604d1e8b" name="docs/examples/example1.php" role="doc">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="61cc4ae92fac84a7d38131769c2298ba" name="Templates/tpl_cache/Document.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="df5ce334e93b844794699f3cc62d20b9" name="Templates/tpl_cache/Fixed.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="1a936fdcd4d17383490bd5aef1219ce8" name="Templates/tpl_cache/Liquid.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="a70442037d218c0dc948638bca8e5e08" name="Templates/tpl_cache/Popup.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="962fecd9908d504e4749f7eb79dc4736" name="Templates/tpl_cache/Secure.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="9f4650a475623a3cf293998c0e5b3233" name="Templates/tpl_cache/Unlaffiliate.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="465cb4e7eef89560faf0c63065d8a9d3" name="Templates/tpl_cache/Unlframework.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="2082f29e6219b9fdad0faffb2bf9a427" name="Templates/tpl_cache/Unlstandardtemplate.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="673533baf6cc6b16f45d938416d83481" name="Templates/Document.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="fc8e030dd5cea1e8b03d4fa43adb5b48" name="Templates/Fixed.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="ce4cfed5f0d967b6e67db3771aaa5858" name="Templates/Liquid.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="a616849dba6abd0275f6e360616b24f2" name="Templates/Popup.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="c6cf2c41445908f06f7e8e4d0c13de1c" name="Templates/Secure.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="3ba6f3cc57635ed60faa2f36e7eca53b" name="Templates/Unlaffiliate.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="3cc4ccb66a144599d2268f7ed18b8235" name="Templates/Unlframework.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="c8af98671853f524650b3a6545180926" name="Templates/Unlstandardtemplate.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="12aa5989d1255dccc299a3dcdd6c6ba8" name="tests/UNL_TemplatesTest.php" role="test">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="020a408cdd60e6a96995a8ac758cf80e" name="DWT.ini" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="676c5302da9088e7429d3fa8c0f96558" name="Templates.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.0</min>
+   </package>
+   <package>
+    <name>UNL_DWT</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.6.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-03-02</date>
+   <license>PHP License</license>
+   <notes>First release, only basic functionality, we assume you have /unlpub/templatedependents/ set up on your server already.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-08-14</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Updates the package to use the new 2006-08 UNL Templates. Template dependents /ucomm/templatedependents/ are still required outside of this package. Added new replacement functions to handle the template dependent replacements.
+		Removed evalPHPFile function... not needed anymore.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.1</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-01-05</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>Change license to BSD, update tpl_cache to UNL Templates created on 2007-01-05. No other changes.
+	All users with previous versions do not need to upgrade because the server will automatically serve out new tpl files.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.2</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-11-29</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>Add check that file can actually be opened.
+No other changes.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0RC1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2008-03-26</date>
+   <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD License</license>
+   <notes>Feature Release!
+New methods:
+* addHeadLink($href, $relation, $relType = &apos;rel&apos;, array $attributes = array())
+* addScript($url, $type = &apos;text/javascript&apos;)
+* addScriptDeclaration($content, $type = &apos;text/javascript&apos;)
+* addStyleDeclaration($content, $type = &apos;text/css&apos;)
+* addStyleSheet($url, $type = &apos;text/css&apos;, $media = null)
+* __toString()  Now you can just use echo $page;
+
+Auto loading of files - now supporting:
+* optionalfooter=&gt;optionalFooter.html
+* collegenavigationlist=&gt;unitNavigation.html
+
+Other fixes:
+* Use static vars instead of PEAR::getStaticProperty() - fixes E_STRICT warnings
+
+Add example of a custom class with auto-breadcrumb generation and body content loading.
+
+Thanks to Ned Hummel for picking up this baby.</notes>
+  </release>
+ </changelog>
+</package>

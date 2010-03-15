@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l xmlns="http://pear.php.net/dtd/rest.categorypackages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackages http://pear.php.net/dtd/rest.categorypackages.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_TidyTemplate">UNL_TidyTemplate</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Templates">UNL_Templates</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_LDAP">UNL_LDAP</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_UCBCN">UNL_UCBCN</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/Auth_Container_LotusNotes">Auth_Container_LotusNotes</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_UCBCN_Frontend">UNL_UCBCN_Frontend</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/CAS">CAS</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Geography_SpatialData_Campus">UNL_Geography_SpatialData_Campus</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Geography_Nebraska">UNL_Geography_Nebraska</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_DWT">UNL_DWT</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_iTunesU">UNL_iTunesU</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_UCBCN_Manager">UNL_UCBCN_Manager</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Services_Peoplefinder">UNL_Services_Peoplefinder</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Cache_Lite">UNL_Cache_Lite</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Common_Building_Info">UNL_Common_Building_Info</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Auth">UNL_Auth</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Common_Artists">UNL_Common_Artists</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Autoload">UNL_Autoload</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_PhpDocumentor_UNLHTMLTemplate">UNL_PhpDocumentor_UNLHTMLTemplate</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_EventPublisher">UNL_EventPublisher</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Common">UNL_Common</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_HTML_CSS_Sampler">UNL_HTML_CSS_Sampler</p>
+</l>

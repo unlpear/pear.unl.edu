@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_templates">UNL_Templates</p>
+ <c>pear.unl.edu</c>
+ <v>0.5.1</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>The UNL HTML Templates as a PEAR Package.</s>
+ <d>This package allows you to render UNL Template styled pages using PHP Objects.</d>
+ <da>2007-01-05 11:20:49</da>
+ <n>Change license to BSD, update tpl_cache to UNL Templates created on 2007-01-05. No other changes.
+	All users with previous versions do not need to upgrade because the server will automatically serve out new tpl files.</n>
+ <f>9944</f>
+ <g>http://pear.unl.edu/get/UNL_Templates-0.5.1</g>
+ <x xlink:href="package.0.5.1.xml"/>
+</r>

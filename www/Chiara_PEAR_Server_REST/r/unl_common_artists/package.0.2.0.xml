@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.9" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Common_Artists</name>
+ <channel>pear.unl.edu</channel>
+ <summary>This package contains information on the artists, and sculptures, on campus.It is a DB_DataObject which accesses the artist info on a server with read access.</summary>
+ <description>Artists and Sculptures on the UNL Campus</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-05-08</date>
+ <time>12:27:32</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.2.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>Feature Release
+		Latitude and Longitude for sculptures.</notes>
+ <contents>
+  <dir baseinstalldir="UNL/Common" name="/">
+   <file baseinstalldir="UNL/Common" md5sum="26c46d34bab66f64ae68b9d41bb8f211" name="Artists/config.inc.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/Common" md5sum="4df0282c4a6042f113fb3e85f49a4cfd" name="Artists/unl_common.ini" role="data" />
+   <file baseinstalldir="UNL/Common" md5sum="e610d918dd9ab207191cd9bf920593f2" name="examples/artists_example.php" role="doc" />
+   <file baseinstalldir="UNL/Common" md5sum="e3421d24cbbf9cb414f8765c4cc348f3" name="examples/sculpture_example.php" role="doc" />
+   <file baseinstalldir="UNL/Common" md5sum="9d4d646b3f6b315668693f5456cd5e80" name="Artists.php" role="php" />
+   <file baseinstalldir="UNL/Common" md5sum="fbe7509aacc940a28edcf1e62652945b" name="Artists_sculptures.php" role="php" />
+   <file baseinstalldir="UNL/Common" md5sum="9c3c88ec9e618a01d4e469711ae1f517" name="dataobject.ini" role="data">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/Common" md5sum="71255522de281b9a2beddd64e6a48d24" name="Sculptures.php" role="php" />
+   <file baseinstalldir="UNL/Common" md5sum="f030c4f8a3061147c451b505a97f3e62" name="unl_common.ini" role="data" />
+   <file baseinstalldir="UNL/Common" md5sum="e0354952e5e832b177178d4abba39401" name="unl_common.links.ini" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>DB_DataObject</name>
+    <channel>pear.php.net</channel>
+    <min>0.8</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-04-28</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First release, just artists for the sculptures on campus.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-05-01</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Added sculpture images. $sculpture-&gt;imageurl
+Expanded first example.
+Added sculpture example.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-05-08</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Feature Release
+		Latitude and Longitude for sculptures.</notes>
+  </release>
+ </changelog>
+</package>

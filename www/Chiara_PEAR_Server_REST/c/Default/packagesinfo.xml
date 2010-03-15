@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+ <pi>
+  <p>
+   <n>UNL_TidyTemplate</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD</l>
+   <s>Tidy a UNL Template Webpage</s>
+   <d>This package attempts to tidy the content areas of a UNL Template page.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.2.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.2</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.1.1</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.2</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:2:{i:0;a:3:{s:4:&quot;name&quot;;s:26:&quot;Services_W3C_HTMLValidator&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;0.2.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:13:&quot;UNL_Templates&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.0&quot;;}}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Templates</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD License</l>
+   <s>The UNL HTML Templates as a PEAR Package.</s>
+   <d>This package allows you to render UNL Template styled pages using PHP Objects.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>1.0.0RC9</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>1.0.0RC8</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>1.0.0RC7</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>1.0.0RC6</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>1.0.0RC5</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>1.0.0RC4</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>1.0.0RC3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>1.0.0RC2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>1.0.0RC1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.1.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;4.2.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:8:&quot;1.4.0a12&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_LDAP</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD</l>
+   <s>LDAP directory services for UNL</s>
+   <d>This package simplifies connecting to UNL's LDAP directory for searching for data.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.4.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_UCBCN</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD License</l>
+   <s>This package provides the database interactions for a UC Berkeley Calendar system.</s>
+   <d>This package creates and upgrades a relational database used to store event publishing details
+					formatted using the University of California Berkeley Calendar Network schema. The backend provides
+					basic functions for an event management frontend, as well as a public frontend.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.8.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.8.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.7.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.6.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.6</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.5</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.4</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.5</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.5</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:5:{i:0;a:3:{s:4:&quot;name&quot;;s:10:&quot;Cache_Lite&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:13:&quot;DB_DataObject&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;0.8&quot;;}i:2;a:3:{s:4:&quot;name&quot;;s:7:&quot;Savant3&quot;;s:7:&quot;channel&quot;;s:20:&quot;savant.pearified.com&quot;;s:3:&quot;min&quot;;s:5:&quot;3.0.0&quot;;}i:3;a:3:{s:4:&quot;name&quot;;s:7:&quot;NET_URL&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:4;a:3:{s:4:&quot;name&quot;;s:11:&quot;MDB2_Schema&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.0&quot;;}}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>Auth_Container_LotusNotes</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD</l>
+   <s>PEAR Auth container for Lotus Notes LDAP</s>
+   <d>This PEAR Auth container is intended for use with Lotus Notes LDAP directories, and 
+has only been tested against UNL's Lotus Notes directory</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.1.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.1.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:4:&quot;Auth&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;1.3.0&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_UCBCN_Frontend</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>PHP License</l>
+   <s>A public frontend for a University Event Publishing system.</s>
+   <d>This class extends the UNL UCBCN backend system to create
+			a client frontend. It allows users to view the calendar in a list view, thirty
+			day view.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.8.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.8.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.7.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.7</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.6</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.5</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.4</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.5</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.5</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:2:{i:0;a:3:{s:4:&quot;name&quot;;s:9:&quot;UNL_UCBCN&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.2.5&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:8:&quot;Calendar&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.3&quot;;}}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>CAS</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>New BSD License</l>
+   <s>Central Authentication Service client library in php</s>
+   <d>This package is a PEAR installable library for using a Central
+Authentication Service.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>1.0.1</v>
+    <s>stable</s>
+   </r>
+   <r>
+    <v>1.0.0</v>
+    <s>stable</s>
+   </r>
+   <r>
+    <v>0.6.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.6.0RC6</v>
+    <s>beta</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.6.0RC6</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:4:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:2:&quot;DB&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;1.4.0&quot;;}s:9:&quot;extension&quot;;a:4:{i:0;a:1:{s:4:&quot;name&quot;;s:4:&quot;curl&quot;;}i:1;a:1:{s:4:&quot;name&quot;;s:7:&quot;openssl&quot;;}i:2;a:1:{s:4:&quot;name&quot;;s:3:&quot;dom&quot;;}i:3;a:1:{s:4:&quot;name&quot;;s:4:&quot;zlib&quot;;}}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Geography_SpatialData_Campus</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>PHP License</l>
+   <s>This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</s>
+   <d>Spatial Data for buildings on the UNL Campus</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.3.7</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.6</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.5</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.4</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.0.2</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.2</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:10:&quot;UNL_Common&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.1.1&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Geography_Nebraska</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>LGPL</l>
+   <s>This package provides a mechanism to create image maps of all of the counties in Nebraska.</s>
+   <d>This package provides a mechanism to create image maps of all of the counties in Nebraska.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.1.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.0.2</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.1.1</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;4.2.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_DWT</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>PHP License</l>
+   <s>This package generates php class files (objects) from Dreamweaver template files.</s>
+   <d>This package generates php class files (objects) from Dreamweaver template files.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.7.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.7.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.6.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.6.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.2</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.1.1</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.1.2</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;4.2.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_iTunesU</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD</l>
+   <s>iTunes U PHP Authentication Script</s>
+   <d>This class is based on the provided connection samples from Apple.
+This is a pear installable version of Aaron Axelsen's authentication class from http://omega1.uww.edu/itunesu/
+Written by Aaron Axelsen &lt;axelsena at uww dot edu&gt; University of Wisconsin - Whitewater
+Modified by Brett Bieber &lt;brett.bieber@gmail.com&gt; - University of Nebraska-Lincoln</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.5.0</v>
+    <s>beta</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.5.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_UCBCN_Manager</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD License</l>
+   <s>A Management frontend for publishing University events.</s>
+   <d>This package gives authenticated users access to publish events into their own calendar for their Department/Unit within a University.
+        It uses PEAR Auth to connect with existing authentication sources (LDAP etc).
+        It handles authentication for the user and allows insertion of event details into the calendar backend.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.9.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.8.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.8.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.8.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.7.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.6.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.4</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.5.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.5</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.9.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.1.2&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.5.4&quot;;}s:7:&quot;package&quot;;a:5:{i:0;a:3:{s:4:&quot;name&quot;;s:25:&quot;DB_DataObject_FormBuilder&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:6:&quot;0.18.1&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:4:&quot;Auth&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;1.3.0&quot;;}i:2;a:3:{s:4:&quot;name&quot;;s:9:&quot;UNL_UCBCN&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.8.1&quot;;}i:3;a:3:{s:4:&quot;name&quot;;s:5:&quot;Pager&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;2.2.1&quot;;}i:4;a:3:{s:4:&quot;name&quot;;s:10:&quot;HTML_Table&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;1.6.0&quot;;}}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Services_Peoplefinder</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD</l>
+   <s>Peoplefinder services for UNL</s>
+   <d>This package utilizes the peoplefinder web service to get information about uids at UNL.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.3.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>beta</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.1</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Cache_Lite</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>LGPL</l>
+   <s>Basic caching library</s>
+   <d>This is a port of the Cache_Lite package from PEAR, with support for PHP 5 and
+exceptions.
+This package is a little cache system optimized for file containers. It is fast
+and safe (because it uses file locking and/or anti-corruption tests).</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.1.0</v>
+    <s>beta</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.1.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.1.2&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.5.4&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Common_Building_Info</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>New BSD License</l>
+   <s>This package contains descriptions and information for buildings on the UNL Campus.</s>
+   <d>Information on the Buildings on the UNL Campus</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.2.14</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.13</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.12</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.11</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.10</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.9</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.8</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.7</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.6</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.5</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.4</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.9</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:10:&quot;UNL_Common&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.2.0&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Auth</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD License</l>
+   <s>An authentication framework for PHP Applications at UNL</s>
+   <d>This package provides an authentication framework for web 
+applications developed at UNL.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.4.0</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.3.2</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.3.1</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.3.0</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.1.1</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.0</v>
+   <d>a:2:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}s:8:&quot;optional&quot;;a:1:{s:7:&quot;package&quot;;a:2:{i:0;a:3:{s:4:&quot;name&quot;;s:4:&quot;Auth&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:3:&quot;CAS&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;1.0.0&quot;;}}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Common_Artists</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD License</l>
+   <s>This package contains information on the artists, and sculptures, on campus.It is a DB_DataObject which accesses the artist info on a server with read access.</s>
+   <d>Artists and Sculptures on the UNL Campus</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.3.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.1</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.1</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:13:&quot;DB_DataObject&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;0.8&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Autoload</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD License</l>
+   <s>An autoloader implementation for UNL PEAR packages</s>
+   <d>This package provides an autoloader for classes beginning
+ with UNL_ and is mainly used for autoloading package files from http://pear.unl.edu/.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.5.0</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.5.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.2.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_PhpDocumentor_UNLHTMLTemplate</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD</l>
+   <s>UNL Template for PHP Documentor's HTML Converter</s>
+   <d>Provides a UNL templated html web page output for PhpDocumentor.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.1.2&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.5.4&quot;;}s:7:&quot;package&quot;;a:2:{i:0;a:3:{s:4:&quot;name&quot;;s:13:&quot;UNL_Templates&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:8:&quot;1.0.0RC4&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:13:&quot;PhpDocumentor&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;1.3.0&quot;;}}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_EventPublisher</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD License</l>
+   <s>A University Event Calendar &amp; Publishing System</s>
+   <d>This package combines three subpackages into one complete University 
+	event publishing system.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.5.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.3</v>
+    <s>beta</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.5.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{i:0;a:3:{s:4:&quot;name&quot;;s:9:&quot;UNL_UCBCN&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:18:&quot;UNL_UCBCN_Frontend&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.0&quot;;}i:2;a:3:{s:4:&quot;name&quot;;s:17:&quot;UNL_UCBCN_Manager&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.0&quot;;}}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_Common</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD</l>
+   <s>Common elements for the University of Nebraska-Lincoln</s>
+   <d>This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.4.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.4.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.4.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.3.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.3</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.2</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.1</v>
+    <s>alpha</s>
+   </r>
+   <r>
+    <v>0.1.0</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.1</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
+  </deps>
+ </pi>
+ <pi>
+  <p>
+   <n>UNL_HTML_CSS_Sampler</n>
+   <c>pear.unl.edu</c>
+   <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+   <l>BSD</l>
+   <s>CSS Sample style generator.</s>
+   <d>This package will generate html samples for css selectors in a given css file.</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>0.2.0</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.1.1</v>
+    <s>beta</s>
+   </r>
+   <r>
+    <v>0.0.1</v>
+    <s>alpha</s>
+   </r>
+  </a>
+  <deps>
+   <v>0.2.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:2:{i:0;a:3:{s:4:&quot;name&quot;;s:8:&quot;HTML_CSS&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:8:&quot;1.0.0RC2&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:10:&quot;HTML_Table&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.5&quot;;}}}}</d>
+  </deps>
+ </pi>
+</f>

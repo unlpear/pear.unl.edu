@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.0RC2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_EventPublisher</name>
+ <channel>pear.unl.edu</channel>
+ <summary>A University Event Calendar &amp; Publishing System</summary>
+ <description>This package combines three subpackages into one complete University 
+	event publishing system.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-02-03</date>
+ <time>10:00:54</time>
+ <version>
+  <release>0.3.3</release>
+  <api>0.3.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+ <notes>README:
+This pseudo package has dependencies for all the sub-packages 
+which make up the UNL Event Publisher.
+
+Dependencies:
+UNL_UCBCN-0.3.3
+UNL_UCBCN_Frontend-0.3.3
+UNL_UCBCN_Manager-0.3.3
+
+More info can be obtained at http://pear.unl.edu/
+Contact Brett Bieber for more information.</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="9ca98576665efb069850a2e46f57f95c" name="README" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>UNL_UCBCN</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.3.3</min>
+   </package>
+   <package>
+    <name>UNL_UCBCN_Frontend</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.3.3</min>
+   </package>
+   <package>
+    <name>UNL_UCBCN_Manager</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.3.3</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.3a</release>
+    <api>0.3</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-02-03</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>README:
+This pseudo package has dependencies for all the sub-packages 
+which make up the UNL Event Publisher.
+
+Dependencies:
+UNL_UCBCN-0.3.3
+UNL_UCBCN_Frontend-0.3.3
+UNL_UCBCN_Manager-0.3.3
+
+More info can be obtained at http://pear.unl.edu/
+Contact Brett Bieber for more information.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.3</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-02-03</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>README:
+This pseudo package has dependencies for all the sub-packages 
+which make up the UNL Event Publisher.
+
+Dependencies:
+UNL_UCBCN-0.3.3
+UNL_UCBCN_Frontend-0.3.3
+UNL_UCBCN_Manager-0.3.3
+
+More info can be obtained at http://pear.unl.edu/
+Contact Brett Bieber for more information.</notes>
+  </release>
+ </changelog>
+</package>

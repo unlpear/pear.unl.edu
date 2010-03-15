@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_tidytemplate">UNL_TidyTemplate</p>
+ <c>pear.unl.edu</c>
+ <v>0.2.2</v>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>Tidy a UNL Template Webpage</s>
+ <d>This package attempts to tidy the content areas of a UNL Template page.</d>
+ <da>2007-04-02 08:30:40</da>
+ <n>Allow .html files, and allow the unlstandardtemplate.dwt</n>
+ <f>4550</f>
+ <g>http://pear.unl.edu/get/UNL_TidyTemplate-0.2.2</g>
+ <x xlink:href="package.0.2.2.xml"/>
+</r>

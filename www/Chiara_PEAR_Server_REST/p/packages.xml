@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<a xmlns="http://pear.php.net/dtd/rest.allpackages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.allpackages http://pear.php.net/dtd/rest.allpackages.xsd">
+ <p>auth_container_lotusnotes</p>
+ <p>cas</p>
+ <p>unl_auth</p>
+ <p>unl_autoload</p>
+ <p>unl_cache_lite</p>
+ <p>unl_common</p>
+ <p>unl_common_artists</p>
+ <p>unl_common_building_info</p>
+ <p>unl_dwt</p>
+ <p>unl_eventpublisher</p>
+ <p>unl_geography_nebraska</p>
+ <p>unl_geography_spatialdata_campus</p>
+ <p>unl_html_css_sampler</p>
+ <p>unl_itunesu</p>
+ <p>unl_ldap</p>
+ <p>unl_phpdocumentor_unlhtmltemplate</p>
+ <p>unl_services_peoplefinder</p>
+ <p>unl_templates</p>
+ <p>unl_tidytemplate</p>
+ <p>unl_ucbcn</p>
+ <p>unl_ucbcn_frontend</p>
+ <p>unl_ucbcn_manager</p>
+</a>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_common">UNL_Common</p>
+ <c>pear.unl.edu</c>
+ <v>0.1.3</v>
+ <a>0.1.0</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>Common elements for the University of Nebraska-Lincoln</s>
+ <d>This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</d>
+ <da>2007-04-11 13:24:35</da>
+ <n>Cast array keys for buildings as strings, and fix errors when merging arrays to preserve the building code as keys.
+Change College of Engineering &amp; Technology to just Engineering.</n>
+ <f>2601</f>
+ <g>http://pear.unl.edu/get/UNL_Common-0.1.3</g>
+ <x xlink:href="package.0.1.3.xml"/>
+</r>

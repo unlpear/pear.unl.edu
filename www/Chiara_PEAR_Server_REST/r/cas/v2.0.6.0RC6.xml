@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/cas">CAS</p>
+ <c>pear.unl.edu</c>
+ <v>0.6.0RC6</v>
+ <a>0.6.0RC6</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>?</l>
+ <m>saltybeagle</m>
+ <s>Central Authentication Service client library in php</s>
+ <d>This package is a PEAR installable library for using a Central
+Authentication Service.</d>
+ <da>2007-12-17 11:37:49</da>
+ <n>Port of 0.6.0RC6 with patch for setCacheTimesForAuthRecheck($n)</n>
+ <f>28253</f>
+ <g>http://pear.unl.edu/get/CAS-0.6.0RC6</g>
+ <x xlink:href="package.0.6.0RC6.xml"/>
+</r>

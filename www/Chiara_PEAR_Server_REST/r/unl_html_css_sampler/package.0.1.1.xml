@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.11" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_HTML_CSS_Sampler</name>
+ <channel>pear.unl.edu</channel>
+ <summary>CSS Sample style generator.</summary>
+ <description>This package will generate html samples for css selectors in a given css file.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Ned Hummel</name>
+  <user>nhummel2</user>
+  <email>nhummel2@math.unl.edu</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-12-11</date>
+ <time>15:49:49</time>
+ <version>
+  <release>0.1.1</release>
+  <api>0.1.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+ <notes>Fix bug in generated sample when class name was preceded by a tag nam (a.application-pdf). (Ned Hummel)
+From todo:
+* Improve the selectorToClass() function. (Ned Hummel)
+* Get closer to XHTML validation. (Ned Hummel)</notes>
+ <contents>
+  <dir baseinstalldir="UNL/HTML/CSS" name="/">
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="d2f67330f795c9377a0c198b1cf8bf58" name="CVS/Entries" role="data" />
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="0b5666782a1ebde55de1c86bcf62962e" name="CVS/Repository" role="data" />
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="7f2bf7477493873e78d78a0624f63bc1" name="CVS/Root" role="data" />
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="6437bd2cb31f097ac5eb48cb952705be" name="examples/CVS/Entries" role="doc" />
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="327115cb9d029428a2b0e953e728c574" name="examples/CVS/Repository" role="doc" />
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="7f2bf7477493873e78d78a0624f63bc1" name="examples/CVS/Root" role="doc" />
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="9cc128c461ce5cec9e62e8e854996a17" name="examples/sample.css" role="doc" />
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="a5b1a08b3f08471e6e19ceb6f09c9c17" name="examples/sampler_example.php" role="doc">
+    <tasks:replace from="@doc_dir@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="c334d7afe73d7f4f586f5d4e7c10ce91" name="examples/sampler_example2.php" role="doc" />
+   <file baseinstalldir="UNL/HTML/CSS" md5sum="9ba2cfc8138bb7ec178ad1d54032ab8f" name="Sampler.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>HTML_CSS</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.0RC2</min>
+   </package>
+   <package>
+    <name>HTML_Table</name>
+    <channel>pear.php.net</channel>
+    <min>1.5</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-04-20</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First Release</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-12-11</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Fixes and improvements, now selectors can be ommitted from the output.
+Sample text is now customizeable.
+Switch to BSD license.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-12-11</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Fix bug in generated sample when class name was preceded by a tag nam (a.application-pdf). (Ned Hummel)
+From todo:
+* Improve the selectorToClass() function. (Ned Hummel)
+* Get closer to XHTML validation. (Ned Hummel)</notes>
+  </release>
+ </changelog>
+</package>

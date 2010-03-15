@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_cache_lite">UNL_Cache_Lite</p>
+ <c>pear.unl.edu</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>LGPL</l>
+ <m>saltybeagle</m>
+ <s>Basic caching library</s>
+ <d>This is a port of the Cache_Lite package from PEAR, with support for PHP 5 and
+exceptions.
+This package is a little cache system optimized for file containers. It is fast
+and safe (because it uses file locking and/or anti-corruption tests).</d>
+ <da>2009-10-20 13:57:30</da>
+ <n>
+Port of cache lite, remove PEAR dependency, use exceptions instead of PEAR_Error.
+ </n>
+ <f>20511</f>
+ <g>http://pear.unl.edu/get/UNL_Cache_Lite-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn_manager">UNL_UCBCN_Manager</p>
+ <c>pear.unl.edu</c>
+ <v>0.2.5</v>
+ <a>0.1.0</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>saltybeagle</m>
+ <s>A Management frontend for publishing University events.</s>
+ <d>This package gives authenticated users access to publish events into their own calendar for their Department/Unit within a University.
+		It uses PEAR Auth to connect with existing authentication sources (LDAP etc).
+		It handles authentication for the user and allows insertion of event details into the calendar backend.</d>
+ <da>2006-08-22 13:03:32</da>
+ <n>* Fix Bug #12  	 change account_has_event status
+Add default calendar settings to allow users to 'recommend an event for the main calendar'. If a user is logged in they can check a box which will add a pending event for the main calendar's pending approval listing.
+Archive old events up successful authentication.
+Add the ability to choose the calendar they wish to manage out of all they have permission for.
+Change event list sorting until we get pagination working.</n>
+ <f>155401</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN_Manager-0.2.5</g>
+ <x xlink:href="package.0.2.5.xml"/>
+</r>

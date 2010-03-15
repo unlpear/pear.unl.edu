@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.0alpha1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_PhpDocumentor_UNLHTMLTemplate</name>
+ <channel>pear.unl.edu</channel>
+ <summary>UNL Template for PHP Documentor&apos;s HTML Converter</summary>
+ <description>Provides a UNL templated html web page output for PhpDocumentor.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-02-19</date>
+ <time>13:37:21</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.2.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD</license>
+ <notes>
+* Set UNL_Templates::$options[&quot;templatedependentspath&quot;] if $_SERVER[&quot;UNL_TEMPLATEDEPENDENTSPATH&quot;] is set.
+* Example in .htaccess: SetEnvIf Request_Method &quot;GET&quot; UNL_TEMPLATEDEPENDENTSPATH=&quot;/srv/www/htdocs&quot;
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="e43ca110d02f287cdaac6357ba539fff" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/media/banner.css" role="php" />
+   <file baseinstalldir="/" md5sum="be839c9217d4f1eeda155a7a728547b9" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/media/stylesheet.css" role="php" />
+   <file baseinstalldir="/" md5sum="87dc9b50ed1c7fc8a11691cac2741c07" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/basicindex.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="ce30dbe67441a9cf81ec8c5a1194984c" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/blank.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="7921819b74afc3803d6381f73a5d4cbe" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/class.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="e67166f99b85db496f2738f704b88e7c" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/classtrees.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="2f6a50b9e2e53091beebbd2c3b720d92" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/const.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="2d035c0503d3087977a0f9cc3e9cb5a9" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/define.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="13941cb37f9b65c31501abfe4f2dc2bf" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/docblock.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="eb371d3b98f822838521cae2247f8a43" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/elementindex.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="22761e4e2cb61287f58b7235d0625bb4" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/errors.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="a1fecdc962d045d42eac9ea7d80ef80d" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/examplesource.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="105484b32c08749ef0b30d8b0f4ce1be" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/filesource.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="7b3dcd11e1cddabc72c5a51f919fd717" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/footer.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="f1eb8b10d1184966719c61b69319a901" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/function.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="74b019e6c1ef110e9facba4528f35583" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/global.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="ee18cacc60051e960efe6727c0e94db0" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/header.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="2f30820a84487175b5f2e2280da914f7" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/include.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="6a986d338d0995d4856352be4932c20f" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/index.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="719ec5f34739658970ff39bb8048283a" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/left_frame.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="762c8392031489ce76f1c1d8ed95ebb7" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/method.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="4c825ba5ab30175b124f68983bf5800e" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/page.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="cd3da273147fa9197af26deb7b14c6b7" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/pkgelementindex.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="bdfe0216f159d3e83b06c78f7c92d233" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/ric.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="9513bfc618e5e3abc521e3a9cc31fe59" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/todolist.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="024dd92b66e668f8870fdfc4e7f55291" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/top_frame.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="a66fe41afce444c3c5fdd9613872e618" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/tutorial.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="c378a91a6dbcaa687513e91cbf466e62" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/tutorial_nav.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="aa2509cd60cc81aa2c74aab191cc3ffa" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/tutorial_toc.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="e5cf1252d87bb8688a9d4952955657bd" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/tutorial_tree.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="b3ca2e7c8271ba097132c4ad6ba15aab" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/templates/var.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="b7c8c2ddb87db669c6f74ef0fe804227" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/default/options.ini" role="php" />
+   <file baseinstalldir="/" md5sum="e43ca110d02f287cdaac6357ba539fff" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/media/banner.css" role="php" />
+   <file baseinstalldir="/" md5sum="4415e35efbc6ec6e8607763dceac1449" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/media/stylesheet.css" role="php" />
+   <file baseinstalldir="/" md5sum="336d8039f7042128e473a711e70325c0" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/basicindex.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="ce30dbe67441a9cf81ec8c5a1194984c" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/blank.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="b42d79378b56c0285d71fab80d2da6a4" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/class.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="69eea9d22954aec7635b552218b76a25" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/classtrees.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="2f6a50b9e2e53091beebbd2c3b720d92" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/const.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="2d035c0503d3087977a0f9cc3e9cb5a9" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/define.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="8d489fb0c3dc953e3885d9add1d1f7bd" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/docblock.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="d01400abdb3f9df1a6e05d80bc7e146f" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/elementindex.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="dd4550f1ec2baafc2bf938c16031fcb4" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/errors.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="a1fecdc962d045d42eac9ea7d80ef80d" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/examplesource.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="105484b32c08749ef0b30d8b0f4ce1be" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/filesource.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="d95c611922109a06bc0a6400cd696bd6" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/footer.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="f1eb8b10d1184966719c61b69319a901" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/function.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="74b019e6c1ef110e9facba4528f35583" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/global.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="23d7a67f3b0bbb1f822f1dae0b367052" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/header.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="9c931a2cbe277543ba4be9ed640a435f" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/include.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="b31718b843f81a6c3457016f9bb89491" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/index.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="2a8dce718d3607a358d88614657bde8b" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/left_frame.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="89aeda1585d180e36871b2f606cccaa7" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/method.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="4c825ba5ab30175b124f68983bf5800e" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/page.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="6520c740f98124ba13a7aa42de8537ac" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/pkgelementindex.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="bdfe0216f159d3e83b06c78f7c92d233" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/ric.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="9513bfc618e5e3abc521e3a9cc31fe59" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/todolist.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="024dd92b66e668f8870fdfc4e7f55291" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/top_frame.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="a66fe41afce444c3c5fdd9613872e618" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/tutorial.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="c378a91a6dbcaa687513e91cbf466e62" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/tutorial_nav.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="aa2509cd60cc81aa2c74aab191cc3ffa" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/tutorial_toc.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="e5cf1252d87bb8688a9d4952955657bd" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/tutorial_tree.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="f41cded4bf10aacaea4ca8cc828cc44f" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/templates/var.tpl" role="php" />
+   <file baseinstalldir="/" md5sum="b7c8c2ddb87db669c6f74ef0fe804227" name="data/PhpDocumentor/phpDocumentor/Converters/HTML/UNL/templates/UNL/options.ini" role="php" />
+   <file baseinstalldir="/" md5sum="a59646646f186e21cd54f3f22113424c" name="PhpDocumentor/phpDocumentor/Converters/HTML/UNL/HTMLUNLConverter.inc" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.5.4</min>
+   </pearinstaller>
+   <package>
+    <name>UNL_Templates</name>
+    <channel>pear.unl.edu</channel>
+    <min>1.0.0RC4</min>
+   </package>
+   <package>
+    <name>PhpDocumentor</name>
+    <channel>pear.php.net</channel>
+    <min>1.3.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-01-29</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+First release.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-01-31</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+Various fixes to the template for valid output. Move package to beta.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-02-19</date>
+   <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD</license>
+   <notes>
+* Set UNL_Templates::$options[&quot;templatedependentspath&quot;] if $_SERVER[&quot;UNL_TEMPLATEDEPENDENTSPATH&quot;] is set.
+* Example in .htaccess: SetEnvIf Request_Method &quot;GET&quot; UNL_TEMPLATEDEPENDENTSPATH=&quot;/srv/www/htdocs&quot;
+   </notes>
+  </release>
+ </changelog>
+</package>

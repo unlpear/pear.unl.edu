@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn_frontend">UNL_UCBCN_Frontend</p>
+ <c>pear.unl.edu</c>
+ <v>0.8.1</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>A public frontend for a University Event Publishing system.</s>
+ <d>This class extends the UNL UCBCN backend system to create
+            a client frontend. It allows users to view the calendar in a list view, thirty
+            day view.</d>
+ <da>2009-07-24 14:36:29</da>
+ <n>
+0.8.1 Changes:
+Post-install script would create template directories with no permissions 
+resulting in template error, examine fetch() result.
+ </n>
+ <f>98739</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN_Frontend-0.8.1</g>
+ <x xlink:href="package.0.8.1.xml"/>
+</r>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn">UNL_UCBCN</p>
+ <c>pear.unl.edu</c>
+ <v>0.7.0</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>This package provides the database interactions for a UC Berkeley Calendar system.</s>
+ <d>This package creates and upgrades a relational database used to store event publishing details
+                    formatted using the University of California Berkeley Calendar Network schema. The backend provides
+                    basic functions for an event management frontend, as well as a public frontend.</d>
+ <da>2009-02-25 16:20:39</da>
+ <n>
+0.7.0 Changes:
+* Caching improvements:
+    Support removing individual cache files.
+    Group all cached files under the UNL_UCBCN group.
+* Sample script calAddUser.php added for adding users to a calendar.
+    Example: php calAddUser.php chemistry jdoe
+* Switch Savant3 dependency to the official channel at phpsavant.com.
+* Add dependency on MDB2_Driver_mysqli to simplify installation.
+* Minor Coding Standards fixes.
+* Update copyright to 2009.
+* Add work on input/output filters.
+ </n>
+ <f>37599</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN-0.7.0</g>
+ <x xlink:href="package.0.7.0.xml"/>
+</r>

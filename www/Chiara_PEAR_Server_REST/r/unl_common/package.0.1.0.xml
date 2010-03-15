@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Common</name>
+ <channel>pear.unl.edu</channel>
+ <summary>Common elements for the University of Nebraska-Lincoln</summary>
+ <description>This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>bbieber@unlnotes.unl.edu</email>
+  <active>yes</active>
+ </lead>
+ <date>2005-09-27</date>
+ <time>15:58:26</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>First attempt at a release</notes>
+ <contents>
+  <dir name="/">
+   <file baseinstalldir="UNL" md5sum="d5fbd63480261b3e233123ab379a43f4" name="Common/Building/City.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="ce7bdec83e42ff45c776206576badf10" name="Common/Building/East.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="76bfc8290a89aa2a71621bee658cddc5" name="Common/examples/Building.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="3454b67beb0ed788641e1fba407b1e80" name="Common/Building.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2005-09-27</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First attempt at a release</notes>
+  </release>
+ </changelog>
+</package>

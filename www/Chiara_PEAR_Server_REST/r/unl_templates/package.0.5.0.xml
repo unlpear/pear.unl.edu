@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.10" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Templates</name>
+ <channel>pear.unl.edu</channel>
+ <summary>The UNL HTML Templates as a PEAR Package.</summary>
+ <description>This package allows you to render UNL Template styled pages using PHP Objects.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-08-14</date>
+ <time>16:01:04</time>
+ <version>
+  <release>0.5.0</release>
+  <api>0.5.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>Updates the package to use the new 2006-08 UNL Templates. Template dependents /ucomm/templatedependents/ are still required outside of this package. Added new replacement functions to handle the template dependent replacements.
+		Removed evalPHPFile function... not needed anymore.</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="bddc4eaef4782ad20d87ea9e7a07df52" name="Templates/examples/example1.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="3638b60b523507346b7c2530cba76396" name="Templates/tpl_cache/Document.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="5341337093187ce546d878180b4f662e" name="Templates/tpl_cache/Fixed.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="4c6f43f2c7639041c49fe090a64f098d" name="Templates/tpl_cache/Liquid.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="d2ddd7236d47999c5ff9e0f2943a7ba5" name="Templates/tpl_cache/Popup.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="8584f241ef5ae1d351315709fa102f39" name="Templates/tpl_cache/Secure.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="b1eaa67718ad333cd186d39f7130bba7" name="Templates/tpl_cache/Unlframework.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="4c0d45b29ed2828aa36abd9b5fa04587" name="Templates/tpl_cache/Unlstandardtemplate.tpl" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="0937f3f0184d15bf7c623952cb1db46a" name="Templates/Document.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="aae9cc10c1f817fb22f2f70267891db9" name="Templates/Fixed.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="a264049353b92664de79e754a5586d41" name="Templates/Liquid.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="8af5982fcfd5e2eac5846d10d335913c" name="Templates/Popup.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="6e4b4e419517a850a43775ccf33e6c40" name="Templates/Secure.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="7a0e6bcda217c672037ae27f4656151f" name="Templates/Unlframework.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="0120d2afb0b7adeb0fda825242068472" name="Templates/Unlstandardtemplate.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="020a408cdd60e6a96995a8ac758cf80e" name="DWT.ini" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="40e863ed742e63b659f2d7b15fae4566" name="old_package2.xml" role="data">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="dc3ddda5ef6aad5433f9c360934004fd" name="Templates.php" role="php">
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.0</min>
+   </package>
+   <package>
+    <name>UNL_DWT</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.1.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-03-02</date>
+   <license>PHP License</license>
+   <notes>First release, only basic functionality, we assume you have /unlpub/templatedependents/ set up on your server already.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-08-14</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Updates the package to use the new 2006-08 UNL Templates. Template dependents /ucomm/templatedependents/ are still required outside of this package. Added new replacement functions to handle the template dependent replacements.
+		Removed evalPHPFile function... not needed anymore.</notes>
+  </release>
+ </changelog>
+</package>

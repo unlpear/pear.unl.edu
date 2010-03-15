@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_geography_spatialdata_campus">UNL_Geography_SpatialData_Campus</p>
+ <c>pear.unl.edu</c>
+ <v>0.3.1</v>
+ <a>0.3.0</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</s>
+ <d>Spatial Data for buildings on the UNL Campus</d>
+ <da>2008-07-02 16:05:21</da>
+ <n>Remove quote and newline at the end of fields.</n>
+ <f>15964</f>
+ <g>http://pear.unl.edu/get/UNL_Geography_SpatialData_Campus-0.3.1</g>
+ <x xlink:href="package.0.3.1.xml"/>
+</r>

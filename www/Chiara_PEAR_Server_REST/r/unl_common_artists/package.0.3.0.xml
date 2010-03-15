@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.3" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Common_Artists</name>
+ <channel>pear.unl.edu</channel>
+ <summary>This package contains information on the artists, and sculptures, on campus.It is a DB_DataObject which accesses the artist info on a server with read access.</summary>
+ <description>Artists and Sculptures on the UNL Campus</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-07-02</date>
+ <time>11:20:24</time>
+ <version>
+  <release>0.3.0</release>
+  <api>0.3.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>Swich to sqlite database.</notes>
+ <contents>
+  <dir baseinstalldir="UNL/Common" name="/">
+   <file baseinstalldir="UNL/Common" md5sum="26c46d34bab66f64ae68b9d41bb8f211" name="Artists/config.inc.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/Common" md5sum="4df0282c4a6042f113fb3e85f49a4cfd" name="Artists/unl_common.ini" role="data" />
+   <file baseinstalldir="UNL/Common" md5sum="78d5f635a15ac6536b5c9d5dd1243aca" name="data/artists.csv" role="data" />
+   <file baseinstalldir="UNL/Common" md5sum="e7a28a477b65b3a37f31c0634a903915" name="data/artists_sculptures.csv" role="data" />
+   <file baseinstalldir="UNL/Common" md5sum="e8c7ca07393de9bd5f7a8153c97810fa" name="data/sculptures.csv" role="data" />
+   <file baseinstalldir="UNL/Common" md5sum="ae7e20820943d16d9b4dcb576c059f20" name="data/unl_common_artists.sqlite" role="data" />
+   <file baseinstalldir="UNL/Common" md5sum="edd2c5753fb5162c0e08703be267bea7" name="examples/artists_example.php" role="doc" />
+   <file baseinstalldir="UNL/Common" md5sum="9d4330a5b22a7baddee8c3e380593cd4" name="examples/sculpture_example.php" role="doc" />
+   <file baseinstalldir="UNL/Common" md5sum="6110e76efca6e703d4168593528bf59c" name="Artists.php" role="php" />
+   <file baseinstalldir="UNL/Common" md5sum="b087c5e54b6bd83330e900f408c95494" name="Artists_sculptures.php" role="php" />
+   <file baseinstalldir="UNL/Common" md5sum="a912be0328cfcb8af6a1a058e2ae46e5" name="dataobject.ini" role="data">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/Common" md5sum="538447906404cdfa3eaeab3798737f7e" name="Sculptures.php" role="php" />
+   <file baseinstalldir="UNL/Common" md5sum="f030c4f8a3061147c451b505a97f3e62" name="unl_common_artists.sqlite.ini" role="data" />
+   <file baseinstalldir="UNL/Common" md5sum="e0354952e5e832b177178d4abba39401" name="unl_common_artists.sqlite.links.ini" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>DB_DataObject</name>
+    <channel>pear.php.net</channel>
+    <min>0.8</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-04-28</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First release, just artists for the sculptures on campus.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-05-01</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Added sculpture images. $sculpture-&gt;imageurl
+Expanded first example.
+Added sculpture example.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-04-24</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Feature Release
+		Latitude and Longitude for sculptures.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2008-07-02</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Switch connection to use mysqli connection to prevent database connection locks and reuse connections.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2008-07-02</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Swich to sqlite database.</notes>
+  </release>
+ </changelog>
+</package>

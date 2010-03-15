@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn">UNL_UCBCN</p>
+ <c>pear.unl.edu</c>
+ <v>0.2.5</v>
+ <a>0.1.0</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>saltybeagle</m>
+ <s>This package provides the database interactions for a UC Berkeley Calendar system.</s>
+ <d>This package creates and upgrades a relational database used to store event publishing details
+					formatted using the University of California Berkeley Calendar Network schema. The backend provides
+					basic functions for an event management frontend, as well as a public frontend.</d>
+ <da>2006-08-22 13:01:45</da>
+ <n>* Caching now supported for template output. Output is now cached until the calendar_has_event status has changed, this greatly improves the speed.
+Objects implementing caching have to support three methods:
+getCacheKey()
+preRun(bool $cache_hit)
+run()
+* Cache_Lite dependency
+* DB_DataObject backend driver is now MDB2
+* Archive events function.
+* Clean cache function.</n>
+ <f>22235</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN-0.2.5</g>
+ <x xlink:href="package.0.2.5.xml"/>
+</r>

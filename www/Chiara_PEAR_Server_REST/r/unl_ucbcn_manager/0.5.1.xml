@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn_manager">UNL_UCBCN_Manager</p>
+ <c>pear.unl.edu</c>
+ <v>0.5.1</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>A Management frontend for publishing University events.</s>
+ <d>This package gives authenticated users access to publish events into their own calendar for their Department/Unit within a University.
+		It uses PEAR Auth to connect with existing authentication sources (LDAP etc).
+		It handles authentication for the user and allows insertion of event details into the calendar backend.</d>
+ <da>2007-04-02 09:36:16</da>
+ <n>Fix  Bug #43  	 Post install script fails if directory does not exist
+Fix  Bug #38  	 Check All button doesn't work for permission form</n>
+ <f>216665</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN_Manager-0.5.1</g>
+ <x xlink:href="package.0.5.1.xml"/>
+</r>

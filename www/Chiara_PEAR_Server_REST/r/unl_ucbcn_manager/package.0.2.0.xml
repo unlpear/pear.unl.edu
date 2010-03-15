@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.10" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_UCBCN_Manager</name>
+ <channel>pear.unl.edu</channel>
+ <summary>A Management frontend for publishing University events.</summary>
+ <description>This package gives authenticated users access to publish events into their own calendar for their Department/Unit within a University.
+		It uses PEAR Auth to connect with existing authentication sources (LDAP etc).
+		It handles authentication for the user and allows insertion of event details into the calendar backend.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-07-28</date>
+ <time>08:56:41</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>* Automatic account and calendar creation for authenticated users.
+		* Creation of events now is functional.
+		* Now uses Mark Weismann&apos;s HTML_QuickForm_Renderer_Tableless
+		* Many css styling improvements (Alvin Woon)
+		* Can now delete events.
+		* Basic permissions editing for users.</notes>
+ <contents>
+  <dir baseinstalldir="UNL/UCBCN" name="/">
+   <file baseinstalldir="UNL/UCBCN" md5sum="d4416bb24b41427a1d92e6f2e7ec4b25" name="Manager/FormBuilder.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="26c5763045b8b0bc8a9f0255db5f3b10" name="Manager/FormBuilder_Driver.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="b10e1710ab2de715ffc878cd647d471f" name="Manager/Login.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="75a6a1cb0413b332df7fec0c06f8ea21" name="Manager/SubForm.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="7513d8d41f3958c2b9d08613cbcc4c01" name="Manager/Tableless.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="aded40dfb307ad51fe2bd8ea4103cf48" name="templates/default/images/button/delete.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="7fcfa084e953de102661e8cea66eb1ae" name="templates/default/images/button/movetodraft.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="d79f59a4e2ce3c168c4626853f2b580e" name="templates/default/images/account_bottom.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="8ab7669a41b641f5f2c3e7f30b18b933" name="templates/default/images/account_head.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="d71a1f64add16fba6a3336cefc87297a" name="templates/default/images/account_middle.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="af181a350661b14350ff0b715a7d326c" name="templates/default/images/arrow.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="e21b60b0f8106b21cfcd2537a669419f" name="templates/default/images/arrowhover.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="96a4374e410d34534108db5571c776a7" name="templates/default/images/date.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="69833a3f47bee8e56887ba7c2cebac06" name="templates/default/images/dott.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="5f6f2343150d973f83ce12db3a34e620" name="templates/default/images/dott.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="ef56d702681462a6a5d596482ba66686" name="templates/default/images/edit.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="efc2fc505e3ed3423061361c066970ba" name="templates/default/images/head.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="8100b538cc7f6400345067f83dbe8c6d" name="templates/default/images/heading.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="089f0d4e944dffabb9a363dfdacbfb18" name="templates/default/images/login-calendar_03.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="9be274f2fed651173d16b342c8013bba" name="templates/default/images/lost_password.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="9546034afa9740df15998f8d7fb8b240" name="templates/default/images/nav_calendar.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="5704842f88bd149a967983f26d923218" name="templates/default/images/nav_calendar.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="194137dbb1a3de9bdc2d7ee0628ddce2" name="templates/default/images/nav_create.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="069e0f92deeaeb682373dc8d5a609ab6" name="templates/default/images/nav_create.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="4ee08c124897715e31933fe987878098" name="templates/default/images/nav_import.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="383b6e71b5d4dae2825bd91a9083111a" name="templates/default/images/nav_import.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="b3f1c5e144286a5dd711f4e1c569b2b5" name="templates/default/images/nav_search.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="dec1a2ec6c07731945378cadd010f09a" name="templates/default/images/nav_search.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="cd7f27baf95b29505e4d8fe8bfa52904" name="templates/default/images/nav_subscribe.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="df69cb03d257aa361c60f1781da40645" name="templates/default/images/nav_subscribe.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="2c240d385afa74d78d3578ea7cac184a" name="templates/default/images/sort.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="ea6ffa0ddc52c3b0930cb334c8b68e40" name="templates/default/images/submit.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="ff8b6807876e563986e4a2c46e64b910" name="templates/default/images/table_hover.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="db44957e4e35e11d9d680aecd2e88891" name="templates/default/images/title.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="5e290403eb6e229c745f5370f3d2dad4" name="templates/default/Error.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="367b71a67a05426e21f2741256eb3d51" name="templates/default/EventListing.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="ed72371a90c7fb27dfb1f9225165b931" name="templates/default/Manager.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="135bfd6b8b92a8eae694b13ac43e4192" name="templates/default/manager_default.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="daebfe42148c2de6f2b1a52e6f95b4ba" name="templates/default/manager_ieonly.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="11794917f2f96c381ddae77e8a5290c7" name="templates/default/Manager_Login.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="8430c427d4736d3d9acde5af40be9f4b" name="templates/default/manager_main.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="aa1099bd4e2115ebb36626d95bf421f8" name="index.php" role="data">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/UCBCN" md5sum="77f42348b99526ebb8ff20cff5fa4346" name="Manager.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/UCBCN" md5sum="ba914c70d405c966f3abdb5d6529f047" name="UNL_UCBCN_Manager_setup.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+    <tasks:postinstallscript>
+     <tasks:paramgroup>
+      <tasks:id>questionCreate</tasks:id>
+      <tasks:param>
+       <tasks:name>createtemplate</tasks:name>
+       <tasks:prompt>Create/Upgrade default templates?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>createindex</tasks:name>
+       <tasks:prompt>Create/Upgrade sample index page?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>createaccount</tasks:name>
+       <tasks:prompt>Create a calendar account?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+     <tasks:paramgroup>
+      <tasks:id>fileSetup</tasks:id>
+      <tasks:param>
+       <tasks:name>docroot</tasks:name>
+       <tasks:prompt>Path to root of webserver</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>/Library/WebServer/Documents/events/manager</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>template</tasks:name>
+       <tasks:prompt>Template style to use</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>default</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+     <tasks:paramgroup>
+      <tasks:id>accountSetup</tasks:id>
+      <tasks:param>
+       <tasks:name>dsn</tasks:name>
+       <tasks:prompt>Database connection string (DSN)</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>mysqli://eventcal:eventcal@localhost/eventcal</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>name</tasks:name>
+       <tasks:prompt>Account Title</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>UNL Events</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>shortname</tasks:name>
+       <tasks:prompt>Account Short Name</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>unlevents</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+    </tasks:postinstallscript>
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>DB_DataObject_FormBuilder</name>
+    <channel>pear.php.net</channel>
+    <min>0.18.1</min>
+   </package>
+   <package>
+    <name>Auth</name>
+    <channel>pear.php.net</channel>
+    <min>1.3.0</min>
+   </package>
+   <package>
+    <name>UNL_UCBCN</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.0.1</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-07-26</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Initial Release... this is really bare-bones.
+		* Integration with Auth
+		* Create Event form.
+		* Added Dependency on NET_URL
+		* Default template for the manager.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-28</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>* Automatic account and calendar creation for authenticated users.
+		* Creation of events now is functional.
+		* Now uses Mark Weismann&apos;s HTML_QuickForm_Renderer_Tableless
+		* Many css styling improvements (Alvin Woon)
+		* Can now delete events.
+		* Basic permissions editing for users.</notes>
+  </release>
+ </changelog>
+</package>

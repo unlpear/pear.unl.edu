@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.0RC2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Geography_SpatialData_Campus</name>
+ <channel>pear.unl.edu</channel>
+ <summary>This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</summary>
+ <description>Spatial Data for buildings on the UNL Campus</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-01-24</date>
+ <time>13:41:31</time>
+ <version>
+  <release>0.2.2</release>
+  <api>0.2.2</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>Return cleaner address with getMapURL($code)</notes>
+ <contents>
+  <dir baseinstalldir="UNL/Geography/SpatialData" name="/">
+   <file baseinstalldir="UNL/Geography/SpatialData" md5sum="db5ce8858fc0de51f739f55b872f03c7" name="Campus/DataObjects/Campus_spatialdata.php" role="php" />
+   <file baseinstalldir="UNL/Geography/SpatialData" md5sum="d8a2107f5532e743f1016f1f297d0f68" name="Campus/DataObjects/unl_common.ini" role="data" />
+   <file baseinstalldir="UNL/Geography/SpatialData" md5sum="848fae404bd32244ffce5f2c48d5f879" name="Campus/config.inc.php" role="php" />
+   <file baseinstalldir="UNL/Geography/SpatialData" md5sum="908778a59d89216f0191417f2dd92613" name="Campus/dataobject.ini" role="data" />
+   <file baseinstalldir="UNL/Geography/SpatialData" md5sum="6dc219c88ce28c137c4d3e52e1bf0854" name="examples/spatialdata_example.php" role="doc" />
+   <file baseinstalldir="UNL/Geography/SpatialData" md5sum="30a36883b3f9163c28c8b94a35e38fa4" name="Campus.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>UNL_Common</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.1.1</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-04-25</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First Release</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.0.2</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-04-25</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>* Fix bug #3 Will not install without Role_Web</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-04-11</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Building codes should be cast as strings --- fixes info for 333 and 501.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-04-18</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Add map url to the building info: getMapURL($code)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-04-24</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Fix address in getMapURL($code)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.2</release>
+    <api>0.2.2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2008-01-24</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Return cleaner address with getMapURL($code)</notes>
+  </release>
+ </changelog>
+</package>

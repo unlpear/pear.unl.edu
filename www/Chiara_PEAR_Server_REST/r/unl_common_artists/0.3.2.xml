@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_common_artists">UNL_Common_Artists</p>
+ <c>pear.unl.edu</c>
+ <v>0.3.2</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>This package contains information on the artists, and sculptures, on campus.It is a DB_DataObject which accesses the artist info on a server with read access.</s>
+ <d>Artists and Sculptures on the UNL Campus</d>
+ <da>2010-01-20 10:46:57</da>
+ <n>
+* Fix &quot;Comments starting with # are deprecated&quot;
+* Update license to BSD
+ </n>
+ <f>20262</f>
+ <g>http://pear.unl.edu/get/UNL_Common_Artists-0.3.2</g>
+ <x xlink:href="package.0.3.2.xml"/>
+</r>

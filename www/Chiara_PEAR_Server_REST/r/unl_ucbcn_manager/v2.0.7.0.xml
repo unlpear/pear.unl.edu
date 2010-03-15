@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn_manager">UNL_UCBCN_Manager</p>
+ <c>pear.unl.edu</c>
+ <v>0.7.0</v>
+ <a>0.7.0</a>
+ <mp>5.1.2</mp>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>A Management frontend for publishing University events.</s>
+ <d>This package gives authenticated users access to publish events into their own calendar for their Department/Unit within a University.
+        It uses PEAR Auth to connect with existing authentication sources (LDAP etc).
+        It handles authentication for the user and allows insertion of event details into the calendar backend.</d>
+ <da>2009-02-26 08:16:49</da>
+ <n>
+0.7.0 Changes
+
+* Add default value for the 'frontenduri' option.
+* Delete event from the system if deleting the event from the originating calendar.
+* Correct default calendar for new/editing user permissions. [mfkwmfk]
+* Coding standards updates for the post-install script.
+
+Template Updates:
+* Fix duplicate id 'action' on EvenListing.tpl.php
+
+* Increase PHP Dependency to 5.1.2
+* Increase PEAR dependency to 1.5.4
+ </n>
+ <f>224371</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN_Manager-0.7.0</g>
+ <x xlink:href="package.0.7.0.xml"/>
+</r>

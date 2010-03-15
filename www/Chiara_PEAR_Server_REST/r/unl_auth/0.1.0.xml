@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_auth">UNL_Auth</p>
+ <c>pear.unl.edu</c>
+ <v>0.1.0</v>
+ <st>alpha</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>An authentication framework for PHP Applications at UNL</s>
+ <d>This package provides an authentication framework for web 
+applications developed at UNL.</d>
+ <da>2007-12-17 16:20:23</da>
+ <n>First Release - only CAS is available.</n>
+ <f>3906</f>
+ <g>http://pear.unl.edu/get/UNL_Auth-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

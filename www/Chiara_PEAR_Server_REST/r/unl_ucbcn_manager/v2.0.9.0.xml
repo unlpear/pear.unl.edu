@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn_manager">UNL_UCBCN_Manager</p>
+ <c>pear.unl.edu</c>
+ <v>0.9.0</v>
+ <a>0.9.0</a>
+ <mp>5.1.2</mp>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>A Management frontend for publishing University events.</s>
+ <d>This package gives authenticated users access to publish events into their own calendar for their Department/Unit within a University.
+        It uses PEAR Auth to connect with existing authentication sources (LDAP etc).
+        It handles authentication for the user and allows insertion of event details into the calendar backend.</d>
+ <da>2009-07-31 09:36:12</da>
+ <n>
+0.9.0 Changes:
+* Thanks to Brian Steere there is a new vanilla template for the manager.
+* The vanilla template is now the default.
+* The sample index file uses an admin username for logging in.
+
+Upgrade Notes:
+* Add require_once UNL/UCBCN/Autoload.php; to the index.php file.
+* The unl_template_dependents global can be removed if you are not using the default template.
+ </n>
+ <f>389207</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN_Manager-0.9.0</g>
+ <x xlink:href="package.0.9.0.xml"/>
+</r>

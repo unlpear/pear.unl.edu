@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.0RC2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Common</name>
+ <channel>pear.unl.edu</channel>
+ <summary>Common elements for the University of Nebraska-Lincoln</summary>
+ <description>This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>bbieber@unlnotes.unl.edu</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-01-24</date>
+ <time>09:03:21</time>
+ <version>
+  <release>0.2.1</release>
+  <api>0.2.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+ <notes>Change require to require_once</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="44d622fc328a7b044ced55e89b652649" name="Common/Building/City.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="1092fbb716a191bb593637afef3f9f8c" name="Common/Building/East.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="761aea4cb7de096ee2cba68845cf1ac9" name="Common/examples/Building.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="b895f4a87f32bff9c6b345c523ea1953" name="Common/Building.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="6779f7fa0cfad88f103f53ea40cbdbed" name="Common/Colleges.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="4f62c3b0f6b9f5e3f6b5a80204ec6d43" name="tests/UNL_Common_BuildingTest.php" role="test" />
+   <file baseinstalldir="UNL" md5sum="e26b83d47fa963bc32740ccc6f4c2c86" name="tests/UNL_Common_Building_CityTest.php" role="test" />
+   <file baseinstalldir="UNL" md5sum="4cd3e5f75da295500ceaaff84b27de43" name="tests/UNL_Common_Building_EastTest.php" role="test" />
+   <file baseinstalldir="UNL" md5sum="64c302cff537da936dd7b296cdfd914e" name="tests/UNL_Common_CollegesTest.php" role="test" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2005-09-27</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First attempt at a release</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2005-10-26</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Changed loading of building names to pull from database to allow for easier additions/removals.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-03-27</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Domain name of database server has changed from biznas to crusader.
+Added Colleges to the common information.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.3</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-04-11</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Cast array keys for buildings as strings, and fix errors when merging arrays to preserve the building code as keys.
+Change College of Engineering &amp; Technology to just Engineering.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-04-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Add functions for buildings:
+bool UNL_Common_Building::buildingExists(str $code)
+string UNL_Common_Building::getCampus(str $code)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2008-01-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Change require to require_once</notes>
+  </release>
+ </changelog>
+</package>

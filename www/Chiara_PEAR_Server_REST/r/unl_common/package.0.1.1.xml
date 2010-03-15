@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Common</name>
+ <channel>pear.unl.edu</channel>
+ <summary>Common elements for the University of Nebraska-Lincoln</summary>
+ <description>This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>bbieber@unlnotes.unl.edu</email>
+  <active>yes</active>
+ </lead>
+ <date>2005-10-26</date>
+ <time>08:30:48</time>
+ <version>
+  <release>0.1.1</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>Building names now come from a database.</notes>
+ <contents>
+  <dir name="/">
+   <file baseinstalldir="UNL" md5sum="879c38e9d14aceb8d10c438a498294e9" name="Common/Building/City.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="450dfc159c4cde257f979a5facca5ae7" name="Common/Building/East.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="df7ebaf9adddf5e8ad46e935fd475312" name="Common/examples/Building.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="3454b67beb0ed788641e1fba407b1e80" name="Common/Building.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2005-10-26</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Changed loading of building names to pull from database to allow for easier additions/removals.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2005-09-27</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First attempt at a release</notes>
+  </release>
+ </changelog>
+</package>

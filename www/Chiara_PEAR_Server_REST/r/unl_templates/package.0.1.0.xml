@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.6" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Templates</name>
+ <channel>pear.unl.edu</channel>
+ <summary>The UNL HTML Templates as a PEAR Package.</summary>
+ <description>This package allows you to render UNL Template styled pages using PHP Objects.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-03-02</date>
+ <time>15:13:16</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>First release, only basic functionality, we assume you have /unlpub/templatedependents/ set up on your server already.</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="3bc770d9090edd36947f3bc72dc4e927" name="Templates/Document.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="f98d6ae00377d6d01cc55e6b759fddd8" name="Templates/Fixed.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="9ce85309e6e39b8c003f3f4469d4a16c" name="Templates/Fixednosidebar.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="ab51e5486244d640f4324ad5e8b791d3" name="Templates/Fixedwsidebars.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="f03aa5875bf6c2497b718c92f5678fe7" name="Templates/Liquid.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="bf7fe68a16fd99b602198a3ef51bc618" name="Templates/Liquidnosidebars.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="05a68fee198300bc611e0afcb08b7081" name="Templates/Liquidnoweather.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="64f89e6f1e967b9bfb7ffb0191b05f2b" name="Templates/Popup.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="3fdbc07dd8ee7c8d2e03cee69aa08e4a" name="Templates/Splash.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="e9cf0407619aca79c92f47b97dd08962" name="Templates/Unlframework.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="7846e1193773a3f58a605f1001ff271b" name="Templates/Unlstandardset.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="bddc4eaef4782ad20d87ea9e7a07df52" name="Templates/examples/example1.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="d65df841937e7fa80fedef0f7e5db50c" name="Templates/tpl_cache/Document.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="f3c04193e43f3656d0bd981b555c1752" name="Templates/tpl_cache/Fixed.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="8912d38d95c6fd5a0fe60470eda76a93" name="Templates/tpl_cache/Fixednosidebar.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="5935fb8f3267594c375170aeb3e4fb62" name="Templates/tpl_cache/Fixedwsidebars.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="42ac4a65b9f582cd3345ca521a8319eb" name="Templates/tpl_cache/Liquid.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="89b96ec584eb2189940a61103ad60775" name="Templates/tpl_cache/Liquidnosidebars.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="2038281a827d183f1cb60020dc2b327f" name="Templates/tpl_cache/Liquidnoweather.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="2357cd86f3ebec488f2b38a149dda552" name="Templates/tpl_cache/Popup.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="42b13524d9c3792dfc54344d79cd1378" name="Templates/tpl_cache/Splash.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="fb6a422af5141d6afda4c8f55e668a73" name="Templates/tpl_cache/Unlframework.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="4ff1c91664a13b08a737c4846a570698" name="Templates/tpl_cache/Unlstandardset.tpl" role="data" />
+   <file baseinstalldir="UNL" md5sum="020a408cdd60e6a96995a8ac758cf80e" name="DWT.ini" role="data">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="c9c019524ccb790a7b1af616297f3688" name="f39c45f3" role="data" />
+   <file baseinstalldir="UNL" md5sum="94dc943f5ae05f3b815ff644996da268" name="Templates.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0a12</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-03-02</date>
+   <license>PHP License</license>
+   <notes>First release, only basic functionality, we assume you have /unlpub/templatedependents/ set up on your server already.</notes>
+  </release>
+ </changelog>
+</package>

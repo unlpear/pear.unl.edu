@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.0RC2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_LDAP</name>
+ <channel>pear.unl.edu</channel>
+ <summary>LDAP directory services for UNL</summary>
+ <description>This package simplifies connecting to UNL&apos;s LDAP directory for searching for data.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-02-01</date>
+ <time>11:35:29</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD</license>
+ <notes>First release.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="8d836a103466572628fec5e9451cfdf6" name="docs/examples/simpleSearch.php" role="doc" />
+   <file baseinstalldir="/" md5sum="34876f78b2b9bd42f909fd0ad793fb2c" name="tests/UNL_LDAPTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="b80c5177616567dbeba5b4e94dff2e23" name="UNL/LDAP/Entry.php" role="php" />
+   <file baseinstalldir="/" md5sum="8f2f776c07fbaf8b6f5ec05dd83afd0c" name="UNL/LDAP/People.php" role="php" />
+   <file baseinstalldir="/" md5sum="2db37160be7569b916b004d11bd662e9" name="UNL/LDAP/Result.php" role="php" />
+   <file baseinstalldir="/" md5sum="f9714177299275eabd6c0c4e280bfcd6" name="UNL/LDAP.php" role="php" />
+   <file baseinstalldir="/" md5sum="5f64534f7036c4562f2b653b7cd4b7ec" name="config.sample.php" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2008-02-01</date>
+   <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD</license>
+   <notes>First release.</notes>
+  </release>
+ </changelog>
+</package>

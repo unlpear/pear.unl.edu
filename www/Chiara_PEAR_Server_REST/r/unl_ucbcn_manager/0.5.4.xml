@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn_manager">UNL_UCBCN_Manager</p>
+ <c>pear.unl.edu</c>
+ <v>0.5.4</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>A Management frontend for publishing University events.</s>
+ <d>This package gives authenticated users access to publish events into their own calendar for their Department/Unit within a University.
+        It uses PEAR Auth to connect with existing authentication sources (LDAP etc).
+        It handles authentication for the user and allows insertion of event details into the calendar backend.</d>
+ <da>2007-10-30 09:58:20</da>
+ <n>* Add a screen for recommending events to other calendars. This allows a user to post an event to another calendar the user has access to. ?action=recommend
+* Fix to actions on paginated results - when a user selected an action on events from the second page the action was not performed.
+* Coding standards fixes.
+* New drop down for selecting actions within the default/unl template.
+* Fix - defaults for uidcreated and uidlastupdated were not being set on the Create Event Form.</n>
+ <f>222805</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN_Manager-0.5.4</g>
+ <x xlink:href="package.0.5.4.xml"/>
+</r>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.10" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_UCBCN</name>
+ <channel>pear.unl.edu</channel>
+ <summary>This package provides the database interactions for a UC Berkeley Calendar system.</summary>
+ <description>This package creates and upgrades a relational database used to store event publishing details
+					formatted using the University of California Berkeley Calendar Network schema. The backend provides
+					basic functions for an event management frontend, as well as a public frontend.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-07-28</date>
+ <time>08:27:57</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>* Fix/Add Database indexes
+		* Correct links.ini file to lowercase field names.
+		* Add hidden field declarations to event dataobject.
+		* Better field labels for dataobjects.
+		* Error handling.
+		* Added Event startdate and starttime.
+		* Some database re-structuring from Berkeley.
+		* Basic permission and account functions.
+		* Database driver is now MDB2
+		* Template files now .tpl
+		* Permissions now inside install script.</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="bf1193ec783af9c1a6a0c575169effba" name="UCBCN/Account.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="a4a4a21cd19df3a5ae910052f182c3f8" name="UCBCN/Admissioncharge.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="75e9ceed2105fee36f32703378f4d822" name="UCBCN/Admissioninfo.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="889325ae9b293b838582f19d11ef96c5" name="UCBCN/Attendancerestriction.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="c84972d17b1fdb33760d161253727293" name="UCBCN/Audience.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="8b683ac156e4642fbb9872a85a9eca8e" name="UCBCN/Calendar.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="a8e4bd78f4b5b6b8c81b6474a211d44d" name="UCBCN/Calendar_has_event.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="9be003fcd207f5bfbd365f1e0ef63029" name="UCBCN/config.inc.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="4d5b27f304ab3f82256573df72758163" name="UCBCN/Document.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="592f6a29fde8ff7c79ee2d9fc47f026e" name="UCBCN/Error.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="3f7b26861bba9a6b9b7e1cca2e0fa752" name="UCBCN/Event.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="c5f0b97689acfd2504991b4f0c83b7db" name="UCBCN/eventcal.ini" role="data" />
+   <file baseinstalldir="UNL" md5sum="ee4862572a790e42ae1f8046d05af2ee" name="UCBCN/eventcal.links.ini" role="data" />
+   <file baseinstalldir="UNL" md5sum="180450cc1cf2202187bda4ac355f5bf2" name="UCBCN/Eventdatetime.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="05b5ac76d8bba7178af9de097166c327" name="UCBCN/EventInstance.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="2dac6edcbf5dc48bc876c60a4df9ff9e" name="UCBCN/EventListing.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="e3dac7e8e05b9dd57555b701f2ccddc4" name="UCBCN/Eventtype.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="24907c9026214ccac05e2c8a7045049d" name="UCBCN/Event_has_eventtype.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="2bd53adac25c7e7c260a8e56b716bac1" name="UCBCN/Event_has_keyword.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="ba45bb2ee2097bcbcdc4676a99a76956" name="UCBCN/Event_has_sponsor.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="fed917f43d0df2774430c11929ec63f6" name="UCBCN/Event_isopento_audience.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="ea92b6553ee31474179287e7509d3789" name="UCBCN/Event_targets_audience.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="c69961e83239bb9be78f8c864aa80de8" name="UCBCN/Keyword.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="781c364ee686044f6e3fc3b683a28a5a" name="UCBCN/Location.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="57f5c398bd032e802eaca4136a8b0682" name="UCBCN/Performer.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="31367439ad309f34ff065c8594418605" name="UCBCN/Permission.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="ddfbd2800cbaa4587622482db34aa15b" name="UCBCN/Publiccontact.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="44d16bb4a048c35cba3bf7435caf9795" name="UCBCN/Relatedevent.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="68c63b5f676caeefbf4958a5f437169e" name="UCBCN/Role.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="9c946f67f8a9a552914c0fe72e42a38c" name="UCBCN/Session.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="eac0285e7564e30beded029d69ecc22d" name="UCBCN/Sponsor.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="945c017cef070304152cd922e676bf36" name="UCBCN/Subscription.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="c54bd6e3a29c54c2acf7ba65241d2097" name="UCBCN/User.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="b9ee4cb082c7549cde2d49d7371b8aa9" name="UCBCN/User_has_permission.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="6ae6fb7c1c87ffda5a8030b163935fc7" name="UCBCN/Webcast.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="2689fa2e1a0bf219b02e0f5429b6136a" name="UCBCN/Webcastlink.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="be7d933bb565812ed1015edaa79af96e" name="eventcal.sql" role="data" />
+   <file baseinstalldir="UNL" md5sum="026c9e5c75b61ddf1af81070a3c03778" name="UCBCN.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="dccc1f785c2dff1bcf517c14ed1e2136" name="UNL_UCBCN_db.xml" role="data">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL" md5sum="94d2b287c37f88e727325d19f1a131f2" name="UNL_UCBCN_setup.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+    <tasks:postinstallscript>
+     <tasks:paramgroup>
+      <tasks:id>questionCreate</tasks:id>
+      <tasks:param>
+       <tasks:name>createdb</tasks:name>
+       <tasks:prompt>Create/Upgrade database for UNL_UCBCN?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+     <tasks:paramgroup>
+      <tasks:id>databaseSetup</tasks:id>
+      <tasks:param>
+       <tasks:name>dbtype</tasks:name>
+       <tasks:prompt>Database/connection type</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>mysqli</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>database</tasks:name>
+       <tasks:prompt>Calendar database</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>eventcal</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>user</tasks:name>
+       <tasks:prompt>Username (must have create permision)</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>eventcal</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>password</tasks:name>
+       <tasks:prompt>Mysql password</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>eventcal</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>dbhost</tasks:name>
+       <tasks:prompt>Database Host</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>localhost</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+    </tasks:postinstallscript>
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>DB_DataObject</name>
+    <channel>pear.php.net</channel>
+    <min>0.8</min>
+   </package>
+   <package>
+    <name>Savant3</name>
+    <channel>savant.pearified.com</channel>
+    <min>3.0.0</min>
+   </package>
+   <package>
+    <name>NET_URL</name>
+    <channel>pear.php.net</channel>
+    <min>1.0</min>
+   </package>
+   <package>
+    <name>MDB2_Schema</name>
+    <channel>pear.php.net</channel>
+    <min>0.5.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-05-24</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First attempt at a release.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.0.2</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-07-27</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Fix/Add Database indexes
+		Correct links.ini file to lowercase field names.
+		Add hidden field declarations to event dataobject.
+		Better field labels for dataobjects.
+		Error handling.
+		Added Event startdate and starttime.
+		Some database re-structuring from Berkeley.
+		Basic permission and account functions.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-28</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>* Fix/Add Database indexes
+		* Correct links.ini file to lowercase field names.
+		* Add hidden field declarations to event dataobject.
+		* Better field labels for dataobjects.
+		* Error handling.
+		* Added Event startdate and starttime.
+		* Some database re-structuring from Berkeley.
+		* Basic permission and account functions.
+		* Database driver is now MDB2
+		* Template files now .tpl
+		* Permissions now inside install script.</notes>
+  </release>
+ </changelog>
+</package>

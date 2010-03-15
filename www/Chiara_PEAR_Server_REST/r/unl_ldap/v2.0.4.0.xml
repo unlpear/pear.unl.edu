@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ldap">UNL_LDAP</p>
+ <c>pear.unl.edu</c>
+ <v>0.4.0</v>
+ <a>0.4.0</a>
+ <mp>5.1.6</mp>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>LDAP directory services for UNL</s>
+ <d>This package simplifies connecting to UNL's LDAP directory for searching for data.</d>
+ <da>2009-05-11 14:47:41</da>
+ <n>
+Feature release:
+Add backup LDAP server.
+Increase PHP dependency to 5.1.6
+ </n>
+ <f>6529</f>
+ <g>http://pear.unl.edu/get/UNL_LDAP-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

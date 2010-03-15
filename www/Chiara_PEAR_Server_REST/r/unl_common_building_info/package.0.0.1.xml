@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.9" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Common_Building_Info</name>
+ <channel>pear.unl.edu</channel>
+ <summary>This package contains descriptions and information for buildings on the UNL Campus.</summary>
+ <description>Information on the Buildings on the UNL Campus</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-04-25</date>
+ <time>16:41:50</time>
+ <version>
+  <release>0.0.1</release>
+  <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>First release, not all buildings have info</notes>
+ <contents>
+  <dir baseinstalldir="UNL/Common/Building" name="/">
+   <file baseinstalldir="UNL/Common/Building" md5sum="e65f1423bc5b34de23e516b3fcd1d689" name="examples/info_example.php" role="doc" />
+   <file baseinstalldir="UNL/Common/Building" md5sum="cd1fd5e554922c6c3aa80ae9546e210a" name="Info.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>UNL_Common</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.1.1</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-04-25</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>First release, not all buildings have info</notes>
+  </release>
+ </changelog>
+</package>

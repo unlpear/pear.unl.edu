@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_phpdocumentor_unlhtmltemplate">UNL_PhpDocumentor_UNLHTMLTemplate</p>
+ <c>pear.unl.edu</c>
+ <v>0.2.0</v>
+ <a>0.2.0</a>
+ <mp>5.1.2</mp>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>UNL Template for PHP Documentor's HTML Converter</s>
+ <d>Provides a UNL templated html web page output for PhpDocumentor.</d>
+ <da>2009-02-19 13:37:21</da>
+ <n>
+* Set UNL_Templates::$options[&quot;templatedependentspath&quot;] if $_SERVER[&quot;UNL_TEMPLATEDEPENDENTSPATH&quot;] is set.
+* Example in .htaccess: SetEnvIf Request_Method &quot;GET&quot; UNL_TEMPLATEDEPENDENTSPATH=&quot;/srv/www/htdocs&quot;
+ </n>
+ <f>43024</f>
+ <g>http://pear.unl.edu/get/UNL_PhpDocumentor_UNLHTMLTemplate-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

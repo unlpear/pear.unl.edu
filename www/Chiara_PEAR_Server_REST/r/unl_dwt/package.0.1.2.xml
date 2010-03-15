@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.6" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_DWT</name>
+ <channel>pear.unl.edu</channel>
+ <summary>This package generates php class files (objects) from Dreamweaver template files.</summary>
+ <description>This package generates php class files (objects) from Dreamweaver template files.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-02-24</date>
+ <time>15:01:45</time>
+ <version>
+  <release>0.1.2</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>* Added missing setOption function. Initially only debug option is available.
+* Renamed internally used function between to UNL_DWT_between
+* created externally callable replaceRegions function.
+* debug function for outputting messages levels 0-5.</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="9114dd265a3e6b040ce05e294389ac0d" name="DWT/createTemplates.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="0cfd92b00c6680a6385bacc63a25f4bf" name="DWT/DWT.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="e021eb1a58771a6d6859b949e1aee194" name="DWT/Generator.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="e0c8ea4cd495b2a0e322707c06eb926d" name="DWT/examples/example.ini" role="data" />
+   <file baseinstalldir="UNL" md5sum="f454f6e456383cca9f970976f40bfe2c" name="DWT/examples/example_style1.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="0d5a4f5ca86e9c2a3c0050f39acbb034" name="DWT/examples/template_style1.dwt" role="data" />
+   <file baseinstalldir="UNL" md5sum="aeaff23a39c8068f3576153da3a31eb2" name="DWT/examples/Template_style1.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="b524ef4684be7dba47ed8c245577347a" name="DWT/examples/Template_style1.tpl" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-02-24</date>
+   <license>PHP License</license>
+   <notes>* Added missing setOption function. Initially only debug option is available.
+* Renamed internally used function between to UNL_DWT_between
+* created externally callable replaceRegions function.
+* debug function for outputting messages levels 0-5.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-02-06</date>
+   <license>PHP License</license>
+   <notes>Added generator options generator_include/eclude_regex and extends and extends_location.
+Create dwt_location and tpl_location if it does not exist yet.
+Remove editable region tags for locked regions.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-01-26</date>
+   <license>PHP License</license>
+   <notes>First release, only basic functionality.</notes>
+  </release>
+ </changelog>
+</package>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn_frontend">UNL_UCBCN_Frontend</p>
+ <c>pear.unl.edu</c>
+ <v>0.2.5</v>
+ <a>0.1.0</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>saltybeagle</m>
+ <s>A public frontend for a University Event Publishing system.</s>
+ <d>This class extends the UNL UCBCN backend system to create
+			a client frontend. It allows users to view the calendar in a list view, thirty
+			day view.</d>
+ <da>2006-08-22 13:12:53</da>
+ <n>* Fix eventinstance display to have location and contact information details.
+* Add event start and end times to month view.
+* CSS fixes from Alvin Woon
+* Better output cache handling (preRun function for http header output).
+* Fixes to allow viewing individual eventdatetime instances.
+* Frontend should only output events with the status of posted or archived (not pending).</n>
+ <f>26051</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN_Frontend-0.2.5</g>
+ <x xlink:href="package.0.2.5.xml"/>
+</r>

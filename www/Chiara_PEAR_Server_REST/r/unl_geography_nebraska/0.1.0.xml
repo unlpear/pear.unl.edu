@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_geography_nebraska">UNL_Geography_Nebraska</p>
+ <c>pear.unl.edu</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>LGPL</l>
+ <m>saltybeagle</m>
+ <s>This package provides a mechanism to create image maps of all of the counties in Nebraska.</s>
+ <d>This package provides a mechanism to create image maps of all of the counties in Nebraska.</d>
+ <da>2006-09-20 10:51:01</da>
+ <n>Fix quotes in dawson county image map.  Bump to beta.</n>
+ <f>228289</f>
+ <g>http://pear.unl.edu/get/UNL_Geography_Nebraska-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

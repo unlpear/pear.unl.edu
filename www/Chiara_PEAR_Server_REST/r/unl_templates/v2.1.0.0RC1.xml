@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_templates">UNL_Templates</p>
+ <c>pear.unl.edu</c>
+ <v>1.0.0RC1</v>
+ <a>1.0.0</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>The UNL HTML Templates as a PEAR Package.</s>
+ <d>This package allows you to render UNL Template styled pages using PHP Objects.</d>
+ <da>2008-03-26 15:38:45</da>
+ <n>Feature Release!
+New methods:
+* addHeadLink($href, $relation, $relType = 'rel', array $attributes = array())
+* addScript($url, $type = 'text/javascript')
+* addScriptDeclaration($content, $type = 'text/javascript')
+* addStyleDeclaration($content, $type = 'text/css')
+* addStyleSheet($url, $type = 'text/css', $media = null)
+* __toString()  Now you can just use echo $page;
+
+Auto loading of files - now supporting:
+* optionalfooter=&gt;optionalFooter.html
+* collegenavigationlist=&gt;unitNavigation.html
+
+Other fixes:
+* Use static vars instead of PEAR::getStaticProperty() - fixes E_STRICT warnings
+
+Add example of a custom class with auto-breadcrumb generation and body content loading.
+
+Thanks to Ned Hummel for picking up this baby.</n>
+ <f>12070</f>
+ <g>http://pear.unl.edu/get/UNL_Templates-1.0.0RC1</g>
+ <x xlink:href="package.1.0.0RC1.xml"/>
+</r>

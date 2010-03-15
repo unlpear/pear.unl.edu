@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_templates">UNL_Templates</p>
+ <c>pear.unl.edu</c>
+ <v>1.0.0RC2</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>The UNL HTML Templates as a PEAR Package.</s>
+ <d>This package allows you to render UNL Template styled pages using PHP Objects.</d>
+ <da>2008-04-08 09:31:24</da>
+ <n>Feature Release!
+New methods:
+* addHeadLink($href, $relation, $relType = 'rel', array $attributes = array())
+* addScript($url, $type = 'text/javascript')
+* addScriptDeclaration($content, $type = 'text/javascript')
+* addStyleDeclaration($content, $type = 'text/css')
+* addStyleSheet($url, $media = 'all')
+* __toString()  Now you can just use echo $page;
+
+Auto loading of files - now supporting:
+* optionalfooter=&gt;optionalFooter.html
+* collegenavigationlist=&gt;unitNavigation.html
+
+Other fixes:
+* Use static vars instead of PEAR::getStaticProperty() - fixes E_STRICT warnings
+* Remove debug code causing cache to never be used.
+* Fix debugging.
+* Merge UNL_DWT::$options with options from ini file instead of overwriting.
+* Set default timezone to use before we use date functions.
+
+Add example of a custom class with auto-breadcrumb generation and body content loading.
+
+Thanks to Ned Hummel for picking up this baby.</n>
+ <f>12448</f>
+ <g>http://pear.unl.edu/get/UNL_Templates-1.0.0RC2</g>
+ <x xlink:href="package.1.0.0RC2.xml"/>
+</r>

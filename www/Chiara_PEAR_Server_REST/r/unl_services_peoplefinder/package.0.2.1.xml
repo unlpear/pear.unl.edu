@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Services_Peoplefinder</name>
+ <channel>pear.unl.edu</channel>
+ <summary>Peoplefinder services for UNL</summary>
+ <description>This package utilizes the peoplefinder web service to get information about uids at UNL.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-02-23</date>
+ <time>11:22:50</time>
+ <version>
+  <release>0.2.1</release>
+  <api>0.2.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+ <notes>getFullName was not returning false in error cases.</notes>
+ <contents>
+  <dir baseinstalldir="UNL/Services" name="/">
+   <file baseinstalldir="UNL/Services" md5sum="c35362139be8450e86017ab7210df4ae" name="CVS/Entries" role="data" />
+   <file baseinstalldir="UNL/Services" md5sum="89d02048727ee05614a44176dc902925" name="CVS/Repository" role="data" />
+   <file baseinstalldir="UNL/Services" md5sum="7f2bf7477493873e78d78a0624f63bc1" name="CVS/Root" role="data" />
+   <file baseinstalldir="UNL/Services" md5sum="b54183649940fc11317102296fd05af8" name="docs/CVS/Entries" role="doc" />
+   <file baseinstalldir="UNL/Services" md5sum="29d14d2fbe95b00636c47e1f15abf066" name="docs/CVS/Repository" role="doc" />
+   <file baseinstalldir="UNL/Services" md5sum="7f2bf7477493873e78d78a0624f63bc1" name="docs/CVS/Root" role="doc" />
+   <file baseinstalldir="UNL/Services" md5sum="57de4a8d42ebc3876daa0912a3ba03da" name="docs/examples/CVS/Entries" role="doc" />
+   <file baseinstalldir="UNL/Services" md5sum="9c32e348f3aaf3217e215e5d727309e4" name="docs/examples/CVS/Repository" role="doc" />
+   <file baseinstalldir="UNL/Services" md5sum="7f2bf7477493873e78d78a0624f63bc1" name="docs/examples/CVS/Root" role="doc" />
+   <file baseinstalldir="UNL/Services" md5sum="389d6d39f217a8209be1fe48d37563e2" name="docs/examples/example.php" role="doc" />
+   <file baseinstalldir="UNL/Services" md5sum="5f88f411d701049182b70588a05bc713" name="docs/examples/getemail.php" role="doc" />
+   <file baseinstalldir="UNL/Services" md5sum="df9075863f74f33449060d4ca5cd20ea" name="Peoplefinder.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-02-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>First Release only get Email works -- and only for faculty/staff of course.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-02-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>The following functions all work now: getEmail,. getVCard, getHCard, getFullName</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-02-23</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>getFullName was not returning false in error cases.</notes>
+  </release>
+ </changelog>
+</package>

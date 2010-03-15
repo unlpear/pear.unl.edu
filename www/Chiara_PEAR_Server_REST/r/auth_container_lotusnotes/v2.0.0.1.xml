@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/auth_container_lotusnotes">Auth_Container_LotusNotes</p>
+ <c>pear.unl.edu</c>
+ <v>0.0.1</v>
+ <a>0.0.1</a>
+ <mp>5.0.0</mp>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>PEAR Auth container for Lotus Notes LDAP</s>
+ <d>This PEAR Auth container is intended for use with Lotus Notes LDAP directories, and 
+has only been tested against UNL's Lotus Notes directory</d>
+ <da>2006-10-27 11:35:54</da>
+ <n>* First release.</n>
+ <f>1744</f>
+ <g>http://pear.unl.edu/get/Auth_Container_LotusNotes-0.0.1</g>
+ <x xlink:href="package.0.0.1.xml"/>
+</r>

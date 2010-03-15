@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.11" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_UCBCN_Frontend</name>
+ <channel>pear.unl.edu</channel>
+ <summary>A public frontend for a University Event Publishing system.</summary>
+ <description>This class extends the UNL UCBCN backend system to create
+			a client frontend. It allows users to view the calendar in a list view, thirty
+			day view.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Alvin Woon</name>
+  <user>alvinwoon</user>
+  <email>alvinwoon@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <date>2007-03-22</date>
+ <time>16:25:11</time>
+ <version>
+  <release>0.5.0</release>
+  <api>0.5.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+ <notes>Correct date time output. Calendar will now show date when event does not end on the same day (both in event listing and event instance).
+Small speed improvements, strtotime is only called once per event.
+Javascript fixes for search form.
+Fix XML output format.</notes>
+ <contents>
+  <dir baseinstalldir="UNL/UCBCN" name="/">
+   <file baseinstalldir="UNL/UCBCN" md5sum="ca31bcbd5a5e658cfab8ef0af6ba0232" name="Frontend/Day.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="7389b504f2b58579ebf71fe9ab3b68d0" name="Frontend/Month.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="b3adc2d0a28b228c164c98074228e3ac" name="Frontend/MonthWidget.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="8051071543b42d5844533381a384c4e7" name="Frontend/Search.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="5013ea81ce3901a51f4458389a23fbbf" name="Frontend/Upcoming.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="b4116da6f224bd2534ad4d33812eb21d" name="Frontend/Week.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="01f63a8e34be1b192a59c1ff80580cff" name="Frontend/Year.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="ed271671b40999000330bbf26f0abb08" name="templates/default/images/calnav.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="256612bbfbdea2d7444b589048b35683" name="templates/default/images/caption_middle.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="e2f80546d367250543ab062d393a4119" name="templates/default/images/checkbox.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="e1328d2963d322c4ffd0b9c8a26e68de" name="templates/default/images/close_pop.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="96a4374e410d34534108db5571c776a7" name="templates/default/images/date.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="cc592c317414cf0bf75960c739d4f52a" name="templates/default/images/date1.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="e46246cf6d0d3546c8f312d2627d8734" name="templates/default/images/eventbeta.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="224a61002dc2913a1ceb3dd347bd18ab" name="templates/default/images/event_one.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="0d1933bc87a33ae3e2b8d0c76392191e" name="templates/default/images/front-login.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="7c4e930a72adf245c0d71bb887453dd8" name="templates/default/images/ics.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="9267f8319104c55a343040baf3ce57d4" name="templates/default/images/microformats.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="bf416ce0276dce35951eb2ea95a2e714" name="templates/default/images/monthviewnav_mid.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="23e754fd26bc180db4b4ffb1e29d30a2" name="templates/default/images/monthviewnav_next.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="60fea66c070190ad8d2073bdb20d777b" name="templates/default/images/monthviewnav_prev.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="046a683c048ff78645cfa2b900146e0f" name="templates/default/images/month_next.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="dc63845a5b06731a1175e94e5c829237" name="templates/default/images/month_prev.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="967490478603438f803336c599c34b55" name="templates/default/images/nav_next.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="01a0c44b6a67493d68e9f8593972c8e1" name="templates/default/images/nav_prev.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="01e3fccc8c7e11081490cb8db10ed9e7" name="templates/default/images/ongoing.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="5af8e19fea64c71b557e4b2b87a36cb6" name="templates/default/images/recent.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="39264b09ddbce2b6fd455d0b4db6e4c7" name="templates/default/images/recently.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="90d3da7036fdae6ae73a4fbf883c7c74" name="templates/default/images/recent_bot.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="41db9517b421f6246995895f394cb140" name="templates/default/images/recent_mid.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="f60320c117938f74cff3817f38fe8dad" name="templates/default/images/rss.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="4f655a4d8a469099f737f3a7a07dff8c" name="templates/default/images/searchinfo.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="8d32a0864615a9ac04543586487f536a" name="templates/default/images/searchinfo.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="c569a98804bdfe9e9aecb7ad9dacd4f8" name="templates/default/images/subscribe.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="633c26b4d8bb86df9786b38c034df7e8" name="templates/default/images/tableftG.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="af6557893ac3561396d214a012e3f023" name="templates/default/images/tabrightG.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="6f87654f4081f5ae36c166ce08b0a573" name="templates/default/images/todayimage.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="957d3a7d0e06b96247da7ba53eaeb6ac" name="templates/default/images/ulnavbar.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="4b0ae779198a775c5badd313bb518026" name="templates/default/images/widget_list.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="77323277a716bb77dcf9f475a6a19c5f" name="templates/default/images/widget_list_hover.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="9e12d9d5b82c13fcd77f2d8709f40ed4" name="templates/default/images/year_box.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="543b491dc442c9dc8d8f572ee7f984c3" name="templates/default/images/year_box.png" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="ba47b01591b63913bb94dc38f2b0c24f" name="templates/default/ajaxCaller.js" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="9c127316a381bdb946d556e980d5d03a" name="templates/default/Error.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="e71fee4e943dd5688ebda060b111ca10" name="templates/default/EventInstance.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="b30d725f1234627c4e5f3929f6f21e50" name="templates/default/EventInstance_icalendar.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="64a3dbfdfc5e2af150776f17e995f917" name="templates/default/EventInstance_rss.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="1f611bf3c3b0e9b31176f7f88c2c5c37" name="templates/default/EventInstance_xml.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="67093f7e0c59e4241c00007b071cbdd1" name="templates/default/EventListing.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="45383554c3214d34e8d00959610e9a71" name="templates/default/EventListing_icalendar.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="01b6836b68bd5653a6de2ba544bcb14d" name="templates/default/EventListing_month.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="077d14355c332d91efd2f1aa1de33905" name="templates/default/EventListing_rss.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="bde219870335510e2adfce9f8b9af4b6" name="templates/default/frontend.js" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="373ad35cc2820cd86d56f4af36b71db1" name="templates/default/Frontend.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="968e034e5886a3a0ca2dafc0ee186a94" name="templates/default/Frontend_Day.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="38ecea3ffe568752e9a319d0e05f69ca" name="templates/default/Frontend_Day_icalendar.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="86d2e73c66c7e6c10fca0cf0caa71248" name="templates/default/Frontend_Day_monthday.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="6b9af24e431345df0bfcd2485cbae2f8" name="templates/default/Frontend_Day_rss.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="c7e92799ae28479d5e1668962fc98dc9" name="templates/default/Frontend_Day_xml.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="be4014102925eb2dbaab17427445ebf9" name="templates/default/frontend_default.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="1ba37167fde70e00fb9d0aedc4d12ca8" name="templates/default/Frontend_hcalendar.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="327ff5e71bca110d2d9765568dffa1e4" name="templates/default/Frontend_icalendar.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="54c820052338a3a2cbac015715b8aeae" name="templates/default/frontend_ieonly.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="a79bfebd926ec6e6bb6dff32a0cfc224" name="templates/default/frontend_main.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="d610b68f60fc5aefa3ad18a2b3e3a1a0" name="templates/default/Frontend_Month.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="655f306e48be4a2230b1f2ab1581658c" name="templates/default/Frontend_MonthWidget.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="725cc4bcff6a2ad84882dab027812721" name="templates/default/Frontend_rss.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="65e9431f3b6d96cbf27c1722ee01792a" name="templates/default/Frontend_Search.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="a80fe24cd5b31c2a3d5e0562ecbad941" name="templates/default/Frontend_Upcoming.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="6ee56bb0327f6a7d79d0148a3ddbad81" name="templates/default/Frontend_Week.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="65099723e3815f48ebe6ae83bde53c9b" name="templates/default/Frontend_xml.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="ea8c89ce7236a50d4c507c0d5be19f15" name="templates/default/Frontend_Year.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="f039a17cd19b7c86d4d8ee70edd12f51" name="templates/default/print.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="120303fb56b49c00c46705c52a4fd8b3" name="templates/default/util.js" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="2e7c5a909d38af5c9c3b31b7f7a5d3f6" name="Frontend.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/UCBCN" md5sum="909e3cac06a04fb5411f71cc72f4ffeb" name="index.php" role="data">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/UCBCN" md5sum="0bf3fb719133a1662e596baaea6aafb6" name="UNL_UCBCN_Frontend_setup.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+    <tasks:postinstallscript>
+     <tasks:paramgroup>
+      <tasks:id>questionCreate</tasks:id>
+      <tasks:param>
+       <tasks:name>createtemplate</tasks:name>
+       <tasks:prompt>Create/Upgrade default templates?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>createindex</tasks:name>
+       <tasks:prompt>Create/Upgrade sample index page?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+     <tasks:paramgroup>
+      <tasks:id>fileSetup</tasks:id>
+      <tasks:param>
+       <tasks:name>docroot</tasks:name>
+       <tasks:prompt>Path to root of webserver</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>/Library/WebServer/Documents/events</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>template</tasks:name>
+       <tasks:prompt>Template style to use</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>default</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+    </tasks:postinstallscript>
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>UNL_UCBCN</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.5.0</min>
+   </package>
+   <package>
+    <name>Calendar</name>
+    <channel>pear.php.net</channel>
+    <min>0.5.3</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-07-28</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Initial Release... this is really bare-bones.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-28</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>* Add Month, Year, Day views.
+		* Add configuration variables to better play with the manager.
+		* Month widget for Month navigation.
+		* Dependency on Calendar
+		* EventInstance view combines event+eventdatetime
+		* Error handling for frontend
+		* css files prefixed with frontend_
+		* Switch to using .tpl template files_
+		* Frontend now uses UNL CSS templaes by default
+		* Calendar Shortname or ID can be used to select the calendar displayed.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.5</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-08-22</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>* Fix eventinstance display to have location and contact information details.
+* Add event start and end times to month view.
+* CSS fixes from Alvin Woon
+* Better output cache handling (preRun function for http header output).
+* Fixes to allow viewing individual eventdatetime instances.
+* Frontend should only output events with the status of posted or archived (not pending).</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-10-02</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>* Add search capabilities to the frontend.
+				* CSS Fixes from Alvin Woon.
+				* Fix Bug #21 multi-day events only show on their start day
+				* Fix Bug #23 Month view, incorrect day shown in certain cases</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.1</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-11-09</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>* Fix Bug #24: html doctitles not generated correctly for calendars other than default
+				* New Feature some AJAX calls for day navigation.
+				* New Feature Next and Previous links for each Day.
+				* Implement  Request #26  	 Search should look in description, location, and event type.
+				* Fix  Bug #30  	 Ongoing events will not activate link to that day.
+				* Fix  Bug #28  	 Room Number doesn&apos;t show up on Live Calendar.
+				* Fix  Bug #33  	 Missing subscribe link for local (non-default) calendar.
+				Added lots of documentation now available at http://pear.unl.edu/docs/UNL_UCBCN_Frontend/</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.2</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-11-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>Improve queries: Remove table events, and orderby clause from the dayHasEvents query because they are not needed.
+Add Event image output.
+* Fix Bug #36: RSS Format in IE7 Text is very large for event calendar
+* Fix Bug in upcoming event rss output, reported by Shravan Manda.
+Switch to BSD License</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.3</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-12-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>Fix  Bug #37  	 month widget for Dec 2006
+Add feed subscription links to Search results page.
+Implement ajax search results, autohide search term.
+Back to events listing button for event instances.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.4</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-02-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>Correct date time output. Calendar will now show date when event does not end on the same day (both in event listing and event instance).
+Small speed improvements, strtotime is only called once per event.
+Javascript fixes for search form.
+Fix XML output format.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-03-22</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License</license>
+   <notes>Correct date time output. Calendar will now show date when event does not end on the same day (both in event listing and event instance).
+Small speed improvements, strtotime is only called once per event.
+Javascript fixes for search form.
+Fix XML output format.</notes>
+  </release>
+ </changelog>
+</package>

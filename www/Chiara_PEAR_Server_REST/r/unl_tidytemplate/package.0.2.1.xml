@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.11" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_TidyTemplate</name>
+ <channel>pear.unl.edu</channel>
+ <summary>Tidy a UNL Template Webpage</summary>
+ <description>This package attempts to tidy the content areas of a UNL Template page.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-03-21</date>
+ <time>15:37:30</time>
+ <version>
+  <release>0.2.1</release>
+  <api>0.2.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+ <notes>Only create new template types, convert liquidnoweather to Fixed now.</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="52acc063cae1b11f2e6b52097412b50e" name="test.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="5b62794ae891458dd72b36cf2a591838" name="TidyTemplate.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="203be77a242103e8a836e0f3afc61f35" name="tidytemplate.sh" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Services_W3C_HTMLValidator</name>
+    <channel>pear.php.net</channel>
+    <min>0.2.0</min>
+   </package>
+   <package>
+    <name>UNL_Templates</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.5.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-03-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>* First release.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-03-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Add connection to a remote tidy web service if the local function does not exist.
+Fix UNL_Templates dependency channel.
+Fix class name references from TidyTemplate to UNL_TidyTemplate.
+Fix copy backup file when directory has a dot &apos;.&apos; in it.
+Fix indenting of tidy&apos;d regions.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-03-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Fix isValidTemplateExtension function, to only check when there is an extension.
+Change shell script to not change directory unnecessarily.
+Fix race condition when only a directory was passed to the shell script.
+Change to directory when processing a new directory.
+Add full path to scanned directories to ensure files are written to correct location.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-03-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Fix header alterations which were missing =&gt; only apply source formatting to the maincontentarea.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-03-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Remove second tidy operation, only tidy the main content, 
+and write out files even if it couldn&apos;t fix them 100%.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-03-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Only create new template types, convert liquidnoweather to Fixed now.</notes>
+  </release>
+ </changelog>
+</package>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_iTunesU</name>
+ <channel>pear.unl.edu</channel>
+ <summary>iTunes U PHP Authentication Script</summary>
+ <description>This class is based on the provided connection samples from Apple.
+This is a pear installable version of Aaron Axelsen&apos;s authentication class from http://omega1.uww.edu/itunesu/
+Written by Aaron Axelsen &lt;axelsena at uww dot edu&gt; University of Wisconsin - Whitewater
+Modified by Brett Bieber &lt;brett.bieber@gmail.com&gt; - University of Nebraska-Lincoln</description>
+ <lead>
+  <name>Aaron Axelsen</name>
+  <user>axelsena</user>
+  <email>axelsena@uww.edu</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-09-20</date>
+ <time>22:22:24</time>
+ <version>
+  <release>0.5.0</release>
+  <api>0.5.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+ <notes>This is a pear installable version of Aaron Axelsen&apos;s authentication class from http://omega1.uww.edu/itunesu/
+* Rename class to UNL_iTunesU to follow PEAR channel &amp; package naming conventions
+* Add back in support for PEAR_Request if curl is not enabled
+* Add back in support for PEAR_Message if hash_hmac is not enabled
+* Remove defaults populated in class
+* Add method to constructor for setting values, pass an associative array of values to the contructor such as $options = array(&quot;administratorCredential&quot;=&gt;&quot;Administrator@urn:mace:itunesu.com:sites:example.edu&quot;);
+* Add method addAnonymousCredential()</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="eff10c34067f9f43ec272fec9881e46d" name="iTunesU.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-09-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>This is a pear installable version of Aaron Axelsen&apos;s authentication class from http://omega1.uww.edu/itunesu/
+* Rename class to UNL_iTunesU to follow PEAR channel &amp; package naming conventions
+* Add back in support for PEAR_Request if curl is not enabled
+* Add back in support for PEAR_Message if hash_hmac is not enabled
+* Remove defaults populated in class
+* Add method to constructor for setting values, pass an associative array of values to the contructor such as $options = array(&quot;administratorCredential&quot;=&gt;&quot;Administrator@urn:mace:itunesu.com:sites:example.edu&quot;);
+* Add method addAnonymousCredential()</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-09-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>This is a pear installable version of Aaron Axelsen&apos;s authentication class from http://omega1.uww.edu/itunesu/
+* Rename class to UNL_iTunesU to follow PEAR channel &amp; package naming conventions
+* Add back in support for PEAR_Request if curl is not enabled
+* Add back in support for PEAR_Message if hash_hmac is not enabled
+* Remove defaults populated in class
+* Add method to constructor for setting values, pass an associative array of values to the contructor such as $options = array(&quot;administratorCredential&quot;=&gt;&quot;Administrator@urn:mace:itunesu.com:sites:example.edu&quot;);
+* Add method addAnonymousCredential()</notes>
+  </release>
+ </changelog>
+</package>

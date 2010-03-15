@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_TidyTemplate</name>
+ <channel>pear.unl.edu</channel>
+ <summary>Tidy a UNL Template Webpage</summary>
+ <description>This package attempts to tidy the content areas of a UNL Template page.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-03-19</date>
+ <time>17:44:11</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+ <notes>Add connection to a remote tidy web service if the local function does not exist.
+Fix UNL_Templates dependency channel.
+Fix class name references from TidyTemplate to UNL_TidyTemplate.
+Fix copy backup file when directory has a dot &apos;.&apos; in it.
+Fix indenting of tidy&apos;d regions.</notes>
+ <contents>
+  <dir baseinstalldir="UNL" name="/">
+   <file baseinstalldir="UNL" md5sum="9c68a8f6e3b02aa2bd86c24651d411f7" name="test.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="931da0abffd4607bb3eee8914447859a" name="TidyTemplate.php" role="php" />
+   <file baseinstalldir="UNL" md5sum="0d01ef9c90d73bb17ed4420beef1d62d" name="tidytemplate.sh" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Services_W3C_HTMLValidator</name>
+    <channel>pear.php.net</channel>
+    <min>0.2.0</min>
+   </package>
+   <package>
+    <name>UNL_Templates</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.5.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-03-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>* First release.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-03-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>Add connection to a remote tidy web service if the local function does not exist.
+Fix UNL_Templates dependency channel.
+Fix class name references from TidyTemplate to UNL_TidyTemplate.
+Fix copy backup file when directory has a dot &apos;.&apos; in it.
+Fix indenting of tidy&apos;d regions.</notes>
+  </release>
+ </changelog>
+</package>

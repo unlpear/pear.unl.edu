@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_html_css_sampler">UNL_HTML_CSS_Sampler</p>
+ <c>pear.unl.edu</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>CSS Sample style generator.</s>
+ <d>This package will generate html samples for css selectors in a given css file.</d>
+ <da>2009-08-04 11:02:57</da>
+ <n>
+Fix element selectors that were prefixed with spaces.
+ </n>
+ <f>6389</f>
+ <g>http://pear.unl.edu/get/UNL_HTML_CSS_Sampler-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

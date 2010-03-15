@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_services_peoplefinder">UNL_Services_Peoplefinder</p>
+ <c>pear.unl.edu</c>
+ <v>0.1.0</v>
+ <a>0.1.0</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>Peoplefinder services for UNL</s>
+ <d>This package utilizes the peoplefinder web service to get information about uids at UNL.</d>
+ <da>2007-02-21 16:25:04</da>
+ <n>First Release only get Email works -- and only for faculty/staff of course.</n>
+ <f>1514</f>
+ <g>http://pear.unl.edu/get/UNL_Services_Peoplefinder-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

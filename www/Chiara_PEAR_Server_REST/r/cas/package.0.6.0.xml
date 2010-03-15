@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>CAS</name>
+ <channel>pear.unl.edu</channel>
+ <summary>Central Authentication Service client library in php</summary>
+ <description>This package is a PEAR installable library for using a Central
+Authentication Service.</description>
+ <lead>
+  <name>Pascal Aubry</name>
+  <user>paubry</user>
+  <email>pascal.aubry@univ-rennes1.fr</email>
+  <active>yes</active>
+ </lead>
+ <helper>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </helper>
+ <date>2008-05-02</date>
+ <time>11:09:41</time>
+ <version>
+  <release>0.6.0</release>
+  <api>0.6.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="?">?</license>
+ <notes>Bug Fix:
+* fixed PGT storage path on Windows (Olivier Thebault).
+
+New Features:
+* added methods setCasServerCert() and setCasServerCaCert() to authenticate the CAS server, and method setNoCasServerValidation() to skip the SSL checks (Pascal Aubry, requested by Andrew Petro).
+* Added spanish and catalan translations (Ivan Garcia).</notes>
+ <contents>
+  <dir baseinstalldir="CAS" name="/">
+   <file baseinstalldir="CAS" md5sum="0c9d3153be1cd5797d551bdc68700cb1" name="languages/catalan.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="bc09a9df04cef13254ae57f3a274f0df" name="languages/english.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="474958e64bd7b119842ba73fdfe7443d" name="languages/french.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="1135952ce25e181ad89c05843314c4b0" name="languages/german.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="487febf7b7a9d12e46b8352ed7f2f5b9" name="languages/greek.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="2217adf20780daea3d41b9c9c678246f" name="languages/japanese.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="f0c462c22a96622ced80a4b5dd954d09" name="languages/languages.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="734a4d32b5f27017c775d2ed0b6ce2a3" name="languages/spanish.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="e00e9cb95f0d06117b0d422097fd5a5e" name="PGTStorage/pgt-db.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="f71651bcf7f38df0be9adcbbcc29d6de" name="PGTStorage/pgt-file.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="16f3bbe28e42bda1aa564e3e4adbd16c" name="PGTStorage/pgt-main.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="2aec0b664674c727f5ce75af8132ba4a" name="CAS.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="d4a5907a31f40dc4cbaca8335ed3f973" name="client.php" role="php" />
+   <file baseinstalldir="CAS" md5sum="b3925412b0fb75cb3302058383802e3c" name="domxml-php4-php5.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>DB</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.0</min>
+   </package>
+   <extension>
+    <name>curl</name>
+   </extension>
+   <extension>
+    <name>openssl</name>
+   </extension>
+   <extension>
+    <name>dom</name>
+   </extension>
+   <extension>
+    <name>zlib</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.6.0RC6</release>
+    <api>0.6.0RC6</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-12-17</date>
+   <license uri="?">?</license>
+   <notes>Port of 0.6.0RC6 with patch for setCacheTimesForAuthRecheck($n)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.6.0</release>
+    <api>0.6.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2008-05-02</date>
+   <license uri="?">?</license>
+   <notes>Bug Fix:
+* fixed PGT storage path on Windows (Olivier Thebault).
+
+New Features:
+* added methods setCasServerCert() and setCasServerCaCert() to authenticate the CAS server, and method setNoCasServerValidation() to skip the SSL checks (Pascal Aubry, requested by Andrew Petro).
+* Added spanish and catalan translations (Ivan Garcia).</notes>
+  </release>
+ </changelog>
+</package>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Services_Peoplefinder</name>
+ <channel>pear.unl.edu</channel>
+ <summary>Peoplefinder services for UNL</summary>
+ <description>This package utilizes the peoplefinder web service to get information about uids at UNL.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-02-21</date>
+ <time>16:25:04</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+ <notes>First Release only get Email works -- and only for faculty/staff of course.</notes>
+ <contents>
+  <dir baseinstalldir="UNL/Services" name="/">
+   <file baseinstalldir="UNL/Services" md5sum="5f88f411d701049182b70588a05bc713" name="docs/examples/getemail.php" role="doc" />
+   <file baseinstalldir="UNL/Services" md5sum="95cb737de7c2a690ea6413f69a848a2a" name="Peoplefinder.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-02-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>First Release only get Email works -- and only for faculty/staff of course.</notes>
+  </release>
+ </changelog>
+</package>

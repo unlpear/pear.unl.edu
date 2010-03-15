@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.10" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_UCBCN_Frontend</name>
+ <channel>pear.unl.edu</channel>
+ <summary>A public frontend for a University Event Publishing system.</summary>
+ <description>This class extends the UNL UCBCN backend system to create
+			a client frontend. It allows users to view the calendar in a list view, thirty
+			day view.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-07-28</date>
+ <time>09:17:57</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>* Add Month, Year, Day views.
+		* Add configuration variables to better play with the manager.
+		* Month widget for Month navigation.
+		* Dependency on Calendar
+		* EventInstance view combines event+eventdatetime
+		* Error handling for frontend
+		* css files prefixed with frontend_
+		* Switch to using .tpl template files_
+		* Frontend now uses UNL CSS templaes by default
+		* Calendar Shortname or ID can be used to select the calendar displayed.</notes>
+ <contents>
+  <dir baseinstalldir="UNL/UCBCN" name="/">
+   <file baseinstalldir="UNL/UCBCN" md5sum="afb360e6915003cd07015408de1b457a" name="Frontend/Day.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="2e8486a8b5b8180f8f4bafb9d4fda1cc" name="Frontend/Month.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="942960df85c033394b4a025ff4b3e549" name="Frontend/MonthWidget.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="220135c97baedd86ab3cb6cd9d98c821" name="Frontend/Year.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="ed271671b40999000330bbf26f0abb08" name="templates/default/images/calnav.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="256612bbfbdea2d7444b589048b35683" name="templates/default/images/caption_middle.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="96a4374e410d34534108db5571c776a7" name="templates/default/images/date.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="046a683c048ff78645cfa2b900146e0f" name="templates/default/images/month_next.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="dc63845a5b06731a1175e94e5c829237" name="templates/default/images/month_prev.gif" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="9c127316a381bdb946d556e980d5d03a" name="templates/default/Error.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="23608a0c4dd4947b67cec52808bf4a4c" name="templates/default/EventInstance.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="c1eb817a86e931ea96e83482a84d4258" name="templates/default/EventListing.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="fd05e9dd28bdfa6f6f3caeddb5cff319" name="templates/default/Frontend.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="a54e4683c20ec8c89c1d6fb1b1b8dced" name="templates/default/Frontend_Day.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="eccbde0674301a3a9ee9ac7b802bd218" name="templates/default/frontend_default.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="1ba37167fde70e00fb9d0aedc4d12ca8" name="templates/default/Frontend_hcalendar.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="54c820052338a3a2cbac015715b8aeae" name="templates/default/frontend_ieonly.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="a79bfebd926ec6e6bb6dff32a0cfc224" name="templates/default/frontend_main.css" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="673275eab00444b29c110e558947fad0" name="templates/default/Frontend_Month.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="4bf219dbef9dbd688a41528f926e1aad" name="templates/default/Frontend_MonthWidget.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="8339ea89ce9e57f640056db1e4e81440" name="templates/default/Frontend_Year.tpl.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="e787d1bcfe6f054b9d04a517c69062a7" name="Frontend.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/UCBCN" md5sum="345c22111f1163418eadfc1a2575a6d5" name="index.php" role="data">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/UCBCN" md5sum="0bf3fb719133a1662e596baaea6aafb6" name="UNL_UCBCN_Frontend_setup.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+    <tasks:postinstallscript>
+     <tasks:paramgroup>
+      <tasks:id>questionCreate</tasks:id>
+      <tasks:param>
+       <tasks:name>createtemplate</tasks:name>
+       <tasks:prompt>Create/Upgrade default templates?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>createindex</tasks:name>
+       <tasks:prompt>Create/Upgrade sample index page?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+     <tasks:paramgroup>
+      <tasks:id>fileSetup</tasks:id>
+      <tasks:param>
+       <tasks:name>docroot</tasks:name>
+       <tasks:prompt>Path to root of webserver</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>/Library/WebServer/Documents/events</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>template</tasks:name>
+       <tasks:prompt>Template style to use</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>default</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+    </tasks:postinstallscript>
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>UNL_UCBCN</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.0.1</min>
+   </package>
+   <package>
+    <name>Calendar</name>
+    <channel>pear.php.net</channel>
+    <min>0.5.3</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-07-28</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Initial Release... this is really bare-bones.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-28</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>* Add Month, Year, Day views.
+		* Add configuration variables to better play with the manager.
+		* Month widget for Month navigation.
+		* Dependency on Calendar
+		* EventInstance view combines event+eventdatetime
+		* Error handling for frontend
+		* css files prefixed with frontend_
+		* Switch to using .tpl template files_
+		* Frontend now uses UNL CSS templaes by default
+		* Calendar Shortname or ID can be used to select the calendar displayed.</notes>
+  </release>
+ </changelog>
+</package>

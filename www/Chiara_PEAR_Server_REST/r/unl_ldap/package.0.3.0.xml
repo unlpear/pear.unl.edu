@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.0alpha1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_LDAP</name>
+ <channel>pear.unl.edu</channel>
+ <summary>LDAP directory services for UNL</summary>
+ <description>This package simplifies connecting to UNL&apos;s LDAP directory for searching for data.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-11-10</date>
+ <time>11:47:39</time>
+ <version>
+  <release>0.3.0</release>
+  <api>0.3.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD</license>
+ <notes>Feature release:
+Issue #8: Throw exception on connection errors.
+Bump stability to beta.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="1de4d3f21d4d1903f27d1d8e1e08e8ed" name="build/api/default/UNL_LDAP_Exception.html" role="doc" />
+   <file baseinstalldir="/" md5sum="82e3d16dc1598ff14400d16120de8e76" name="build/api/default/_config.inc.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="debc8f8ed962aa432cdfd464333ebb1f" name="build/api/default/_config.sample.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c92ae235f70a7e0933c790883d3f099f" name="build/api/default/_docs---examples---simpleSearch.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="51108ad98e8bd841e7601a8b6a73e35f" name="build/api/default/_docs---examples---twodirectories.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="846b47936b1cffe82ee859ad06d54279" name="build/api/default/_UNL---LDAP---Exception.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e43ca110d02f287cdaac6357ba539fff" name="build/api/media/banner.css" role="data" />
+   <file baseinstalldir="/" md5sum="be839c9217d4f1eeda155a7a728547b9" name="build/api/media/stylesheet.css" role="data" />
+   <file baseinstalldir="/" md5sum="3290854c81c732f1d714e97a18ca283d" name="build/api/UNL_LDAP/UNL_LDAP.html" role="doc" />
+   <file baseinstalldir="/" md5sum="735a54bf4840650bf90bea97cd72e0ad" name="build/api/UNL_LDAP/UNL_LDAPTest.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6e33ec5149e349db489af1c22054cdd0" name="build/api/UNL_LDAP/UNL_LDAP_Entry.html" role="doc" />
+   <file baseinstalldir="/" md5sum="cf4b45de852082a046b8a9cbf1f33bfe" name="build/api/UNL_LDAP/UNL_LDAP_Entry_Attribute.html" role="doc" />
+   <file baseinstalldir="/" md5sum="263612312cdf1017bb0f61625825c37c" name="build/api/UNL_LDAP/UNL_LDAP_Exception.html" role="doc" />
+   <file baseinstalldir="/" md5sum="ff311136af589c036c0875b3e0c24232" name="build/api/UNL_LDAP/UNL_LDAP_People.html" role="doc" />
+   <file baseinstalldir="/" md5sum="5eef94a66e3476072ffc3b60e2a3cb34" name="build/api/UNL_LDAP/UNL_LDAP_Result.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f21747cebc76d45b2c23aef6859408a1" name="build/api/UNL_LDAP/_config.inc.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="1c5f0e158b1b7220bf32577adcc7cf2b" name="build/api/UNL_LDAP/_config.sample.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="64ab26ed8bfc7333be759e3e7128965c" name="build/api/UNL_LDAP/_docs---examples---simpleSearch.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="9555c125d64a213db73e2bf6a3c90f8b" name="build/api/UNL_LDAP/_makepackage.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="362b99a56d24b707dbdfa5f2874c763a" name="build/api/UNL_LDAP/_tests---UNL_LDAPTest.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e3d001b314a2813c0b5c910ae4ebdc87" name="build/api/UNL_LDAP/_UNL---LDAP---Entry---Attribute.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="90afd48578d02602383498183def99b4" name="build/api/UNL_LDAP/_UNL---LDAP---Entry.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c7774771ae555f46ad5226040fa12142" name="build/api/UNL_LDAP/_UNL---LDAP---Exception.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e28e0ab85f13bf7bb979a7e21512379f" name="build/api/UNL_LDAP/_UNL---LDAP---People.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6a167a3c928f909330715f34a714eac4" name="build/api/UNL_LDAP/_UNL---LDAP---Result.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e6f2ae672483b26676d282b88e1f3997" name="build/api/UNL_LDAP/_UNL---LDAP.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c225d8c06f765c6e6506ac0f7c6c90ec" name="build/api/blank.html" role="doc" />
+   <file baseinstalldir="/" md5sum="15f2b89c551ebb2056db70d0794684e0" name="build/api/classtrees_default.html" role="doc" />
+   <file baseinstalldir="/" md5sum="ae22c1daaea5eead01eb31e8dda0ec1f" name="build/api/classtrees_UNL_LDAP.html" role="doc" />
+   <file baseinstalldir="/" md5sum="1eaf2ab750f8e2051805e1305d3a992c" name="build/api/elementindex.html" role="doc" />
+   <file baseinstalldir="/" md5sum="cab99b652dc9bae1117d1fae7ad031c0" name="build/api/elementindex_default.html" role="doc" />
+   <file baseinstalldir="/" md5sum="da70a43abcd6a9e25ea275db3e49aa02" name="build/api/elementindex_UNL_LDAP.html" role="doc" />
+   <file baseinstalldir="/" md5sum="4eae412145b430b9b8c50707f6e47854" name="build/api/errors.html" role="doc" />
+   <file baseinstalldir="/" md5sum="0e64d33e82698beed45da5b26e73a798" name="build/api/index.html" role="doc" />
+   <file baseinstalldir="/" md5sum="841590a002a05e4070a8aa2d1abde6a2" name="build/api/li_default.html" role="doc" />
+   <file baseinstalldir="/" md5sum="9b907a4aa0b68c491e85de759f128f99" name="build/api/li_UNL_LDAP.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d5d10ce58ab64768a176538a86dbd29d" name="build/api/packages.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c7074798bda4611c97ca24740526dfa5" name="build/logs/checkstyle.xml" role="data" />
+   <file baseinstalldir="/" md5sum="efd3d9f60c8576182bd33b1fc2c4df54" name="docs/examples/simpleSearch.php" role="doc" />
+   <file baseinstalldir="/" md5sum="4ec63a962bbddbfd1d9b12eafe8148b1" name="docs/examples/twodirectories.php" role="doc" />
+   <file baseinstalldir="/" md5sum="fc2381e063ac35f2bebdf06eab79b9fb" name="tests/UNL_LDAPTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="e8f5641db71ba636f865669bedd0ce6a" name="UNL/LDAP/Entry/Attribute.php" role="php" />
+   <file baseinstalldir="/" md5sum="69b4a78845b13ba64b8ec91b8cae8cb7" name="UNL/LDAP/Entry.php" role="php" />
+   <file baseinstalldir="/" md5sum="caf854ddab5798e254bd3088d869db01" name="UNL/LDAP/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="1e3ad79d341b238f743547a2ca22a703" name="UNL/LDAP/People.php" role="php" />
+   <file baseinstalldir="/" md5sum="50fd37ef7d51bc10457b03ea24c5154b" name="UNL/LDAP/Result.php" role="php" />
+   <file baseinstalldir="/" md5sum="2c354afafaf72c9e2f48dc739beed7b7" name="UNL/LDAP.php" role="php" />
+   <file baseinstalldir="/" md5sum="70050811287cb990cdd6e409049e2b5e" name="build.xml" role="data" />
+   <file baseinstalldir="/" md5sum="a1bb02c8c256dc1c151f3bf60a028f06" name="config.sample.php" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2008-02-01</date>
+   <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD</license>
+   <notes>First release.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2008-03-26</date>
+   <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD</license>
+   <notes>API change feature release
+* Remove singleton - multiple connections and multiple directories can now be used.
+* Add setOptions(), connect(), disconnect(), &amp;getLink() methods.
+* Implement destructor which disconnects from the server.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2008-11-10</date>
+   <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD</license>
+   <notes>Feature release:
+Issue #8: Throw exception on connection errors.
+Bump stability to beta.</notes>
+  </release>
+ </changelog>
+</package>

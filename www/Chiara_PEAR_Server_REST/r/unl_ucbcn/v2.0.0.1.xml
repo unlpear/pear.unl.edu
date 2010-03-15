@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn">UNL_UCBCN</p>
+ <c>pear.unl.edu</c>
+ <v>0.0.1</v>
+ <a>0.0.1</a>
+ <mp>5.0.0</mp>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>saltybeagle</m>
+ <s>This package provides the database interactions for a UC Berkeley Calendar system.</s>
+ <d>This package creates and upgrades a relational database used to store event publishing details
+					formatted using the University of California Berkeley Calendar Network schema.</d>
+ <da>2006-05-19 10:45:55</da>
+ <n>First attempt at a release.</n>
+ <f>18313</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN-0.0.1</g>
+ <x xlink:href="package.0.0.1.xml"/>
+</r>

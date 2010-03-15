@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_html_css_sampler">UNL_HTML_CSS_Sampler</p>
+ <c>pear.unl.edu</c>
+ <v>0.1.1</v>
+ <a>0.1.1</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>CSS Sample style generator.</s>
+ <d>This package will generate html samples for css selectors in a given css file.</d>
+ <da>2006-12-11 15:49:49</da>
+ <n>Fix bug in generated sample when class name was preceded by a tag nam (a.application-pdf). (Ned Hummel)
+From todo:
+* Improve the selectorToClass() function. (Ned Hummel)
+* Get closer to XHTML validation. (Ned Hummel)</n>
+ <f>5639</f>
+ <g>http://pear.unl.edu/get/UNL_HTML_CSS_Sampler-0.1.1</g>
+ <x xlink:href="package.0.1.1.xml"/>
+</r>

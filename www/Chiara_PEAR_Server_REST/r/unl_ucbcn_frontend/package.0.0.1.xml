@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.9" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_UCBCN_Frontend</name>
+ <channel>pear.unl.edu</channel>
+ <summary>This package provides a viewing frontend to the calendar data.</summary>
+ <description>This class extends the UNL UCBerkeley Calendar backend system to create
+			a client frontend. It allows users to view the calendar in a list view, thirty
+			day view, subscribable feeds, downloadable .ics files etc.</description>
+ <lead>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-05-26</date>
+ <time>10:19:03</time>
+ <version>
+  <release>0.0.1</release>
+  <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>Initial Release... this is really bare-bones.</notes>
+ <contents>
+  <dir baseinstalldir="UNL/UCBCN" name="/">
+   <file baseinstalldir="UNL/UCBCN" md5sum="d8633a64c035912ac585f4c09708f930" name="Frontend/Day.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="511c36e1db724c670ffff3f7ab99c3bf" name="Frontend/Month.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="fba04da399ad97f722fbe96c38d64e3c" name="Frontend/MonthWidget.php" role="php" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="322ab303cb3bc4b1109261bbce734f5f" name="templates/default/Frontend_Day.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="14e4f6dc71ad8f88cd66f73463e03014" name="templates/default/MonthWidget.php" role="data" />
+   <file baseinstalldir="UNL/UCBCN" md5sum="a5f2b37e4721bddc89d459dc75c2bf1d" name="Frontend.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/UCBCN" md5sum="d81af5e2cc8fccc85efda85b8ed31434" name="index.php" role="data">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="UNL/UCBCN" md5sum="a508718e69f2ff1dc109f942c8385847" name="UNL_UCBCN_Frontend_setup.php" role="php">
+    <tasks:replace from="@PHP_BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@PHP_DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA_DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@DOC_DIR@" to="doc_dir" type="pear-config" />
+    <tasks:postinstallscript>
+     <tasks:paramgroup>
+      <tasks:id>questionCreate</tasks:id>
+      <tasks:param>
+       <tasks:name>createtemplate</tasks:name>
+       <tasks:prompt>Create/Upgrade default templates?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>createindex</tasks:name>
+       <tasks:prompt>Create/Upgrade sample index page?</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>yes</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+     <tasks:paramgroup>
+      <tasks:id>fileSetup</tasks:id>
+      <tasks:param>
+       <tasks:name>docroot</tasks:name>
+       <tasks:prompt>Path to root of webserver</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>/Library/WebServer/Documents/events/</tasks:default>
+      </tasks:param>
+      <tasks:param>
+       <tasks:name>template</tasks:name>
+       <tasks:prompt>Template style to use</tasks:prompt>
+       <tasks:type>string</tasks:type>
+       <tasks:default>default</tasks:default>
+      </tasks:param>
+     </tasks:paramgroup>
+    </tasks:postinstallscript>
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>UNL_UCBCN</name>
+    <channel>pear.unl.edu</channel>
+    <min>0.0.1</min>
+   </package>
+   <package>
+    <name>Calendar</name>
+    <channel>pear.php.net</channel>
+    <min>0.5.3</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-05-26</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>Initial Release... this is really bare-bones.</notes>
+  </release>
+ </changelog>
+</package>

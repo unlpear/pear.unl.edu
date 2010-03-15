@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <n>UNL_UCBCN_Manager</n>
+ <c>pear.unl.edu</c>
+ <ca xlink:href="Chiara_PEAR_Server_REST/c/Default" xmlns:xlink="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+ <l>BSD License</l>
+ <s>A Management frontend for publishing University events.</s>
+ <d>This package gives authenticated users access to publish events into their own calendar for their Department/Unit within a University.
+        It uses PEAR Auth to connect with existing authentication sources (LDAP etc).
+        It handles authentication for the user and allows insertion of event details into the calendar backend.</d>
+ <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+</p>

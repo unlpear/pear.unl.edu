@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_templates">UNL_Templates</p>
+ <c>pear.unl.edu</c>
+ <v>0.5.0</v>
+ <a>0.5.0</a>
+ <mp>5.0.0</mp>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>saltybeagle</m>
+ <s>The UNL HTML Templates as a PEAR Package.</s>
+ <d>This package allows you to render UNL Template styled pages using PHP Objects.</d>
+ <da>2006-08-14 16:01:04</da>
+ <n>Updates the package to use the new 2006-08 UNL Templates. Template dependents /ucomm/templatedependents/ are still required outside of this package. Added new replacement functions to handle the template dependent replacements.
+		Removed evalPHPFile function... not needed anymore.</n>
+ <f>9109</f>
+ <g>http://pear.unl.edu/get/UNL_Templates-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>

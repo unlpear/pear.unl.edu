@@ -1,0 +1,1 @@
+a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.5.4";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:9:"UNL_UCBCN";s:7:"channel";s:12:"pear.unl.edu";s:3:"min";s:5:"0.8.0";}i:1;a:3:{s:4:"name";s:8:"Calendar";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.5.3";}}}}

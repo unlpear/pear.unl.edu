@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <n>Auth_Container_LotusNotes</n>
+ <c>pear.unl.edu</c>
+ <ca xlink:href="Chiara_PEAR_Server_REST/c/Default" xmlns:xlink="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+ <l>BSD</l>
+ <s>PEAR Auth container for Lotus Notes LDAP</s>
+ <d>This PEAR Auth container is intended for use with Lotus Notes LDAP directories, and 
+has only been tested against UNL's Lotus Notes directory</d>
+ <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+</p>

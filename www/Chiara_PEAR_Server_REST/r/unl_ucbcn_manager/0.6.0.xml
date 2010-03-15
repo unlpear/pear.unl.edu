@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn_manager">UNL_UCBCN_Manager</p>
+ <c>pear.unl.edu</c>
+ <v>0.6.0</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>A Management frontend for publishing University events.</s>
+ <d>This package gives authenticated users access to publish events into their own calendar for their Department/Unit within a University.
+        It uses PEAR Auth to connect with existing authentication sources (LDAP etc).
+        It handles authentication for the user and allows insertion of event details into the calendar backend.</d>
+ <da>2008-08-21 09:40:09</da>
+ <n>Fixes:
+* Update BSD license link to the UNL copy.
+* Update copyright date to 2008.
+* Change homepage URLs to Google Code project page.
+* Minor validation and html entity fixes.
+* Remove display errors from recommendation screen.
+* Minor Coding Standards fixes.
+
+Feature Release:
+* Users can recommend events to calendars which allow recommendations.
+    Individual calendars will need to set their preference to allow recommendations
+    from other calendars within the same account. Once set, users of other calendars
+    can &quot;recommend&quot; an event for a calendar, which will send it to the list of 
+    pending events.
+
+CSS Fixes:
+* Add margin to paragraphs, fixes form legend overlapping text.</n>
+ <f>223472</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN_Manager-0.6.0</g>
+ <x xlink:href="package.0.6.0.xml"/>
+</r>

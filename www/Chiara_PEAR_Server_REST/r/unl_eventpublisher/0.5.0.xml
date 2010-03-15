@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_eventpublisher">UNL_EventPublisher</p>
+ <c>pear.unl.edu</c>
+ <v>0.5.0</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>A University Event Calendar &amp; Publishing System</s>
+ <d>This package combines three subpackages into one complete University 
+	event publishing system.</d>
+ <da>2007-03-22 16:38:16</da>
+ <n>README:
+This pseudo package has dependencies for all the sub-packages 
+which make up the UNL Event Publisher.
+
+Dependencies:
+UNL_UCBCN-0.5.0
+UNL_UCBCN_Frontend-0.5.0
+UNL_UCBCN_Manager-0.5.0
+
+More info can be obtained at http://pear.unl.edu/
+Contact Brett Bieber for more information.</n>
+ <f>2476</f>
+ <g>http://pear.unl.edu/get/UNL_EventPublisher-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_dwt">UNL_DWT</p>
+ <c>pear.unl.edu</c>
+ <v>0.1.2</v>
+ <a>0.1.0</a>
+ <mp>4.2.0</mp>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>saltybeagle</m>
+ <s>This package generates php class files (objects) from Dreamweaver template files.</s>
+ <d>This package generates php class files (objects) from Dreamweaver template files.</d>
+ <da>2006-02-24 15:01:45</da>
+ <n>* Added missing setOption function. Initially only debug option is available.
+* Renamed internally used function between to UNL_DWT_between
+* created externally callable replaceRegions function.
+* debug function for outputting messages levels 0-5.</n>
+ <f>11320</f>
+ <g>http://pear.unl.edu/get/UNL_DWT-0.1.2</g>
+ <x xlink:href="package.0.1.2.xml"/>
+</r>

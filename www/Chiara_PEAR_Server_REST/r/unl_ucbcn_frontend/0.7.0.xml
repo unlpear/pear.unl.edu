@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_ucbcn_frontend">UNL_UCBCN_Frontend</p>
+ <c>pear.unl.edu</c>
+ <v>0.7.0</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>A public frontend for a University Event Publishing system.</s>
+ <d>This class extends the UNL UCBCN backend system to create
+            a client frontend. It allows users to view the calendar in a list view, thirty
+            day view.</d>
+ <da>2009-02-25 16:50:23</da>
+ <n>
+0.7.0 Changes
+
+* Move navigation html to templates
+    ** THERE IS NO MORE -&gt;navigation MEMBER VARIABLE - UPDATE YOUR TEMPLATES **
+* Check for errors when initializing the default calendar.
+* Ensure $_GET['eventdatetime_id'] is an integer.
+* Verify date in url is correct for this event instance, otherwise redirect to correct date.
+* Provide a default 'manageruri' option that is 'manager/'.
+* Create document root if it does not exists.
+
+* UNL template improvements, better checking for the 'Today' indicator icon.
+ </n>
+ <f>105900</f>
+ <g>http://pear.unl.edu/get/UNL_UCBCN_Frontend-0.7.0</g>
+ <x xlink:href="package.0.7.0.xml"/>
+</r>

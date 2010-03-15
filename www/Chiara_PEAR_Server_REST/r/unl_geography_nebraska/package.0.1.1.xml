@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.9" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>UNL_Geography_Nebraska</name>
+ <channel>pear.unl.edu</channel>
+ <summary>This package provides a mechanism to create image maps of all of the counties in Nebraska.</summary>
+ <description>This package provides a mechanism to create image maps of all of the counties in Nebraska.</description>
+ <lead>
+  <name>Ben Chavet</name>
+  <user>bchavet</user>
+  <email>bchavet@calmit.unl.edu</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-09-20</date>
+ <time>11:22:47</time>
+ <version>
+  <release>0.1.1</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.fsf.org/copyleft/lgpl.html">LGPL</license>
+ <notes>Fix install paths and class names.</notes>
+ <contents>
+  <dir baseinstalldir="UNL/Geography" name="/">
+   <file baseinstalldir="UNL/Geography" md5sum="d326294dbdd85b93293d512825b696de" name="Nebraska.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="31c33141da4d9fe6fbd2a6c6c6cad7b5" name="Nebraska/County.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="7f441a3f15fe2f0e2d087e7494d8baf3" name="Nebraska/County/adams.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="b8f902ca3ed2cd7b7b5d62f41c86589c" name="Nebraska/County/antelope.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="6826370539f335e7baf1de2ae39e6ec7" name="Nebraska/County/arthur.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="daa9c1c262fbe3a7cfdd66b576a0f2b1" name="Nebraska/County/banner.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="9194488e1eebc6517cba52364251b93e" name="Nebraska/County/blaine.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="a3934e1d558ecb6479825e3574d2c039" name="Nebraska/County/boone.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="4138d4834c8641bec75943cfb976176e" name="Nebraska/County/boxbutte.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="7b133f986f869656a8685f2dca715c80" name="Nebraska/County/boyd.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="85d16bf8ee46dac5cf9d0a304073c850" name="Nebraska/County/brown.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="a4df9756d2221e60a24d2fed9716dd40" name="Nebraska/County/buffalo.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="4fb361988cb27daab6d197ed2458e81a" name="Nebraska/County/burt.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="957ab7284e314616406f19f589bebc9d" name="Nebraska/County/butler.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="aceda476af351810219c0c27164ba374" name="Nebraska/County/cass.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="24e1a09062612787df31782038ee41e1" name="Nebraska/County/cedar.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="1a11d15aad58b274b60cf49b8e06a9c4" name="Nebraska/County/chase.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="28f7fb3f306211dd654496a46fd001d6" name="Nebraska/County/cherry.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="55e8dd1630d97d650d5bc3365ec1c8a7" name="Nebraska/County/cheyenne.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="4cd74bb9f1b8b1a05385dcf9e87330b6" name="Nebraska/County/clay.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="df8cf9cbd0a3fc35b9f054cb6de6c12c" name="Nebraska/County/colfax.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="cc172eb5dcae9fcedfcc950d627f3104" name="Nebraska/County/cuming.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="b91b598c47afb8012eaa7487aee7f9b8" name="Nebraska/County/custer.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="9db1e0af20c7daac17b96b321ca621f5" name="Nebraska/County/dakota.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="53d35b2cce6c731a894dd40c4638694c" name="Nebraska/County/dawes.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="4d46ce62c532db3eec191efcc3b8c005" name="Nebraska/County/dawson.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="1a822bd76b448cd1696c53abe692f9c4" name="Nebraska/County/deuel.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="512aa680c6c9a6cc5da89e27efaec448" name="Nebraska/County/dixon.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="63d0097f574ee5454283ec0dd688c2a8" name="Nebraska/County/dodge.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="94a4903434604840468cf2acd9ae3053" name="Nebraska/County/douglas.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="403cb1794df5dd7c2cf6a4a4c9dcb83d" name="Nebraska/County/dundy.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="c6bb985499d5cb87789e2959daf3edc1" name="Nebraska/County/fillmore.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="b672d0952b56f22ca22a51ce3f6515a2" name="Nebraska/County/franklin.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="9973ce70117762b1457a5a78e91580fe" name="Nebraska/County/frontier.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="202474d31a795f044bf9239f95d53e8a" name="Nebraska/County/furnas.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="e91fe91e1cd49ba8cc1dd4656a8b6ea8" name="Nebraska/County/gage.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="56000c698e4063c94f52aab797a90f9d" name="Nebraska/County/garden.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="5b537f1c9e49f25cb111ea54ede4bef6" name="Nebraska/County/garfield.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="5fe859b34d2a39034a6de739847e7c89" name="Nebraska/County/gosper.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="4628c8d96e2d8762f9b5fb286e0b93eb" name="Nebraska/County/grant.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="8845de1406475f69caa93c444b330af0" name="Nebraska/County/greeley.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="393d487d1ce863673bd38d21cd9b9bf0" name="Nebraska/County/hall.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="e9e6c79ec1ee9ceffd42858274267571" name="Nebraska/County/hamilton.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="65cbc60773d7963a31a8bcf688cb2864" name="Nebraska/County/harlan.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="2b8ed1997e7f9339166da2672d6b53e8" name="Nebraska/County/hayes.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="08ef6a0037044d7ffd11ef86ac927f28" name="Nebraska/County/hitchcock.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="335de919d556c8da3211aa2ecf16eec9" name="Nebraska/County/holt.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="e9f92db4b6597c81851aa9279ae5e973" name="Nebraska/County/hooker.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="3b070adaab410e59927a6cea609fb95f" name="Nebraska/County/howard.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="f2e1d774d8b16e383e531a556cb6ac3a" name="Nebraska/County/jefferson.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="8d893e5bb077eeaeab388727210b829b" name="Nebraska/County/johnson.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="136042fc243389373cc6a789f4df0284" name="Nebraska/County/kearney.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="52141166c51ae7e703a6369ffa4e29ee" name="Nebraska/County/keith.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="40aba11f791b38b3b77478499c556c50" name="Nebraska/County/keyapaha.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="83c46f3d0025a8fb517dcb85c62c996c" name="Nebraska/County/kimball.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="4c14997f0a7214c5cd4ecfab84273ee8" name="Nebraska/County/knox.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="9a292bec1cccda6911c3f1084464c9d7" name="Nebraska/County/lancaster.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="ad55844229882fb9f47eba3966b7309a" name="Nebraska/County/lincoln.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="5c9ac9ac9b961e42fb33eb02ac2ce555" name="Nebraska/County/logan.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="4fbfa5ee439d968f4a599a16cc68763b" name="Nebraska/County/loup.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="000db9b27eda25aaf17034b91c5a6fea" name="Nebraska/County/madison.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="36d12d24ddd3d117bbc40cf6f4473759" name="Nebraska/County/mcpherson.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="ee3d078109d80463938b98ce77c10c84" name="Nebraska/County/merrick.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="7f1937a8e58ddc22e39fc462dbf39da5" name="Nebraska/County/morrill.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="95d21fe43656ddcab1aa495cfdddbe14" name="Nebraska/County/nance.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="bb619ef614ee984db69066cd985602cd" name="Nebraska/County/nemaha.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="29018d05edc58e24228c566d1c8f481e" name="Nebraska/County/nuckolls.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="aa198da892264ef792bb656dc3a18a4b" name="Nebraska/County/otoe.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="a0dd50d40bdd36e03cd06c4013bf4606" name="Nebraska/County/pawnee.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="cf6bcf6425599225c4c6a0950a2f3624" name="Nebraska/County/perkins.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="8dc587aa55614fd66949c71410ab4ee8" name="Nebraska/County/phelps.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="19e1e3fbfee0a39799b053c62e48ba85" name="Nebraska/County/pierce.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="7c7f7fb3268afee56f3ba179377110d0" name="Nebraska/County/platte.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="4b10cc68af7146c929dbbb5aac9e9609" name="Nebraska/County/polk.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="693379990fd3cdd720e16241b766311a" name="Nebraska/County/redwillow.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="01d789279e0dcd336b8a57342953b0d6" name="Nebraska/County/richardson.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="5b8c47a4a382ecf172869a560e2fe47f" name="Nebraska/County/rock.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="ad5fb5d54f5217b8978e9e6cbf3fd93c" name="Nebraska/County/saline.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="8283d5392f4653bdabaa2292fdd2c150" name="Nebraska/County/sarpy.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="58321e36b86fa73035027357a316a212" name="Nebraska/County/saunders.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="92467b9d448b2cbc3c1e4e110f948c3b" name="Nebraska/County/scottsbluff.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="098b6c2ffc2c075ed74fa1d7cc345671" name="Nebraska/County/seward.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="ac16390f81e0d0dc9df6125bbd0f3cc4" name="Nebraska/County/sheridan.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="0576931b5a5f3e3ca6e7776537086782" name="Nebraska/County/sherman.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="cc4ab218a011f86998759d07c97a7e18" name="Nebraska/County/sioux.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="d2e2e5eef17b3decc8a5a0421367cf36" name="Nebraska/County/stanton.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="db139b393a3b1e6745210476b319ccbb" name="Nebraska/County/thayer.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="2cc60e1d63ef192ac58ad13e2029b1cb" name="Nebraska/County/thomas.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="eda2d1309f7fca2a20ce21267e10accc" name="Nebraska/County/thurston.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="4ecb6e1b03261a734bd941c77e43bf3b" name="Nebraska/County/valley.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="cc8fccf0b2c7df82d9c5606d0c56ef69" name="Nebraska/County/washington.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="9c191202d3acd4f47e71de63a9006a4d" name="Nebraska/County/wayne.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="9e52a324b01191c239a9a39f3fecb667" name="Nebraska/County/webster.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="cae045157f6193f69967c91725c12c5d" name="Nebraska/County/wheeler.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="443e784efb2afeb69f81d7cc57b29541" name="Nebraska/County/york.php" role="php" />
+   <file baseinstalldir="UNL/Geography" md5sum="a7312452cf5cf875e7bc50c512704fab" name="images/adams.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="4a19891654aec7c64db4e3a0a325997d" name="images/antelope.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="aeb52c9c9dde2d644580747e91207164" name="images/arthur.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="e7c0327c8d68b18e9964863cb7669d20" name="images/banner.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="8589f9faae6fff3824eb3e1dfa8522fd" name="images/blaine.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="383739df7ab96e62aae931d7f67aa03e" name="images/boone.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="76caf06bddde5eb1724f8ac019d058f7" name="images/boxbutte.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="1586ce620efdc0307097df85fd5b621b" name="images/boyd.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="b79970629327f5d9b14a71be91248ffc" name="images/brown.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="fb62feec3380222cb06ed479b364403e" name="images/buffalo.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="841123d62f0c2235c274953a9ea3a7d1" name="images/burt.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="b69783cd874726e154012a987b267b8d" name="images/butler.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="98765685dae0be50a50322eb9eae82bd" name="images/cass.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="7cfb4cfe5e61603d81626a8f297252c8" name="images/cedar.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="229d778dafaed97682ac10292772a755" name="images/chase.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="76e002027a0f9a8af5b529c2c0d1d3ae" name="images/cherry.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="f86c3d70f96f639299ae42ac4356c081" name="images/cheyenne.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="1160c8bd3b3079d6c65bc024854b35a8" name="images/clay.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="660fe7c010a80f26e849213bff65d43d" name="images/colfax.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="885b40a8fc202dfb64e18133e9e8ba8f" name="images/cuming.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="006a7379efec2836ac08d0b2549a6ec1" name="images/custer.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="856d1c6b7c5ed305a908dd34ab59945f" name="images/dakota.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="c97825ecea68f0a57d1faffe9bd0e1b3" name="images/dawes.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="84f033429881c2bc0b6efdc049a9c85f" name="images/dawson.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="26c686d0d620a9d3502e2c0ac5062b02" name="images/deuel.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="b80493415674c3a3b01b24028316c8a9" name="images/dixon.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="82c07da7cc720c8f1b5e61dd5db67387" name="images/dodge.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="848596c57586ec4a72a1f8b2782bb43d" name="images/douglas.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="6ad8ef7dc8253618d0d6e3f3c1ad6ca8" name="images/dundy.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="8327a3a67b57a7152acd5037e2b93812" name="images/fillmore.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="2c777a2c01e534dfeb8f6537c6ca0784" name="images/franklin.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="7b692850f5adaa483120a189675962f3" name="images/frontier.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="b1d6ee3f1da3229bec0f5b6cc7f791ff" name="images/furnas.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="7adc90db11d0f23c6b6a4fd6f7c41bf1" name="images/gage.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="63c88d4db82d349610999023518f0162" name="images/garden.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="dfa638653ae936f8eb586e7ec7cde947" name="images/garfield.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="efc78ada667bc085663249173c90a37f" name="images/gosper.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="406e0698d95fd73ce5367a1bf4fb4ccf" name="images/grant.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="ac9e4795e1b758eebdf700f6e3566eb6" name="images/greeley.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="037851ef4ecd27cd5170c9abc6ce62e8" name="images/hall.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="b5d8e48d2f6792590231def312082d22" name="images/hamilton.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="1971cabc6571aa0fa0175734dd9947a6" name="images/harlan.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="ce8e013daeafc8a880b4861f28f8069f" name="images/hayes.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="754d8e8b2ba72ec23dcd82451e0fa37e" name="images/hitchcock.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="ee9d916adfe36de2eb5393198ae0f25a" name="images/holt.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="b059da7157880ca598d1d21349694bbd" name="images/hooker.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="16fa50a48c1193eaa396c2408034f23f" name="images/howard.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="2e90eea4de6b35fd7c5c46ad46c44d55" name="images/jefferson.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="cd60d73899b6dbed622ab83f11470256" name="images/johnson.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="e2406174be401cd44e9fc667a28f11f9" name="images/kearney.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="a27413b5cdfdb84b11db35cc0c19211e" name="images/keith.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="1e7fe37d477b982685a47fc767274713" name="images/keyapaha.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="dc436f54113a80ed8af51efde96fecb3" name="images/kimball.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="db5c2aec6901514f99534b8d9f1a4071" name="images/knox.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="797acce30ae76101d9b10455d98e577c" name="images/lancaster.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="cdb7c779eea006443c8a6c0d46c38e4e" name="images/lincoln.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="bd3152d6257b00bd389c651fc2911092" name="images/logan.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="2166ace993117bdf48c954aece471946" name="images/loup.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="c2e5d64f1b4a138c32f33c5cd087132f" name="images/madison.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="7f3c35cf37093bb03295ad8085d8305d" name="images/mcpherson.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="f6ddca2d7fb73068547832798542c84d" name="images/merrick.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="ff50551a5f3a281b1a9b69ba64fabf93" name="images/morrill.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="a65f916260d026d4c139fa5e94a8f9cc" name="images/nance.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="0f99126d9216d81835e5e57fce7fe095" name="images/nemaha.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="2652934172903c2f8805cb02228e919e" name="images/nuckolls.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="a052eced5b16ebd371398ea70d60e266" name="images/otoe.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="f37eea35e599098df3ee9c9bee600495" name="images/pawnee.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="03b90e60b42890773d96a11c424c9ebd" name="images/perkins.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="53d017555edabb6a18db30fd0ddd1e4d" name="images/phelps.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="f043a574c954cc4331f6fa467eeb0e49" name="images/pierce.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="1b61840c2efa90af9b391043266d3691" name="images/platte.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="2f420b4a58a2b8b389d48e596e9bce4e" name="images/polk.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="0298366f7f48fbde6c9e690febc8b73e" name="images/redwillow.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="80b93edfbd3bae4f356569ecdb66f953" name="images/richardson.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="6afac8a4aae6938cd45179ffe90fad52" name="images/rock.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="d548459c61c1e7287dee8b0483b35ebd" name="images/saline.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="368c9a33ce4ea9eff98922599572395c" name="images/sarpy.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="4bf36a2974068828e2826a7c3b6c4b22" name="images/saunders.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="cf5f89b91ed8af193ab1cee3116ed5a7" name="images/scottsbluff.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="9bf5cf910dfea6cedbc97b9c2fefc705" name="images/seward.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="e7c87ec373c70fb0d52f548e17f6dc25" name="images/sheridan.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="3e3fbff598c233429783b728c1febd20" name="images/sherman.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="a528fa3b8254337f312d370004f451b8" name="images/sioux.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="cec67ec7144e7ea40bf083cfe6ff5ddf" name="images/stanton.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="c86d23dd2c10743b6a31316ad95f2558" name="images/thayer.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="4be089c837ef421fa49061ab714824da" name="images/thomas.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="f7cf0b1cfe6fd5b4cd9e6718b11cbc3c" name="images/thurston.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="e2550afcc701d222eb665dc428d4f2fb" name="images/valley.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="817270f96f18c0a2f31e2458e5f98852" name="images/washington.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="1501193df790e96242b468e94e379d4f" name="images/wayne.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="56424318536db3fe58d86fe729df8a96" name="images/webster.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="8d75df022a28a62ea168f8f7bd832927" name="images/wheeler.gif" role="data" />
+   <file baseinstalldir="UNL/Geography" md5sum="cf2374c3bdc092a60d20986372608603" name="images/york.gif" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-04-10</date>
+   <license uri="http://www.fsf.org/copyleft/lgpl.html">LGPL</license>
+   <notes>Initial PEAR package release.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.0.2</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-04-10</date>
+   <license uri="http://www.fsf.org/copyleft/lgpl.html">LGPL</license>
+   <notes>Fixed package.xml notes</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-09-20</date>
+   <license uri="http://www.fsf.org/copyleft/lgpl.html">LGPL</license>
+   <notes>Fix quotes in dawson county image map.  Bump to beta.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-09-20</date>
+   <license uri="http://www.fsf.org/copyleft/lgpl.html">LGPL</license>
+   <notes>Fix install paths and class names.</notes>
+  </release>
+ </changelog>
+</package>
