@@ -1,7 +1,7 @@
-ul.package-info {
+#maincontent ul.package-info {
     list-style-type: none;
 }
-ol.instructions {
+#maincontent ol.instructions {
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
     border-radius:10px;
@@ -12,13 +12,13 @@ ol.instructions {
     line-height:2em;
     font-family:"andale mono", monaco, "courier new", courier;
 }
-.releases {
+#maincontent .releases {
     position: absolute;
     float: right;
     background-color: #00BB00;
     color: #FFF;
 }
-.releases h3 {
+#maincontent .releases h3 {
     font-family: Georgia,Palatino,"Times New Roman",Times,serif;
     font-size: 150%;
     background-color: #006500;
@@ -26,26 +26,26 @@ ol.instructions {
     padding-left: 10px;
     margin-bottom: 5px;
 }
-.releases ul, .releases li {
+#maincontent .releases ul, #maincontent .releases li {
     list-style-image: none;
     list-style-position: outside;
     list-style-type: none;
     margin-left: 2px;
 }
-.releases ul, .release-notes {
+#maincontent .releases ul, #maincontent .release-notes {
     padding-left: 10px;
 }
-.releases li, .release-notes {
+#maincontent .releases li, #maincontent .release-notes {
     padding-bottom: 5px;
 }
-.releases li a {
+#maincontent .releases li a {
     color: #000;
 }
-.releases .download {
+#maincontent .releases .download {
     float: right;
     margin-right: 5px;
 }
-ol.instructions a,
-ol.instructions a:link {
+#maincontent ol.instructions a,
+#maincontent ol.instructions a:link {
     color:#FFF;
 }
