@@ -18,8 +18,8 @@
 <link rel="stylesheet" type="text/css" media="screen" href="/wdn/templates_3.0/css/all.css" />
 <link rel="stylesheet" type="text/css" media="print" href="/wdn/templates_3.0/css/print.css" />
 <script type="text/javascript" src="/wdn/templates_3.0/scripts/all.js"></script>
-<?php virtual('/wdn/templates_3.0/includes/browserspecifics.html'); ?>
-<?php virtual('/wdn/templates_3.0/includes/metanfavico.html'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/browserspecifics.html'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/metanfavico.html'; ?>
 <!-- InstanceBeginEditable name="doctitle" -->
 <title><?php echo $context->page_title; ?></title>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
@@ -33,7 +33,7 @@
 <div id="wdn_wrapper">
     <div id="header"> <a href="http://www.unl.edu/" title="UNL website"><img src="/wdn/templates_3.0/images/logo.png" alt="UNL graphic identifier" id="logo" /></a>
         <h1>University of Nebraska&ndash;Lincoln</h1>
-        <?php virtual('/wdn/templates_3.0/includes/wdnTools.html'); ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/wdnTools.html'; ?>
     </div>
     <div id="wdn_navigation_bar">
         <div id="breadcrumbs">
@@ -66,13 +66,13 @@
             <?php echo $savant->render($context->page_content); ?>
             <!-- InstanceEndEditable -->
             <div class="clear"></div>
-            <?php virtual('/wdn/templates_3.0/includes/noscript.html'); ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/noscript.html'; ?>
             <!--THIS IS THE END OF THE MAIN CONTENT AREA.-->
         </div>
         <div id="footer">
             <div id="footer_floater"></div>
             <div class="footer_col">
-                <?php virtual('/wdn/templates_3.0/includes/feedback.html'); ?>
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/feedback.html'; ?>
             </div>
             <div class="footer_col"><!-- InstanceBeginEditable name="leftcollinks" -->
                 <h3>Related Links</h3>
@@ -92,13 +92,13 @@
                 </p>
                 <!-- InstanceEndEditable --></div>
             <div class="footer_col">
-                <?php virtual('/wdn/templates_3.0/includes/socialmediashare.html'); ?>
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/socialmediashare.html'; ?>
             </div>
             <!-- InstanceBeginEditable name="optionalfooter" --> <!-- InstanceEndEditable -->
             <div id="wdn_copyright"><!-- InstanceBeginEditable name="footercontent" -->
                 &copy; 2010 University of Nebraska-Lincoln | Lincoln, NE 68588 | 402-472-7211 | <a href="http://www1.unl.edu/comments/" title="Click here to direct your comments and questions">comments?</a>
                 <!-- InstanceEndEditable -->
-                <?php virtual('/wdn/templates_3.0/includes/wdn.html'); ?>
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/wdn.html'; ?>
                 | <a href="http://validator.unl.edu/check/referer">W3C</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS</a> <a href="http://www.unl.edu/" title="UNL Home" id="wdn_unl_wordmark"><img src="/wdn/templates_3.0/css/footer/images/wordmark.png" alt="UNL's wordmark" /></a> </div>
         </div>
     </div>
