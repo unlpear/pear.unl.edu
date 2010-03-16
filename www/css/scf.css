@@ -13,15 +13,21 @@
     font-family:"andale mono", monaco, "courier new", courier;
 }
 #maincontent .releases {
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
     position: absolute;
     float: right;
-    background-color: #00BB00;
+    background-color: #BBB;
     color: #FFF;
 }
 #maincontent .releases h3 {
+    -moz-border-radius:10px 10px 0 0;
+    -webkit-border-radius:10px 10px 0 0;
+    border-radius:10px 10px 0 0;
     font-family: Georgia,Palatino,"Times New Roman",Times,serif;
     font-size: 150%;
-    background-color: #006500;
+    background-color:rgba(0, 0, 0, 0.8);
     color: #FFF;
     padding-left: 10px;
     margin-bottom: 5px;
