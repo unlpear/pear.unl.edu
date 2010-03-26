@@ -8,7 +8,7 @@
  <m>saltybeagle</m>
  <s>The UNL HTML Templates as a PEAR Package.</s>
  <d>This package allows you to render UNL Template styled pages using PHP Objects.</d>
- <da>2010-03-26 14:40:21</da>
+ <da>2010-03-26 15:30:46</da>
  <n>
 Feature Release!
 Added support for specifying the template version, 2 or 3.
@@ -49,7 +49,7 @@ Other fixes:
 
 Add example of a custom class with auto-breadcrumb generation and body content loading.
  </n>
- <f>19004</f>
+ <f>19003</f>
  <g>http://pear.unl.edu/get/UNL_Templates-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>
