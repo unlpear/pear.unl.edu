@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <m xmlns="http://pear.php.net/dtd/rest.allmaintainers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.allmaintainers http://pear.php.net/dtd/rest.allmaintainers.xsd">
- <h xlink:href="Chiara_PEAR_Server_REST/m/nhummel2">nhummel2</h>
- <h xlink:href="Chiara_PEAR_Server_REST/m/saltybeagle">saltybeagle</h>
- <h xlink:href="Chiara_PEAR_Server_REST/m/axelsena">axelsena</h>
  <h xlink:href="Chiara_PEAR_Server_REST/m/alvinwoon">alvinwoon</h>
- <h xlink:href="Chiara_PEAR_Server_REST/m/paubry">paubry</h>
+ <h xlink:href="Chiara_PEAR_Server_REST/m/axelsena">axelsena</h>
  <h xlink:href="Chiara_PEAR_Server_REST/m/bchavet">bchavet</h>
  <h xlink:href="Chiara_PEAR_Server_REST/m/bsteere">bsteere</h>
+ <h xlink:href="Chiara_PEAR_Server_REST/m/nhummel2">nhummel2</h>
+ <h xlink:href="Chiara_PEAR_Server_REST/m/paubry">paubry</h>
+ <h xlink:href="Chiara_PEAR_Server_REST/m/saltybeagle">saltybeagle</h>
 </m>

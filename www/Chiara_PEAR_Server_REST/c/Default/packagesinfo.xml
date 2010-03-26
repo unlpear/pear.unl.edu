@@ -57,6 +57,10 @@
   </p>
   <a>
    <r>
+    <v>1.0.0</v>
+    <s>stable</s>
+   </r>
+   <r>
     <v>1.0.0RC9</v>
     <s>beta</s>
    </r>
@@ -110,8 +114,8 @@
    </r>
   </a>
   <deps>
-   <v>0.1.0</v>
-   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;4.2.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:8:&quot;1.4.0a12&quot;;}}}</d>
+   <v>1.0.0RC9</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:2:{i:0;a:3:{s:4:&quot;name&quot;;s:10:&quot;Cache_Lite&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:7:&quot;UNL_DWT&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.7.1&quot;;}}}}</d>
   </deps>
  </pi>
  <pi>
@@ -143,8 +147,8 @@
    </r>
   </a>
   <deps>
-   <v>0.2.0</v>
-   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
+   <v>0.4.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.1.6&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.5.4&quot;;}}}</d>
   </deps>
  </pi>
  <pi>
@@ -234,8 +238,8 @@
    </r>
   </a>
   <deps>
-   <v>0.2.5</v>
-   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:5:{i:0;a:3:{s:4:&quot;name&quot;;s:10:&quot;Cache_Lite&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:13:&quot;DB_DataObject&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;0.8&quot;;}i:2;a:3:{s:4:&quot;name&quot;;s:7:&quot;Savant3&quot;;s:7:&quot;channel&quot;;s:20:&quot;savant.pearified.com&quot;;s:3:&quot;min&quot;;s:5:&quot;3.0.0&quot;;}i:3;a:3:{s:4:&quot;name&quot;;s:7:&quot;NET_URL&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:4;a:3:{s:4:&quot;name&quot;;s:11:&quot;MDB2_Schema&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.0&quot;;}}}}</d>
+   <v>0.8.1</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.5.4&quot;;}s:7:&quot;package&quot;;a:7:{i:0;a:3:{s:4:&quot;name&quot;;s:10:&quot;Cache_Lite&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:13:&quot;DB_DataObject&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;0.8&quot;;}i:2;a:3:{s:4:&quot;name&quot;;s:7:&quot;Savant3&quot;;s:7:&quot;channel&quot;;s:13:&quot;phpsavant.com&quot;;s:3:&quot;min&quot;;s:5:&quot;3.0.0&quot;;}i:3;a:3:{s:4:&quot;name&quot;;s:7:&quot;NET_URL&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:4;a:3:{s:4:&quot;name&quot;;s:4:&quot;MDB2&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:7:&quot;2.5.0b1&quot;;}i:5;a:3:{s:4:&quot;name&quot;;s:18:&quot;MDB2_Driver_mysqli&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:7:&quot;1.5.0b1&quot;;}i:6;a:3:{s:4:&quot;name&quot;;s:11:&quot;MDB2_Schema&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.0&quot;;}}}}</d>
   </deps>
  </pi>
  <pi>
@@ -351,8 +355,8 @@ has only been tested against UNL's Lotus Notes directory</d>
    </r>
   </a>
   <deps>
-   <v>0.2.5</v>
-   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:2:{i:0;a:3:{s:4:&quot;name&quot;;s:9:&quot;UNL_UCBCN&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.2.5&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:8:&quot;Calendar&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.3&quot;;}}}}</d>
+   <v>0.8.1</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.1.2&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.5.4&quot;;}s:7:&quot;package&quot;;a:2:{i:0;a:3:{s:4:&quot;name&quot;;s:9:&quot;UNL_UCBCN&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.8.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:8:&quot;Calendar&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;0.5.3&quot;;}}}}</d>
   </deps>
  </pi>
  <pi>
@@ -385,7 +389,7 @@ Authentication Service.</d>
    </r>
   </a>
   <deps>
-   <v>0.6.0RC6</v>
+   <v>1.0.1</v>
    <d>a:1:{s:8:&quot;required&quot;;a:4:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:2:&quot;DB&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:5:&quot;1.4.0&quot;;}s:9:&quot;extension&quot;;a:4:{i:0;a:1:{s:4:&quot;name&quot;;s:4:&quot;curl&quot;;}i:1;a:1:{s:4:&quot;name&quot;;s:7:&quot;openssl&quot;;}i:2;a:1:{s:4:&quot;name&quot;;s:3:&quot;dom&quot;;}i:3;a:1:{s:4:&quot;name&quot;;s:4:&quot;zlib&quot;;}}}}</d>
   </deps>
  </pi>
@@ -458,8 +462,8 @@ Authentication Service.</d>
    </r>
   </a>
   <deps>
-   <v>0.2.2</v>
-   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:10:&quot;UNL_Common&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.1.1&quot;;}}}</d>
+   <v>0.3.7</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:10:&quot;UNL_Common&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.3.0&quot;;}}}</d>
   </deps>
  </pi>
  <pi>
@@ -544,8 +548,8 @@ Authentication Service.</d>
    </r>
   </a>
   <deps>
-   <v>0.1.2</v>
-   <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;4.2.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
+   <v>0.7.1</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:4:{s:4:&quot;name&quot;;s:13:&quot;UNL_Templates&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;max&quot;;s:5:&quot;0.5.2&quot;;s:9:&quot;conflicts&quot;;s:0:&quot;&quot;;}}}</d>
   </deps>
  </pi>
  <pi>
@@ -692,7 +696,7 @@ Modified by Brett Bieber &lt;brett.bieber@gmail.com&gt; - University of Nebraska
    </r>
   </a>
   <deps>
-   <v>0.2.1</v>
+   <v>0.3.0</v>
    <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
   </deps>
  </pi>
@@ -843,8 +847,8 @@ applications developed at UNL.</d>
    </r>
   </a>
   <deps>
-   <v>0.2.0</v>
-   <d>a:2:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}s:8:&quot;optional&quot;;a:1:{s:7:&quot;package&quot;;a:2:{i:0;a:3:{s:4:&quot;name&quot;;s:4:&quot;Auth&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:3:&quot;CAS&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;1.0.0&quot;;}}}}</d>
+   <v>0.4.0</v>
+   <d>a:2:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.2.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}s:8:&quot;optional&quot;;a:1:{s:7:&quot;package&quot;;a:3:{i:0;a:3:{s:4:&quot;name&quot;;s:4:&quot;Auth&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;1.0&quot;;}i:1;a:3:{s:4:&quot;name&quot;;s:3:&quot;CAS&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;1.0.0&quot;;}i:2;a:3:{s:4:&quot;name&quot;;s:9:&quot;SimpleCAS&quot;;s:7:&quot;channel&quot;;s:28:&quot;simplecas.googlecode.com/svn&quot;;s:3:&quot;min&quot;;s:5:&quot;0.3.0&quot;;}}}}</d>
   </deps>
  </pi>
  <pi>
@@ -888,7 +892,7 @@ applications developed at UNL.</d>
    </r>
   </a>
   <deps>
-   <v>0.2.1</v>
+   <v>0.3.2</v>
    <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:13:&quot;DB_DataObject&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.php.net&quot;;s:3:&quot;min&quot;;s:3:&quot;0.8&quot;;}}}</d>
   </deps>
  </pi>
@@ -1026,7 +1030,7 @@ applications developed at UNL.</d>
    </r>
   </a>
   <deps>
-   <v>0.2.1</v>
+   <v>0.4.2</v>
    <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}}}</d>
   </deps>
  </pi>
