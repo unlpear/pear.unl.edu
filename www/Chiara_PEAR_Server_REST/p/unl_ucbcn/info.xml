@@ -6,7 +6,7 @@
  <l>BSD License</l>
  <s>This package provides the database interactions for a UC Berkeley Calendar system.</s>
  <d>This package creates and upgrades a relational database used to store event publishing details
-					formatted using the University of California Berkeley Calendar Network schema. The backend provides
-					basic functions for an event management frontend, as well as a public frontend.</d>
+                    formatted using the University of California Berkeley Calendar Network schema. The backend provides
+                    basic functions for an event management frontend, as well as a public frontend.</d>
  <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
 </p>
