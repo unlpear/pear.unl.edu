@@ -29,8 +29,8 @@ a fully customized PEAR channel.
   <email>saltybeagle@php.net</email>
   <active>yes</active>
  </lead>
- <date>2010-03-15</date>
- <time>13:32:41</time>
+ <date>2010-03-29</date>
+ <time>16:13:58</time>
  <version>
   <release>0.1.0</release>
   <api>0.1.0</api>
@@ -53,6 +53,7 @@ Package PEAR2_SimpleChannelFrontend API release notes for version 0.1.0.</notes>
   <dir name="/">
    <file role="www" name="www/templates/UnregisteredViewException.tpl.php" md5sum="ce94b621b6ecc51f886fdd7e37043d58"/>
    <file role="www" name="www/templates/Support.tpl.php" md5sum="92916df479a9811d21ff9bc61c5e2f7b"/>
+   <file role="www" name="www/templates/Search.tpl.php" md5sum="4c23ffe90f577603cda3287c2fbdbc8b"/>
    <file role="www" name="www/templates/PackageRelease.tpl.php" md5sum="b0fe69c89b47f0eb765a29166b148940"/>
    <file role="www" name="www/templates/PackageList.tpl.php" md5sum="3ba22d6f300d87abfa77e303beaafb3b"/>
    <file role="www" name="www/templates/Package.tpl.php" md5sum="e76141cc934121b9a417feb59cad0cc7"/>
@@ -60,7 +61,7 @@ Package PEAR2_SimpleChannelFrontend API release notes for version 0.1.0.</notes>
    <file role="www" name="www/templates/Main.tpl.php" md5sum="54518d0e35a1dff0bb25b8be2b636a7d"/>
    <file role="www" name="www/templates/InstallInstructions.tpl.php" md5sum="f218e28f17780e8ca341b9ffdeca0f5d"/>
    <file role="www" name="www/templates/Categories.tpl.php" md5sum="0da0f80d409341327cd02390ca1ed053"/>
-   <file role="www" name="www/sample.htaccess" md5sum="255cbbd852485b41a9c2861d2c58a055"/>
+   <file role="www" name="www/sample.htaccess" md5sum="4a02e03c71ce3b4e119c8e8665f1fbda"/>
    <file role="www" name="www/index.php" md5sum="0c75c76f4779b8243954d74ed506ea04"/>
    <file role="www" name="www/css/text.css" md5sum="9ab4811156ff06dca5600d6761c922b3"/>
    <file role="www" name="www/css/scf.css" md5sum="8e577ba61d4c1d33c4c25b7394fcd8b9"/>
@@ -72,11 +73,12 @@ Package PEAR2_SimpleChannelFrontend API release notes for version 0.1.0.</notes>
    <file role="php" name="src/SimpleChannelFrontend/UnregisteredViewException.php" md5sum="6ae13b1be47a1729f3556f21a8fe3465"/>
    <file role="php" name="src/SimpleChannelFrontend/TemplateMapper.php" md5sum="b340a1d13d43d93cc4516650491fdf76"/>
    <file role="php" name="src/SimpleChannelFrontend/Support.php" md5sum="9ccf543329bc57421ffdb311b7192b33"/>
+   <file role="php" name="src/SimpleChannelFrontend/Search.php" md5sum="1b3a0abf2d7309b2244a00af41f7ca9c"/>
    <file role="php" name="src/SimpleChannelFrontend/PackageRelease.php" md5sum="f035adfcf21aa106685609f10cbb6771"/>
    <file role="php" name="src/SimpleChannelFrontend/PackageList.php" md5sum="b0b0328de5098de988be4c726273b581"/>
-   <file role="php" name="src/SimpleChannelFrontend/Package.php" md5sum="da07aa9c8d6027a3731f85bfc7eae8d6"/>
+   <file role="php" name="src/SimpleChannelFrontend/Package.php" md5sum="efe4617e685cffd9c15251663fa8dd07"/>
    <file role="php" name="src/SimpleChannelFrontend/News.php" md5sum="9c421b1f1f701b9f32693f165833b89e"/>
-   <file role="php" name="src/SimpleChannelFrontend/Main.php" md5sum="f857b9f25e5c3c863aadea3043c3cc50"/>
+   <file role="php" name="src/SimpleChannelFrontend/Main.php" md5sum="ce907fbee8af7eb1504f880717da3dfc"/>
    <file role="php" name="src/SimpleChannelFrontend/Internet.php" md5sum="dd89ab54511a093266566948b58adb98"/>
    <file role="php" name="src/SimpleChannelFrontend/Exception.php" md5sum="8c24f7b571816b959784d3f10c23244f"/>
    <file role="php" name="src/SimpleChannelFrontend/Categories.php" md5sum="94292b232c1611b5c0a93a7d02fbf1e9"/>
