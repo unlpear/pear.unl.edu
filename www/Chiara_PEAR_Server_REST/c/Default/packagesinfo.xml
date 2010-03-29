@@ -159,8 +159,8 @@
    <l>BSD License</l>
    <s>This package provides the database interactions for a UC Berkeley Calendar system.</s>
    <d>This package creates and upgrades a relational database used to store event publishing details
-					formatted using the University of California Berkeley Calendar Network schema. The backend provides
-					basic functions for an event management frontend, as well as a public frontend.</d>
+                    formatted using the University of California Berkeley Calendar Network schema. The backend provides
+                    basic functions for an event management frontend, as well as a public frontend.</d>
    <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
   </p>
   <a>
@@ -273,11 +273,11 @@ has only been tested against UNL's Lotus Notes directory</d>
    <n>UNL_UCBCN_Frontend</n>
    <c>pear.unl.edu</c>
    <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
-   <l>PHP License</l>
+   <l>BSD License</l>
    <s>A public frontend for a University Event Publishing system.</s>
    <d>This class extends the UNL UCBCN backend system to create
-			a client frontend. It allows users to view the calendar in a list view, thirty
-			day view.</d>
+            a client frontend. It allows users to view the calendar in a list view, thirty
+            day view.</d>
    <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
   </p>
   <a>
@@ -398,7 +398,7 @@ Authentication Service.</d>
    <n>UNL_Geography_SpatialData_Campus</n>
    <c>pear.unl.edu</c>
    <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
-   <l>PHP License</l>
+   <l>BSD License</l>
    <s>This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</s>
    <d>Spatial Data for buildings on the UNL Campus</d>
    <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
@@ -504,7 +504,7 @@ Authentication Service.</d>
    <n>UNL_DWT</n>
    <c>pear.unl.edu</c>
    <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
-   <l>PHP License</l>
+   <l>BSD</l>
    <s>This package generates php class files (objects) from Dreamweaver template files.</s>
    <d>This package generates php class files (objects) from Dreamweaver template files.</d>
    <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
