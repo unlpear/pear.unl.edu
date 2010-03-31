@@ -24,6 +24,7 @@
 <title><?php echo $context->page_title; ?></title>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
 <link rel="events" href="http://events.unl.edu/wdn/" title="Web Developer Network" />
+<link rel="alternate" href="<?php echo pear2\SimpleChannelFrontend\Main::getURL(); ?>?view=latest&amp;format=rss" title="Latest Releases" type="application/atom+xml" />
 <!-- Place optional header elements here -->
 <link rel="stylesheet" href="<?php echo pear2\SimpleChannelFrontend\Main::getURL(); ?>css/all.css" />
 <!-- InstanceEndEditable -->
