@@ -14,7 +14,7 @@ $parent->context->page_title = $context->name.' | '.pear2\SimpleChannelFrontend\
         </p>
         <?php
         if (file_exists(dirname(__FILE__)).'/../docs/'.$context->name) : ?>
-        <h4><a href="<?php echo pear2\SimpleChannelFrontend\Main::getURL(); ?>docs/<?php $context->name; ?>/">API Documentation</a></h4>
+        <h4><a href="<?php echo pear2\SimpleChannelFrontend\Main::getURL(); ?>docs/<?php echo $context->name; ?>/">API Documentation</a></h4>
         <?php
         endif;
         ?>
