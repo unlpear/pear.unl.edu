@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_common">UNL_Common</p>
+ <c>pear.unl.edu</c>
+ <v>0.5.0</v>
+ <a>0.5.0</a>
+ <mp>5.2.0</mp>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>Common elements for the University of Nebraska-Lincoln
+</s>
+ <d>
+This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</d>
+ <da>2010-06-15 10:28:02</da>
+ <n>Change database usage to PDO::SQlite
+Package source refactoring.
+Use Pyrus to package.
+
+Package UNL_Common API release notes for version 0.1.0.</n>
+ <f>25367</f>
+ <g>http://pear.unl.edu/get/UNL_Common-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>
