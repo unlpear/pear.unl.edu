@@ -6,20 +6,20 @@
  <st>alpha</st>
  <l>BSD</l>
  <m>saltybeagle</m>
- <s>Common elements for the University of Nebraska-Lincoln</s>
- <d>This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</d>
- <da>2010-07-27 15:12:00</da>
- <n>
-Buildings Added:
+ <s>Common elements for the University of Nebraska-Lincoln
+</s>
+ <d>
+This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</d>
+ <da>2010-07-27 17:06:32</da>
+ <n>Buildings Added:
 
 - Jackie Gaughan Multicultural Center
 - Physical Sciences Building
 - Robert E. Knoll Residential Center
 
 
-Package UNL_Common API release notes for version 0.1.0.
- </n>
- <f>24472</f>
+Package UNL_Common API release notes for version 0.1.0.</n>
+ <f>28982</f>
  <g>http://pear.unl.edu/get/UNL_Common-0.5.1</g>
  <x xlink:href="package.0.5.1.xml"/>
 </r>

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.1" version="2.1" xmlns="http://pear.php.net/dtd/package-2.1" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.1     http://pear.php.net/dtd/package-2.1.xsd">
+<package xmlns="http://pear.php.net/dtd/package-2.1" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.1     http://pear.php.net/dtd/package-2.1.xsd" packagerversion="2.0.0">
  <name>UNL_Common</name>
  <channel>pear.unl.edu</channel>
- <summary>Common elements for the University of Nebraska-Lincoln</summary>
- <description>This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</description>
+ <summary>Common elements for the University of Nebraska-Lincoln
+</summary>
+ <description>
+This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</description>
  <lead>
   <name>Brett Bieber</name>
   <user>saltybeagle</user>
@@ -11,7 +13,7 @@
   <active>yes</active>
  </lead>
  <date>2010-07-27</date>
- <time>15:12:00</time>
+ <time>17:06:32</time>
  <version>
   <release>0.5.1</release>
   <api>0.5.0</api>
@@ -21,33 +23,31 @@
   <api>alpha</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
- <notes>
-Buildings Added:
+ <notes>Buildings Added:
 
 - Jackie Gaughan Multicultural Center
 - Physical Sciences Building
 - Robert E. Knoll Residential Center
 
 
-Package UNL_Common API release notes for version 0.1.0.
- </notes>
+Package UNL_Common API release notes for version 0.1.0.</notes>
  <contents>
   <dir name="/">
-   <file baseinstalldir="/" md5sum="7dcc19ad9763810a4ba32702e15d020e" name="data/all_buildings.csv" role="data" />
-   <file baseinstalldir="/" md5sum="089e47083be9ce07b3ab625a4500258a" name="data/building_addresses.csv" role="data" />
-   <file baseinstalldir="/" md5sum="80fc911c504fc3099cfaa7c076f597ff" name="data/building_city.csv" role="data" />
-   <file baseinstalldir="/" md5sum="8e9a993d9ec346a1f5b37de5196b0dde" name="data/building_east.csv" role="data" />
-   <file baseinstalldir="/" md5sum="f75a0149096ef29e0f085f55bb28a155" name="data/unl_common.sqlite" role="data" />
-   <file md5sum="c11d2a9907842f30ff70a53caec0a419" name="examples/Building.php" role="doc" />
-   <file baseinstalldir="/" md5sum="1b2d0c1c54d8549c6f8a9261e86d11a1" name="src/UNL/Common/Building/City.php" role="php" />
-   <file baseinstalldir="/" md5sum="3a98eb390b792a59bcf1807695ae22a1" name="src/UNL/Common/Building/East.php" role="php" />
-   <file baseinstalldir="/" md5sum="dac29813bbb49a5f4b3c22187fa6d7da" name="src/UNL/Common/Building.php" role="php" />
-   <file baseinstalldir="/" md5sum="688b82e026b903072aa60a7558f2c7ea" name="src/UNL/Common/Colleges.php" role="php" />
-   <file baseinstalldir="/" md5sum="80ef9a9f27a8a7ae10b8231ce1db7fa5" name="src/UNL/Common.php" role="php" />
-   <file baseinstalldir="/" md5sum="4f62c3b0f6b9f5e3f6b5a80204ec6d43" name="tests/UNL_Common_BuildingTest.php" role="test" />
-   <file baseinstalldir="/" md5sum="e26b83d47fa963bc32740ccc6f4c2c86" name="tests/UNL_Common_Building_CityTest.php" role="test" />
-   <file baseinstalldir="/" md5sum="4cd3e5f75da295500ceaaff84b27de43" name="tests/UNL_Common_Building_EastTest.php" role="test" />
-   <file baseinstalldir="/" md5sum="64c302cff537da936dd7b296cdfd914e" name="tests/UNL_Common_CollegesTest.php" role="test" />
+   <file role="test" name="test/UNL_Common/pear.unl.edu/UNL_Common_CollegesTest.php"/>
+   <file role="test" name="test/UNL_Common/pear.unl.edu/UNL_Common_Building_EastTest.php"/>
+   <file role="test" name="test/UNL_Common/pear.unl.edu/UNL_Common_Building_CityTest.php"/>
+   <file role="test" name="test/UNL_Common/pear.unl.edu/UNL_Common_BuildingTest.php"/>
+   <file role="php" name="php/UNL/Common/Colleges.php"/>
+   <file role="php" name="php/UNL/Common/Building/East.php"/>
+   <file role="php" name="php/UNL/Common/Building/City.php"/>
+   <file role="php" name="php/UNL/Common/Building.php"/>
+   <file role="php" name="php/UNL/Common.php"/>
+   <file role="doc" name="doc/UNL_Common/pear.unl.edu/examples/examples/Building.php"/>
+   <file role="data" name="data/UNL_Common/pear.unl.edu/unl_common.sqlite"/>
+   <file role="data" name="data/UNL_Common/pear.unl.edu/building_east.csv"/>
+   <file role="data" name="data/UNL_Common/pear.unl.edu/building_city.csv"/>
+   <file role="data" name="data/UNL_Common/pear.unl.edu/building_addresses.csv"/>
+   <file role="data" name="data/UNL_Common/pear.unl.edu/all_buildings.csv"/>
   </dir>
  </contents>
  <dependencies>
@@ -56,11 +56,11 @@ Package UNL_Common API release notes for version 0.1.0.
     <min>5.2.0</min>
    </php>
    <pearinstaller>
-    <min>1.4.0</min>
+    <min>2.0.0a1</min>
    </pearinstaller>
   </required>
  </dependencies>
- <phprelease />
+ <phprelease/>
  <changelog>
   <release>
    <version>
@@ -73,9 +73,7 @@ Package UNL_Common API release notes for version 0.1.0.
    </stability>
    <date>2005-09-27</date>
    <license uri="http://www.php.net/license">PHP License</license>
-   <notes>
-First attempt at a release
-   </notes>
+   <notes>First attempt at a release</notes>
   </release>
   <release>
    <version>
@@ -88,9 +86,7 @@ First attempt at a release
    </stability>
    <date>2005-10-26</date>
    <license uri="http://www.php.net/license">PHP License</license>
-   <notes>
-Changed loading of building names to pull from database to allow for easier additions/removals.
-   </notes>
+   <notes>Changed loading of building names to pull from database to allow for easier additions/removals.</notes>
   </release>
   <release>
    <version>
@@ -103,10 +99,8 @@ Changed loading of building names to pull from database to allow for easier addi
    </stability>
    <date>2006-03-27</date>
    <license uri="http://www.php.net/license">PHP License</license>
-   <notes>
-Domain name of database server has changed from biznas to crusader.
-Added Colleges to the common information.
-   </notes>
+   <notes>Domain name of database server has changed from biznas to crusader.
+Added Colleges to the common information.</notes>
   </release>
   <release>
    <version>
@@ -119,10 +113,8 @@ Added Colleges to the common information.
    </stability>
    <date>2007-04-11</date>
    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
-   <notes>
-Cast array keys for buildings as strings, and fix errors when merging arrays to preserve the building code as keys.
-Change College of Engineering &amp; Technology to just Engineering.
-   </notes>
+   <notes>Cast array keys for buildings as strings, and fix errors when merging arrays to preserve the building code as keys.
+Change College of Engineering &amp; Technology to just Engineering.</notes>
   </release>
   <release>
    <version>
@@ -135,11 +127,9 @@ Change College of Engineering &amp; Technology to just Engineering.
    </stability>
    <date>2007-04-18</date>
    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
-   <notes>
-Add functions for buildings:
+   <notes>Add functions for buildings:
 bool UNL_Common_Building::buildingExists(str $code)
-string UNL_Common_Building::getCampus(str $code)
-   </notes>
+string UNL_Common_Building::getCampus(str $code)</notes>
   </release>
   <release>
    <version>
@@ -152,9 +142,7 @@ string UNL_Common_Building::getCampus(str $code)
    </stability>
    <date>2008-01-24</date>
    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
-   <notes>
-Change require to require_once
-   </notes>
+   <notes>Change require to require_once</notes>
   </release>
   <release>
    <version>
@@ -167,9 +155,7 @@ Change require to require_once
    </stability>
    <date>2008-07-01</date>
    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
-   <notes>
-Switch to static sqlite databases.
-   </notes>
+   <notes>Switch to static sqlite databases.</notes>
   </release>
   <release>
    <version>
@@ -182,10 +168,8 @@ Switch to static sqlite databases.
    </stability>
    <date>2008-07-17</date>
    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
-   <notes>
-Replace all instances of UNL_Common:: with self:: so the class can be extended.
-PIND is now ENTO, replace all &amp;amp; with &amp;, make no assumptions about output format.
-   </notes>
+   <notes>Replace all instances of UNL_Common:: with self:: so the class can be extended.
+PIND is now ENTO, replace all &amp;amp; with &amp;, make no assumptions about output format.</notes>
   </release>
   <release>
    <version>
@@ -198,9 +182,7 @@ PIND is now ENTO, replace all &amp;amp; with &amp;, make no assumptions about ou
    </stability>
    <date>2008-07-22</date>
    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
-   <notes>
-Add three letter abbreviations for colleges, add General Studies, Graduate Studies, Nursing.
-   </notes>
+   <notes>Add three letter abbreviations for colleges, add General Studies, Graduate Studies, Nursing.</notes>
   </release>
   <release>
    <version>
@@ -213,10 +195,8 @@ Add three letter abbreviations for colleges, add General Studies, Graduate Studi
    </stability>
    <date>2008-08-08</date>
    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
-   <notes>
-Building name changes and additions.
-900,940,QSC,SHEL
-   </notes>
+   <notes>Building name changes and additions.
+900,940,QSC,SHEL</notes>
   </release>
   <release>
    <version>
