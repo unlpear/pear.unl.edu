@@ -983,10 +983,8 @@ applications developed at UNL.</d>
    <c>pear.unl.edu</c>
    <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
    <l>BSD</l>
-   <s>Common elements for the University of Nebraska-Lincoln
-</s>
-   <d>
-This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</d>
+   <s>Common elements for the University of Nebraska-Lincoln</s>
+   <d>This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</d>
    <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
   </p>
   <a>
