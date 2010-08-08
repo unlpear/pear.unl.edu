@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_common">UNL_Common</p>
+ <c>pear.unl.edu</c>
+ <v>0.6.0</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>Common elements for the University of Nebraska-Lincoln
+</s>
+ <d>
+This package contains commonly used elements for the University of Nebraska-Lincoln: Buildings</d>
+ <da>2010-08-08 07:01:36</da>
+ <n>Major overhaul:
+
+* Building data is no longer bundled with the package
+* The new DataDriverInterface allows custom data sources
+* Upgrades no longer required to retrieve campus building data
+
+UNL_Common is now driver-based. The default driver for building data uses a
+JSON output from the campus tour.</n>
+ <f>15117</f>
+ <g>http://pear.unl.edu/get/UNL_Common-0.6.0</g>
+ <x xlink:href="package.0.6.0.xml"/>
+</r>
