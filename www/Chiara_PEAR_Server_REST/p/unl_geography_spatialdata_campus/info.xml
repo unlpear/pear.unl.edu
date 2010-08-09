@@ -4,7 +4,9 @@
  <c>pear.unl.edu</c>
  <ca xlink:href="Chiara_PEAR_Server_REST/c/Default" xmlns:xlink="Chiara_PEAR_Server_REST/c/Default">Default</ca>
  <l>BSD License</l>
- <s>This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</s>
- <d>Spatial Data for buildings on the UNL Campus</d>
+ <s>Spatial Data for buildings on the UNL Campus
+</s>
+ <d>
+This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</d>
  <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
 </p>

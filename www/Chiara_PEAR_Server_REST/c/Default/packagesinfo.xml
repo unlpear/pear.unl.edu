@@ -403,11 +403,17 @@ Authentication Service.</d>
    <c>pear.unl.edu</c>
    <ca xmlns:xlink="Chiara_PEAR_Server_REST/c/Default" xlink:href="Chiara_PEAR_Server_REST/c/Default">Default</ca>
    <l>BSD License</l>
-   <s>This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</s>
-   <d>Spatial Data for buildings on the UNL Campus</d>
+   <s>Spatial Data for buildings on the UNL Campus
+</s>
+   <d>
+This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</d>
    <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
   </p>
   <a>
+   <r>
+    <v>0.4.0</v>
+    <s>alpha</s>
+   </r>
    <r>
     <v>0.3.7</v>
     <s>beta</s>
@@ -466,7 +472,7 @@ Authentication Service.</d>
    </r>
   </a>
   <deps>
-   <v>0.3.7</v>
+   <v>0.4.0</v>
    <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.0.0&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.4.3&quot;;}s:7:&quot;package&quot;;a:3:{s:4:&quot;name&quot;;s:10:&quot;UNL_Common&quot;;s:7:&quot;channel&quot;;s:12:&quot;pear.unl.edu&quot;;s:3:&quot;min&quot;;s:5:&quot;0.3.0&quot;;}}}</d>
   </deps>
  </pi>
