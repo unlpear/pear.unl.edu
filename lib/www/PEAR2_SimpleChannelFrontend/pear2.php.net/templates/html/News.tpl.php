@@ -8,7 +8,7 @@ $parent->context->page_title = 'News | '.pear2\SimpleChannelFrontend\Main::$chan
     <p>Welcome to the next generation of PEAR channels.</p>
       <ol class="instructions">
             <li>Download the new PEAR installer:<br />
-                <code><a href="http://svn.php.net/viewvc/pear2/Pyrus/trunk/pyrus.phar?view=co">pyrus.phar</a></code></li>
+                <code><a href="http://pear2.php.net/pyrus.phar">pyrus.phar</a></code></li>
             <li>Discover this channel:<br />
                 <code>$&gt;php pyrus.phar channel-discover <?php echo pear2\SimpleChannelFrontend\Main::$channel->name; ?></code></li>
             <li>Install packages:<br />
