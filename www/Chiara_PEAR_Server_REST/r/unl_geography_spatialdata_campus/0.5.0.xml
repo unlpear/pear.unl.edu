@@ -10,14 +10,14 @@
 </s>
  <d>
 This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</d>
- <da>2011-04-20 10:41:48</da>
+ <da>2011-04-20 10:56:15</da>
  <n>Fixes and Additions:
 
  - Add data for all Selleck buildings and 19PG
  - Fix warning on row count for PDO data driver
 
 Add data driver interfaces</n>
- <f>26818</f>
+ <f>26823</f>
  <g>http://pear.unl.edu/get/UNL_Geography_SpatialData_Campus-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>
