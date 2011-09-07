@@ -24,9 +24,9 @@
 <title><?php echo $context->page_title; ?></title>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
 <link rel="events" href="http://events.unl.edu/wdn/" title="Web Developer Network" />
-<link rel="alternate" href="<?php echo pear2\SimpleChannelFrontend\Main::getURL(); ?>?view=latest&amp;format=rss" title="Latest Releases" type="application/atom+xml" />
+<link rel="alternate" href="<?php echo $frontend->getURL(); ?>?view=latest&amp;format=rss" title="Latest Releases" type="application/atom+xml" />
 <!-- Place optional header elements here -->
-<link rel="stylesheet" href="<?php echo pear2\SimpleChannelFrontend\Main::getURL(); ?>css/all.css" />
+<link rel="stylesheet" href="<?php echo $frontend->getURL(); ?>css/all.css" />
 <!-- InstanceEndEditable -->
 </head>
 <body class="fixed">
@@ -48,18 +48,18 @@
         <div id="wdn_navigation_wrapper">
             <div id="navigation"><!-- InstanceBeginEditable name="navlinks" -->
                 <ul class="navigation">
-                    <li><a href="<?php echo pear2\SimpleChannelFrontend\Main::getURL('pear2\SimpleChannelFrontend\News'); ?>">Home</a></li>
-                    <li><a href="<?php echo pear2\SimpleChannelFrontend\Main::getURL('pear2\SimpleChannelFrontend\PackageList'); ?>">Packages</a></li>
-                    <li><a href="<?php echo pear2\SimpleChannelFrontend\Main::getURL('pear2\SimpleChannelFrontend\Categories'); ?>">Categories</a></li>
-                    <li><a href="<?php echo pear2\SimpleChannelFrontend\Main::getURL(); ?>docs/">Documentation</a></li>
-                    <li><a href="<?php echo pear2\SimpleChannelFrontend\Main::getURL('pear2\SimpleChannelFrontend\Support'); ?>">Support</a></li>
+                    <li><a href="<?php echo $frontend->getURL('Pyrus\SimpleChannelFrontend\News'); ?>">Home</a></li>
+                    <li><a href="<?php echo $frontend->getURL('Pyrus\SimpleChannelFrontend\PackageList'); ?>">Packages</a></li>
+                    <li><a href="<?php echo $frontend->getURL('Pyrus\SimpleChannelFrontend\Categories'); ?>">Categories</a></li>
+                    <li><a href="<?php echo $frontend->getURL(); ?>docs/">Documentation</a></li>
+                    <li><a href="<?php echo $frontend->getURL('Pyrus\SimpleChannelFrontend\Support'); ?>">Support</a></li>
                 </ul>
                 <!-- InstanceEndEditable --></div>
         </div>
     </div>
     <div id="wdn_content_wrapper">
         <div id="titlegraphic"><!-- InstanceBeginEditable name="titlegraphic" -->
-            <h1><?php echo pear2\SimpleChannelFrontend\Main::$channel->summary; ?></h1>
+            <h1><?php echo $frontend->getChannel()->summary; ?></h1>
             <!-- InstanceEndEditable --></div>
         <div id="pagetitle"><!-- InstanceBeginEditable name="pagetitle" --> <!-- InstanceEndEditable --></div>
         <div id="maincontent">
