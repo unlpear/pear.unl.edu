@@ -1,38 +1,44 @@
 <?php
 if (file_exists('config.inc.php')) {
     require_once 'config.inc.php';
+} elseif (file_exists('channel.xml')) {
+    require_once 'config.sample.php';
+    $config = Pyrus\Config::singleton('/tmp');
+    $config->cache_dir = '/tmp';
+    $channel = new \Pyrus\ChannelFile('channel.xml');
 } else {
-    require 'config.sample.php';
+    echo 'You must place this file in your channel server, or provide a config.inc.php file.';
+    exit();
 }
 
-$options = $_GET;
-
-preg_match('/\/(?<package>[0-9a-z_]+)(-(?<version>[0-9ab.]+))?$/i',
-    $_SERVER['REQUEST_URI'], $matches);
-if (isset($matches['package'])) {
-    $options['view'] = 'package';
-    $options['package'] = $matches['package'];
-
-    if (isset($matches['version'])) {
-        $options['packageVersion'] = $matches['version'];
-        $options['view']           = 'release';
-    }
+if (!isset($url)) {
+    $url = 'http://'.$channel->name.'/';
 }
 
-$channel = new \pear2\Pyrus\ChannelFile(__DIR__ . '/channel.xml');
+// Set preferred state to devel, so pyrus can get info on all releases
+\Pyrus\Config::current()->preferred_state = 'devel';
 
-$frontend = new pear2\SimpleChannelFrontend\Main($channel, $options);
+$options = $_GET + \Pyrus\SimpleChannelFrontend\Router::getRoute($url, $_SERVER['REQUEST_URI']);
 
-$savant = new pear2\Templates\Savant\Main();
-$savant->setClassToTemplateMapper(new pear2\SimpleChannelFrontend\TemplateMapper);
-$savant->setTemplatePath(array(dirname(__DIR__).'/lib/www/PEAR2_SimpleChannelFrontend/pear2.php.net/templates/html', __DIR__ . '/templates'));
+$frontend = new Pyrus\SimpleChannelFrontend\Main($channel, $options);
+$frontend->setURLBase($url);
+
+$savant = new PEAR2\Templates\Savant\Turbo\Main();
+$savant->setClassToTemplateMapper(new Pyrus\SimpleChannelFrontend\TemplateMapper);
+$savant->setTemplatePath(array('/Users/bbieber/workspace/Pyrus_SimpleChannelFrontend/www/templates/html', __DIR__ . '/templates'));
+$savant->addGlobal('frontend', $frontend);
 
 switch($frontend->options['format']) {
-case 'rss':
-    $savant->addTemplatePath(dirname(__DIR__).'/lib/www/PEAR2_SimpleChannelFrontend/pear2.php.net/templates/'.$frontend->options['format']);
-    break;
+    case 'partial':
+        \Pyrus\SimpleChannelFrontend\TemplateMapper::$output_template['PEAR2\\SimpleChannelFrontend\\Main'] = 'Main-partial';
+        break;
+    case 'rss':
+        $savant->addTemplatePath(__DIR__.'/templates/'.$frontend->options['format']);
+        break;
 }
+
 
 $savant->setEscape('htmlspecialchars');
 $savant->addFilters(array($frontend, 'postRender'));
 echo $savant->render($frontend);
+
