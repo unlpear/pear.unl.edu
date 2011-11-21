@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <n>UNL_Services_CourseApproval</n>
+ <c>pear.unl.edu</c>
+ <ca xlink:href="Chiara_PEAR_Server_REST/c/Default" xmlns:xlink="Chiara_PEAR_Server_REST/c/Default">Default</ca>
+ <l>New BSD License</l>
+ <s>Client API for the curriculum request system at creq.unl.edu
+</s>
+ <d>
+This project provides a simple API for the course data within the creq system
+built by Tim Steiner.
+
+This project requires the UNL_Autoload package, and optionally Cache_Lite for
+caching data from the creq system.
+
+Currently data is cached on the local system in /tmp/cache_* files and stored
+for one week.
+
+See the docs/examples/ directory for examples.
+
+For information on the XML format, see the XSD -
+http://courseapproval.unl.edu/schema/courses.xsd</d>
+ <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+</p>

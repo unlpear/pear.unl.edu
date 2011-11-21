@@ -23,4 +23,5 @@
  <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Common">UNL_Common</p>
  <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_HTML_CSS_Sampler">UNL_HTML_CSS_Sampler</p>
  <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_WDN_Emailer">UNL_WDN_Emailer</p>
+ <p xlink:href="Chiara_PEAR_Server_REST/p/UNL_Services_CourseApproval">UNL_Services_CourseApproval</p>
 </l>
