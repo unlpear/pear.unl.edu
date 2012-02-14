@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_dwt">UNL_DWT</p>
+ <c>pear.unl.edu</c>
+ <v>0.7.2</v>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>saltybeagle</m>
+ <s>This package generates php class files (objects) from Dreamweaver template files.
+</s>
+ <d>
+This package generates php class files (objects) from Dreamweaver template files.
+</d>
+ <da>2012-02-14 16:39:59</da>
+ <n>Scanner fix - do not replace newlines with spaces in scanned content</n>
+ <f>10867</f>
+ <g>http://pear.unl.edu/get/UNL_DWT-0.7.2</g>
+ <x xlink:href="package.0.7.2.xml"/>
+</r>
