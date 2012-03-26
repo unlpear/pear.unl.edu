@@ -4,7 +4,10 @@
  <c>pear.unl.edu</c>
  <ca xlink:href="Chiara_PEAR_Server_REST/c/Default" xmlns:xlink="Chiara_PEAR_Server_REST/c/Default">Default</ca>
  <l>BSD License</l>
- <s>The UNL HTML Templates as a PEAR Package.</s>
- <d>This package allows you to render UNL Template styled pages using PHP Objects.</d>
+ <s>The UNL HTML Templates as a PEAR Package.
+</s>
+ <d>
+This package allows you to render UNL Template styled pages using PHP Objects.
+</d>
  <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
 </p>
