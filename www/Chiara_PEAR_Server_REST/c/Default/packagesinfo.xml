@@ -145,6 +145,10 @@ This package allows you to render UNL Template styled pages using PHP Objects.
   </p>
   <a>
    <r>
+    <v>0.5.0</v>
+    <s>alpha</s>
+   </r>
+   <r>
     <v>0.4.1</v>
     <s>beta</s>
    </r>
@@ -166,7 +170,7 @@ This package allows you to render UNL Template styled pages using PHP Objects.
    </r>
   </a>
   <deps>
-   <v>0.4.1</v>
+   <v>0.5.0</v>
    <d>a:1:{s:8:&quot;required&quot;;a:2:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.1.6&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.5.4&quot;;}}}</d>
   </deps>
  </pi>
