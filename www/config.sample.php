@@ -7,16 +7,14 @@
 ini_set('display_errors', true);
 error_reporting(E_ALL);
 
-require_once __DIR__ . '/../../Pyrus/autoload.php';
-PEAR2\Autoload::initialize(__DIR__.'/../../Pyrus_SimpleChannelFrontend/src');
+require_once dirname(__DIR__) . '/vendor/php/PEAR2/Autoload.php';
+
 PEAR2\Autoload::initialize(__DIR__.'/../src');
 PEAR2\Autoload::initialize(__DIR__.'/../vendor/php');
-PEAR2\Autoload::initialize('/Users/bbieber/workspace/PEAR2_Templates_Savant/src');
-PEAR2\Autoload::initialize('/Users/bbieber/workspace/PEAR2_Templates_Savant_Turbo/src');
-PEAR2\Autoload::initialize('/Users/bbieber/workspace/PEAR2_Cache_lite/src');
 
-$config = Pyrus\Config::singleton('/tmp');
-$config->cache_dir = '/tmp';
+
+$config = Pyrus\Config::singleton(dirname(__DIR__) . '/tmp');
+$config->cache_dir = dirname(__DIR__) . '/tmp';
 
 /**
  * For a remote channel use this:
