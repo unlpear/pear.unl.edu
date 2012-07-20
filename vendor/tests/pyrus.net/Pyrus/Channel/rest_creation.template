@@ -1,0 +1,21 @@
+<?php
+$channel->resetREST();
+
+$channel->protocols->rest['REST1.0']->baseurl = 'http://pear.example.com/rest1.0/';
+$test->assertEquals('http://pear.example.com/rest1.0/', $channel->protocols->rest['REST1.0']->baseurl, 'setBaseURL');
+
+$channel->protocols->rest['REST1.1']->baseurl = 'http://pear.example.com/rest1.1/';
+$test->assertEquals('http://pear.example.com/rest1.1/', $channel->protocols->rest['REST1.1']->baseurl, 'setBaseURL #2 adding second baseurl');
+
+$channel->protocols->rest['REST1.0']->baseurl = 'http://pear.example.com/rest1.00/';
+$test->assertEquals('http://pear.example.com/rest1.00/', $channel->protocols->rest['REST1.0']->baseurl, 'setBaseURL #3 Update URL of existing baseurl');
+
+try {
+    $channel->protocols->llama;
+    throw new Exception('Was able to get the llama functions');
+} catch(Exception $e) {
+    $test->assertEquals('Unknown protocol: llama', $e->getMessage(), 'Get invalid protocol functions');
+}
+
+unset($channel->protocols->rest['REST1.0']);
+$test->assertEquals(null, $channel->protocols->rest['REST1.0']->baseurl, 'after unset');
