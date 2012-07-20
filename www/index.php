@@ -25,7 +25,7 @@ $frontend->setURLBase($url);
 
 $savant = new PEAR2\Templates\Savant\Turbo\Main();
 $savant->setClassToTemplateMapper(new Pyrus\SimpleChannelFrontend\TemplateMapper);
-$savant->setTemplatePath(array('/Users/bbieber/workspace/Pyrus_SimpleChannelFrontend/www/templates/html', __DIR__ . '/templates'));
+$savant->setTemplatePath(array(dirname(__DIR__) . '/vendor/www/pyrus.net/Pyrus_SimpleChannelFrontend/templates/html', __DIR__ . '/templates'));
 $savant->addGlobal('frontend', $frontend);
 
 switch($frontend->options['format']) {
