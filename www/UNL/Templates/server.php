@@ -1,17 +1,27 @@
 <?php
 
-if (file_exists(dirname(__FILE__).'/data/tpl_cache')) {
-    $tpl_dir = dirname(__FILE__).'/data/tpl_cache';
-} else {
-    $tpl_dir = '/usr/share/pear/data/UNL_Templates/data/tpl_cache';
-}
+$version = '1.3.0RC2';
 
+// Find the directory where the tpl cache is
+switch (true) {
+    case file_exists(__DIR__ . '/UNL_Templates-' . $version . '.tgz'):
+        $phar = 'phar://' . __DIR__ . '/UNL_Templates-' . $version . '.tgz'
+                 . '/UNL_Templates-'. $version ;
+        $tpl_dir = $phar . '/data/pear.unl.edu/UNL_Templates/tpl_cache';
+        set_include_path($phar . '/php');
+    break;
+    default:
+        $tpl_dir = dirname(__FILE__).'/data/tpl_cache';
+}
 
 $version = 3;
 $default_template = 'Fixed.tpl';
 
 if (isset($_GET['version'])) {
-    $version = intval($_GET['version']);
+    $version = $_GET['version'];
+    if (!is_numeric($version)) {
+        throw new Exception('Invalid version number passed.');
+    }
 }
 
 if (isset($_GET['template'])
@@ -29,7 +39,8 @@ if (isset($_GET['template'])
         $p->doctitle        = '<title></title>';
         echo $p->toHtml();
     } else {
-        
+        // Replace 3.1 with 3x1
+        $version = str_replace('.', 'x', $version);
         $dwt = $tpl_dir.'/Version'.$version.'/'.$_GET['template'];
         if (file_exists($dwt)) {
             echo file_get_contents($dwt);
