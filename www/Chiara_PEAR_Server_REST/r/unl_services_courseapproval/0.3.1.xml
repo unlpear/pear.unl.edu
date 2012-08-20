@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_services_courseapproval">UNL_Services_CourseApproval</p>
+ <c>pear.unl.edu</c>
+ <v>0.3.1</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>saltybeagle</m>
+ <s>Client API for the curriculum request system at creq.unl.edu
+</s>
+ <d>
+This project provides a simple API for the course data within the creq system
+built by Tim Steiner.
+
+This project requires the UNL_Autoload package, and optionally Cache_Lite for
+caching data from the creq system.
+
+Currently data is cached on the local system in /tmp/cache_* files and stored
+for one week.
+
+See the docs/examples/ directory for examples.
+
+For information on the XML format, see the XSD -
+http://courseapproval.unl.edu/schema/courses.xsd</d>
+ <da>2012-08-20 08:47:12</da>
+ <n>Performance improvement and new method signature.
+
+Finding subsequent courses now supports passing a search driver.
+```
+getSubsequentCourses(UNL_Services_CourseApproval_SearchInterface $driver = null)
+```</n>
+ <f>20963</f>
+ <g>http://pear.unl.edu/get/UNL_Services_CourseApproval-0.3.1</g>
+ <x xlink:href="package.0.3.1.xml"/>
+</r>
