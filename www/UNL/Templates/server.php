@@ -1,6 +1,6 @@
 <?php
 
-$version = '1.3.0RC2';
+$version = '1.3.0';
 
 // Find the directory where the tpl cache is
 switch (true) {
