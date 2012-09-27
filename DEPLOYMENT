@@ -1,0 +1,20 @@
+Deploying the pear.unl.edu website
+============================================
+
+Prerequisites
+-------------
+The developer needs a SSH account on `pear.unl.edu` and
+has to be in the `ucomm` group.
+
+
+Local setup
+-----------
+::
+
+$ git remote add live ssh://pear.unl.edu/Library/WebServer/pear.unl.edu
+
+Deployment
+----------
+::
+
+$ git push live master
