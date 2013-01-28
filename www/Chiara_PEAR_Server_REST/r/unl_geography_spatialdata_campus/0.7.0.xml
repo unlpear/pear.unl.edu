@@ -6,16 +6,16 @@
  <st>alpha</st>
  <l>BSD License</l>
  <m>saltybeagle</m>
- <s>Spatial Data for buildings on the UNL Campus</s>
- <d>This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</d>
- <da>2013-01-24 16:30:51</da>
- <n>
-Add centroid for Voelte-Keegan Nanoscience Research Center, NANO
+ <s>Spatial Data for buildings on the UNL Campus
+</s>
+ <d>
+This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</d>
+ <da>2013-01-28 11:36:29</da>
+ <n>Add centroid for Voelte-Keegan Nanoscience Research Center, NANO
 
 
-Add data driver interfaces
- </n>
- <f>27192</f>
+Add data driver interfaces</n>
+ <f>27655</f>
  <g>http://pear.unl.edu/get/UNL_Geography_SpatialData_Campus-0.7.0</g>
  <x xlink:href="package.0.7.0.xml"/>
 </r>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.4" version="2.1" xmlns="http://pear.php.net/dtd/package-2.1" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.1     http://pear.php.net/dtd/package-2.1.xsd">
+<package xmlns="http://pear.php.net/dtd/package-2.1" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.1     http://pear.php.net/dtd/package-2.1.xsd" packagerversion="2.0.0">
  <name>UNL_Geography_SpatialData_Campus</name>
  <channel>pear.unl.edu</channel>
- <summary>Spatial Data for buildings on the UNL Campus</summary>
- <description>This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</description>
+ <summary>Spatial Data for buildings on the UNL Campus
+</summary>
+ <description>
+This package contains spatial data, latitude and longitude for buildings on the UNL Campus.</description>
  <lead>
   <name>Brett Bieber</name>
   <user>saltybeagle</user>
   <email>saltybeagle@php.net</email>
   <active>yes</active>
  </lead>
- <date>2013-01-24</date>
- <time>16:30:51</time>
+ <date>2013-01-28</date>
+ <time>11:36:29</time>
  <version>
   <release>0.7.0</release>
   <api>0.4.0</api>
@@ -21,23 +23,21 @@
   <api>alpha</api>
  </stability>
  <license uri="http://www1.unl.edu/wdn/wiki/Software_License">BSD License</license>
- <notes>
-Add centroid for Voelte-Keegan Nanoscience Research Center, NANO
+ <notes>Add centroid for Voelte-Keegan Nanoscience Research Center, NANO
 
 
-Add data driver interfaces
- </notes>
+Add data driver interfaces</notes>
  <contents>
   <dir name="/">
-   <file baseinstalldir="/" md5sum="bd138a258d1f7d74ab298a6f23660270" name="data/campus_spatialdata.csv" role="data" />
-   <file baseinstalldir="/" md5sum="b724d29a94c5bee1b6aed82d61a0432d" name="data/spatialdata.pdo.sqlite" role="data" />
-   <file baseinstalldir="/" md5sum="bc2cced1d856abea2ebc89d134c88ea9" name="data/spatialdata.sqlite" role="data" />
-   <file md5sum="bb27cdbd347b1a6fe4b5c19688d9b35f" name="examples/spatialdata_example.php" role="doc" />
-   <file baseinstalldir="/" md5sum="299a22d73b09f85a0fe25e7556a8f121" name="src/UNL/Geography/SpatialData/Campus.php" role="php" />
-   <file baseinstalldir="/" md5sum="86e529bd74202b5c7954ec779157dd26" name="src/UNL/Geography/SpatialData/DriverInterface.php" role="php" />
-   <file baseinstalldir="/" md5sum="a9e261c1911d25ccf003f9fff30842b1" name="src/UNL/Geography/SpatialData/PDOSQLiteDriver.php" role="php" />
-   <file baseinstalldir="/" md5sum="0e61e367abe9f9671a08ff7fdd02896e" name="src/UNL/Geography/SpatialData/SQLiteDriver.php" role="php" />
-   <file baseinstalldir="/" md5sum="4b3e6c43cb148a52ea922d535c1b76cc" name="src/UNL/Geography/SpatialData/UNLMapsWebServiceDriver.php" role="php" />
+   <file role="php" name="src/UNL/Geography/SpatialData/UNLMapsWebServiceDriver.php"/>
+   <file role="php" name="src/UNL/Geography/SpatialData/SQLiteDriver.php"/>
+   <file role="php" name="src/UNL/Geography/SpatialData/PDOSQLiteDriver.php"/>
+   <file role="php" name="src/UNL/Geography/SpatialData/DriverInterface.php"/>
+   <file role="php" name="src/UNL/Geography/SpatialData/Campus.php"/>
+   <file role="doc" name="examples/spatialdata_example.php"/>
+   <file role="data" name="data/spatialdata.sqlite"/>
+   <file role="data" name="data/spatialdata.pdo.sqlite"/>
+   <file role="data" name="data/campus_spatialdata.csv"/>
   </dir>
  </contents>
  <dependencies>
@@ -55,7 +55,7 @@ Add data driver interfaces
    </package>
   </required>
  </dependencies>
- <phprelease />
+ <phprelease/>
  <changelog>
   <release>
    <version>
