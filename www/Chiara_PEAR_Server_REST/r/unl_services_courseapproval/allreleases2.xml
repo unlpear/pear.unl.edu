@@ -3,6 +3,11 @@
  <p>UNL_Services_CourseApproval</p>
  <c>pear.unl.edu</c>
  <r>
+  <v>0.4.0</v>
+  <s>alpha</s>
+  <m>5.2.0</m>
+ </r>
+ <r>
   <v>0.3.4</v>
   <s>alpha</s>
   <m>5.2.0</m>
