@@ -1,6 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><!-- InstanceBegin template="/Templates/php.fixed.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="ie iem7"><![endif]-->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7) ]><html class="ie" lang="en"><![endif]-->
+<!--[if !(IEMobile) | !(IE)]><!--><html lang="en"><!-- InstanceBegin template="/Templates/fixed.dwt" codeOutsideHTMLIsLocked="false" --><!--<![endif]-->
 <head>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.1/includes/metanfavico.html'; ?>
 <!--
     Membership and regular participation in the UNL Web Developer Network
     is required to use the UNL templates. Visit the WDN site at 
@@ -13,40 +19,45 @@
     create a derivative work.
     This message may not be removed from any pages based on the UNL site template.
     
-    $Id: php.fixed.dwt.php 536 2009-07-23 15:47:30Z bbieber2 $
+    $Id: fixed.dwt | ea2608181e2b6604db76106fd982b39218ddcb8b | Fri Mar 9 12:20:43 2012 -0600 | Kevin Abel  $
 -->
-<link rel="stylesheet" type="text/css" media="screen" href="/wdn/templates_3.0/css/all.css" />
-<link rel="stylesheet" type="text/css" media="print" href="/wdn/templates_3.0/css/print.css" />
-<script type="text/javascript" src="/wdn/templates_3.0/scripts/all.js"></script>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/browserspecifics.html'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/metanfavico.html'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.1/includes/scriptsandstyles.html'; ?>
 <!-- InstanceBeginEditable name="doctitle" -->
 <title><?php echo $context->page_title; ?></title>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
-<link rel="events" href="http://events.unl.edu/wdn/" title="Web Developer Network" />
 <link rel="alternate" href="<?php echo $frontend->getURL(); ?>?view=latest&amp;format=rss" title="Latest Releases" type="application/atom+xml" />
 <!-- Place optional header elements here -->
 <link rel="stylesheet" href="<?php echo $frontend->getURL(); ?>css/all.css" />
 <!-- InstanceEndEditable -->
+<!-- InstanceParam name="class" type="text" value="fixed" -->
 </head>
-<body class="fixed">
-<p class="skipnav"> <a class="skipnav" href="#maincontent">Skip Navigation</a> </p>
-<div id="wdn_wrapper">
-    <div id="header"> <a href="http://www.unl.edu/" title="UNL website"><img src="/wdn/templates_3.0/images/logo.png" alt="UNL graphic identifier" id="logo" /></a>
-        <h1>University of Nebraska&ndash;Lincoln</h1>
-        <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/wdnTools.html'; ?>
-    </div>
-    <div id="wdn_navigation_bar">
-        <div id="breadcrumbs">
-            <!-- WDN: see glossary item 'breadcrumbs' -->
+<body class="fixed" data-version="3.1">
+    <nav class="skipnav">
+        <a class="skipnav" href="#maincontent">Skip Navigation</a>
+    </nav>
+    <div id="wdn_wrapper">
+        <header id="header" role="banner">
+            <a id="logo" href="http://www.unl.edu/" title="UNL website">UNL</a>
+            <span id="wdn_institution_title">University of Nebraska&ndash;Lincoln</span>
+            <span id="wdn_site_title"><!-- InstanceBeginEditable name="titlegraphic" -->
+            <?php echo $frontend->getChannel()->summary; ?>
+            <!-- InstanceEndEditable --></span>
+            <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.1/includes/idm.html'; ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.1/includes/wdnTools.html'; ?>
+        </header>
+        <div id="wdn_navigation_bar" role="navigation">
+            <nav id="breadcrumbs">
             <!-- InstanceBeginEditable name="breadcrumbs" -->
             <ul>
                 <li><a href="http://www.unl.edu/" title="University of Nebraska&ndash;Lincoln">UNL</a></li>
                 <li>pear.unl.edu</li>
             </ul>
-            <!-- InstanceEndEditable --></div>
-        <div id="wdn_navigation_wrapper">
-            <div id="navigation"><!-- InstanceBeginEditable name="navlinks" -->
+            <!-- TemplateEndEditable -->
+            </nav>
+            <div id="wdn_navigation_wrapper">
+                <nav id="navigation" role="navigation">
+                    <h3 class="wdn_list_descriptor hidden">Navigation</h3>
+                    <!-- InstanceBeginEditable name="navlinks" -->
                 <ul class="navigation">
                     <li><a href="<?php echo $frontend->getURL('Pyrus\SimpleChannelFrontend\News'); ?>">Home</a></li>
                     <li><a href="<?php echo $frontend->getURL('Pyrus\SimpleChannelFrontend\PackageList'); ?>">Packages</a></li>
@@ -54,36 +65,40 @@
                     <li><a href="<?php echo $frontend->getURL(); ?>docs/">Documentation</a></li>
                     <li><a href="<?php echo $frontend->getURL('Pyrus\SimpleChannelFrontend\Support'); ?>">Support</a></li>
                 </ul>
-                <!-- InstanceEndEditable --></div>
-        </div>
-    </div>
-    <div id="wdn_content_wrapper">
-        <div id="titlegraphic"><!-- InstanceBeginEditable name="titlegraphic" -->
-            <h1><?php echo $frontend->getChannel()->summary; ?></h1>
-            <!-- InstanceEndEditable --></div>
-        <div id="pagetitle"><!-- InstanceBeginEditable name="pagetitle" --> <!-- InstanceEndEditable --></div>
-        <div id="maincontent">
-            <!--THIS IS THE MAIN CONTENT AREA; WDN: see glossary item 'main content area' -->
-            <!-- InstanceBeginEditable name="maincontentarea" -->
-            <?php echo $savant->render($context->page_content); ?>
-            <!-- InstanceEndEditable -->
-            <div class="clear"></div>
-            <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/noscript.html'; ?>
-            <!--THIS IS THE END OF THE MAIN CONTENT AREA.-->
-        </div>
-        <div id="footer">
-            <div id="footer_floater"></div>
-            <div class="footer_col">
-                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/feedback.html'; ?>
+                <!-- InstanceEndEditable -->
+                </nav>
             </div>
-            <div class="footer_col"><!-- InstanceBeginEditable name="leftcollinks" -->
+        </div>
+        <div id="wdn_content_wrapper" role="main">
+            <div id="pagetitle">
+                <!-- InstanceBeginEditable name="pagetitle" -->
+                <!-- InstanceEndEditable -->
+            </div>
+            <div id="maincontent">
+                <!--THIS IS THE MAIN CONTENT AREA; WDN: see glossary item 'main content area' -->
+                <!-- InstanceBeginEditable name="maincontentarea" -->
+                <?php echo $savant->render($context->page_content); ?>
+                <!-- InstanceEndEditable -->
+                <div class="clear"></div>
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.1/includes/noscript.html'; ?>
+                <!--THIS IS THE END OF THE MAIN CONTENT AREA.-->
+            </div>
+        </div>
+        <footer id="footer">
+            <div id="footer_floater"></div>
+            <div class="footer_col" id="wdn_footer_feedback">
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.1/includes/feedback.html'; ?>
+            </div>
+            <div class="footer_col" id="wdn_footer_related">
+                <!-- InstanceBeginEditable name="leftcollinks" -->
                 <h3>Related Links</h3>
                 <ul>
                     <li><a href="http://wdn.unl.edu/">UNL Web Developer Network</a></li>
                     <li><a href="http://pear.php.net/">PEAR</a></li>
                 </ul>
                 <!-- InstanceEndEditable --></div>
-            <div class="footer_col"><!-- InstanceBeginEditable name="contactinfo" -->
+            <div class="footer_col" id="wdn_footer_contact">
+                <!-- InstanceBeginEditable name="contactinfo" -->
                 <h3>Contacting Us</h3>
                 <p>
                 This PEAR channel is maintained by:<br />
@@ -93,18 +108,21 @@
                 bbieber2@unl.edu
                 </p>
                 <!-- InstanceEndEditable --></div>
-            <div class="footer_col">
-                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/socialmediashare.html'; ?>
+            <div class="footer_col" id="wdn_footer_share">
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.1/includes/socialmediashare.html'; ?>
             </div>
-            <!-- InstanceBeginEditable name="optionalfooter" --> <!-- InstanceEndEditable -->
-            <div id="wdn_copyright"><!-- InstanceBeginEditable name="footercontent" -->
+            <!-- InstanceBeginEditable name="optionalfooter" -->
+            <!-- InstanceEndEditable -->
+            <div id="wdn_copyright">
+                <div>
+                    <!-- InstanceBeginEditable name="footercontent" -->
                 &copy; <?php echo date('Y'); ?> University of Nebraska-Lincoln | Lincoln, NE 68588 | 402-472-7211 | <a href="http://www1.unl.edu/comments/" title="Click here to direct your comments and questions">comments?</a>
                 <!-- InstanceEndEditable -->
-                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.0/includes/wdn.html'; ?>
-                | <a href="http://validator.unl.edu/check/referer">W3C</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS</a> <a href="http://www.unl.edu/" title="UNL Home" id="wdn_unl_wordmark"><img src="/wdn/templates_3.0/css/footer/images/wordmark.png" alt="UNL's wordmark" /></a> </div>
-        </div>
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.1/includes/wdn.html'; ?>
+                </div>
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/wdn/templates_3.1/includes/logos.html'; ?>
+            </div>
+        </footer>
     </div>
-    <div id="wdn_wrapper_footer"> </div>
-</div>
 </body>
 <!-- InstanceEnd --></html>
