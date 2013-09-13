@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="Chiara_PEAR_Server_REST/p/unl_templates">UNL_Templates</p>
+ <c>pear.unl.edu</c>
+ <v>1.4.0RC3</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>saltybeagle</m>
+ <s>The UNL HTML Templates as a PEAR Package.
+</s>
+ <d>
+This package allows you to render UNL Template styled pages using PHP Objects.
+</d>
+ <da>2013-09-13 12:05:13</da>
+ <n>Finalize support for version 4.0 of the templates
+
+Templates Supported:
+* Fixed
+* Debug
+* Unlaffiliate
+* Unlaffiliate_debug
+* Unlaffiliate_local
+
+Fixed in this RC:
+* Use local .tpl files instead of always pulling remotely
+* Make HTML and DEP replacements when local files do not exist
+</n>
+ <f>38417</f>
+ <g>http://pear.unl.edu/get/UNL_Templates-1.4.0RC3</g>
+ <x xlink:href="package.1.4.0RC3.xml"/>
+</r>
